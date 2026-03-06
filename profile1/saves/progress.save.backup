@@ -1030,7 +1030,17 @@
     "CARD.GATHER_LIGHT",
     "CARD.EQUILIBRIUM",
     "CARD.SECRET_WEAPON",
-    "CARD.IMPATIENCE"
+    "CARD.IMPATIENCE",
+    "CARD.COMET",
+    "CARD.DECISIONS_DECISIONS",
+    "CARD.SEEKING_EDGE",
+    "CARD.ULTIMATE_STRIKE",
+    "CARD.CLUMSY",
+    "CARD.DRAMATIC_ENTRANCE",
+    "CARD.OMNISLICE",
+    "CARD.CONQUEROR",
+    "CARD.SHINING_STRIKE",
+    "CARD.PILLAR_OF_CREATION"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1082,7 +1092,9 @@
     "POTION.CUNNING_POTION",
     "POTION.FAIRY_IN_A_BOTTLE",
     "POTION.DISTILLED_CHAOS",
-    "POTION.COLORLESS_POTION"
+    "POTION.COLORLESS_POTION",
+    "POTION.FYSH_OIL",
+    "POTION.FORTIFIER"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -1134,7 +1146,9 @@
     "RELIC.STONE_CRACKER",
     "RELIC.MANGO",
     "RELIC.PRAYER_WHEEL",
-    "RELIC.MEAL_TICKET"
+    "RELIC.MEAL_TICKET",
+    "RELIC.PAELS_BLOOD",
+    "RELIC.PERMAFROST"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -1318,6 +1332,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -1667,6 +1686,16 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.BOWLBUGS_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -1892,6 +1921,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 7
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -2147,6 +2181,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2155,6 +2194,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
