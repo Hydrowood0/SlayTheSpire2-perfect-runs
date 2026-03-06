@@ -57,7 +57,7 @@
           "EVENT.WAR_HISTORIAN_REPY",
           "EVENT.MORPHIC_GROVE"
         ],
-        "events_visited": 4,
+        "events_visited": 6,
         "normal_encounter_ids": [
           "ENCOUNTER.SHRINKER_BEETLE_WEAK",
           "ENCOUNTER.NIBBITS_WEAK",
@@ -1312,7 +1312,9 @@
   "current_act_index": 0,
   "events_seen": [
     "EVENT.TABLET_OF_TRUTH",
-    "EVENT.ROOM_FULL_OF_CHEESE"
+    "EVENT.ROOM_FULL_OF_CHEESE",
+    "EVENT.BYRDONIS_NEST",
+    "EVENT.SAPPHIRE_SEED"
   ],
   "extra_fields": {
     "started_with_neow": true
@@ -1983,18 +1985,53 @@
         "map_point_type": "unknown",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 13,
+                  "id": "CARD.POISONED_STAB"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.CLOAK_AND_DAGGER"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ACROBATICS"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.POISONED_STAB"
+              }
+            ],
+            "current_gold": 271,
+            "current_hp": 35,
             "damage_taken": 0,
-            "gold_gained": 0,
+            "gold_gained": 12,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 1,
-            "max_hp": 0,
+            "max_hp": 75,
             "max_hp_gained": 1,
             "max_hp_lost": 0,
-            "player_id": 1
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.REGEN_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_discarded": [
+              "POTION.EXPLOSIVE_AMPOULE"
+            ]
           }
         ],
         "rooms": [
@@ -2008,15 +2045,163 @@
             "turns_taken": 3
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "id": "CARD.BYRDONIS_EGG"
+              }
+            ],
+            "current_gold": 271,
+            "current_hp": 35,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "BYRDONIS_NEST.pages.INITIAL.options.TAKE.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Card": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "Byrdonis Egg"
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.BYRDONIS_NEST",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "cards_enchanted": [
+              {
+                "card": {
+                  "enchantment": {
+                    "amount": 1,
+                    "id": "ENCHANTMENT.SOWN"
+                  },
+                  "floor_added_to_deck": 5,
+                  "id": "CARD.BACKSTAB"
+                },
+                "enchantment": "ENCHANTMENT.SOWN"
+              }
+            ],
+            "current_gold": 271,
+            "current_hp": 35,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SAPPHIRE_SEED.pages.INITIAL.options.PLANT.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Enchantment": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "Sown"
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.SAPPHIRE_SEED",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "cards_transformed": [
+              {
+                "final_card": {
+                  "floor_added_to_deck": 16,
+                  "id": "CARD.BYRD_SWOOP"
+                },
+                "original_card": {
+                  "floor_added_to_deck": 14,
+                  "id": "CARD.BYRDONIS_EGG"
+                }
+              }
+            ],
+            "current_gold": 271,
+            "current_hp": 35,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 75,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.BYRDPIP",
+                "was_picked": true
+              }
+            ],
+            "rest_site_choices": [
+              "HATCH"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -4,
-    "unknown_map_point_monster_odds_value": 0.1,
-    "unknown_map_point_shop_odds_value": 0.12,
-    "unknown_map_point_treasure_odds_value": 0.08
+    "unknown_map_point_elite_odds_value": -6,
+    "unknown_map_point_monster_odds_value": 0.3,
+    "unknown_map_point_shop_odds_value": 0.17999999,
+    "unknown_map_point_treasure_odds_value": 0.11999999
   },
   "platform_type": "steam",
   "players": [
@@ -2089,6 +2274,10 @@
           "id": "CARD.DAGGER_THROW"
         },
         {
+          "enchantment": {
+            "amount": 1,
+            "id": "ENCHANTMENT.SOWN"
+          },
           "floor_added_to_deck": 5,
           "id": "CARD.BACKSTAB"
         },
@@ -2104,6 +2293,14 @@
         {
           "floor_added_to_deck": 12,
           "id": "CARD.ADRENALINE"
+        },
+        {
+          "floor_added_to_deck": 13,
+          "id": "CARD.POISONED_STAB"
+        },
+        {
+          "floor_added_to_deck": 16,
+          "id": "CARD.BYRD_SWOOP"
         }
       ],
       "discovered_cards": [
@@ -2126,7 +2323,9 @@
         "CARD.UNTOUCHABLE",
         "CARD.INFECTION",
         "CARD.BACKFLIP",
-        "CARD.ADRENALINE"
+        "CARD.ADRENALINE",
+        "CARD.CLOAK_AND_DAGGER",
+        "CARD.POISONED_STAB"
       ],
       "discovered_enemies": [
         "MONSTER.PHROG_PARASITE"
@@ -2135,14 +2334,14 @@
         "RELIC.LEAD_PAPERWEIGHT"
       ],
       "extra_fields": {},
-      "gold": 259,
+      "gold": 271,
       "max_energy": 3,
       "max_hp": 75,
       "max_potion_slot_count": 3,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.04,
-        "potion_reward_odds_value": 0.6
+        "card_rarity_odds_value": -0.01,
+        "potion_reward_odds_value": 0.5
       },
       "potions": [
         {
@@ -2154,7 +2353,7 @@
           "slot_index": 1
         },
         {
-          "id": "POTION.EXPLOSIVE_AMPOULE",
+          "id": "POTION.REGEN_POTION",
           "slot_index": 2
         }
       ],
@@ -2289,11 +2488,23 @@
         {
           "floor_added_to_deck": 12,
           "id": "RELIC.PEAR"
+        },
+        {
+          "floor_added_to_deck": 16,
+          "id": "RELIC.BYRDPIP",
+          "props": {
+            "strings": [
+              {
+                "name": "Skin",
+                "value": "version2"
+              }
+            ]
+          }
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 80,
+          "rewards": 93,
           "shops": 0,
           "transformations": 0
         },
@@ -2339,20 +2550,12 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.NIBBITS_NORMAL",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "monster",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 371,
       "shuffle": 192,
-      "unknown_map_point": 3,
+      "unknown_map_point": 5,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
@@ -2365,8 +2568,8 @@
     },
     "seed": "9QZESS7Q2F"
   },
-  "run_time": 733,
-  "save_time": 1772814571,
+  "run_time": 791,
+  "save_time": 1772814671,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2538,6 +2741,22 @@
     {
       "col": 6,
       "row": 12
+    },
+    {
+      "col": 6,
+      "row": 13
+    },
+    {
+      "col": 6,
+      "row": 14
+    },
+    {
+      "col": 5,
+      "row": 15
+    },
+    {
+      "col": 3,
+      "row": 16
     }
   ],
   "win_time": 0
