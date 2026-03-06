@@ -1002,7 +1002,35 @@
     "CARD.MASTER_OF_STRATEGY",
     "CARD.CELESTIAL_MIGHT",
     "CARD.SEVEN_STARS",
-    "CARD.TERRAFORMING"
+    "CARD.TERRAFORMING",
+    "CARD.CLOAK_OF_STARS",
+    "CARD.GLIMMER",
+    "CARD.GLOW",
+    "CARD.GAMMA_BLAST",
+    "CARD.BULWARK",
+    "CARD.KNOW_THY_PLACE",
+    "CARD.BUNDLE_OF_JOY",
+    "CARD.GUIDING_STAR",
+    "CARD.ROYAL_GAMBLE",
+    "CARD.PHOTON_CUT",
+    "CARD.NEUTRON_AEGIS",
+    "CARD.SALVO",
+    "CARD.ULTIMATE_DEFEND",
+    "CARD.GLITTERSTREAM",
+    "CARD.CHARGE",
+    "CARD.MINION_STRIKE",
+    "CARD.THE_BOMB",
+    "CARD.AUTOMATION",
+    "CARD.ASTRAL_PULSE",
+    "CARD.MONOLOGUE",
+    "CARD.MAKE_IT_SO",
+    "CARD.ROLLING_BOULDER",
+    "CARD.THRUMMING_HATCHET",
+    "CARD.CATASTROPHE",
+    "CARD.GATHER_LIGHT",
+    "CARD.EQUILIBRIUM",
+    "CARD.SECRET_WEAPON",
+    "CARD.IMPATIENCE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1052,7 +1080,9 @@
     "POTION.POISON_POTION",
     "POTION.GHOST_IN_A_JAR",
     "POTION.CUNNING_POTION",
-    "POTION.FAIRY_IN_A_BOTTLE"
+    "POTION.FAIRY_IN_A_BOTTLE",
+    "POTION.DISTILLED_CHAOS",
+    "POTION.COLORLESS_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -1100,7 +1130,11 @@
     "RELIC.AMETHYST_AUBERGINE",
     "RELIC.WAR_PAINT",
     "RELIC.GHOST_SEED",
-    "RELIC.LETTER_OPENER"
+    "RELIC.LETTER_OPENER",
+    "RELIC.STONE_CRACKER",
+    "RELIC.MANGO",
+    "RELIC.PRAYER_WHEEL",
+    "RELIC.MEAL_TICKET"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -1161,6 +1195,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1171,6 +1210,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1181,6 +1225,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1206,6 +1255,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1221,6 +1275,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1229,6 +1288,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -1446,6 +1510,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1568,6 +1637,36 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SLIMES_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.VINE_SHAMBLER_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.THE_KIN_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -1587,7 +1686,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 4
         }
       ]
     },
@@ -1598,6 +1697,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1608,6 +1712,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1618,6 +1727,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1637,7 +1751,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -1646,6 +1760,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 3
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 3
         }
@@ -1658,6 +1777,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1668,6 +1792,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1713,6 +1842,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -1732,7 +1866,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -1988,6 +2122,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2110,6 +2249,46 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "enemy_id": "MONSTER.TWIG_SLIME_M",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.VINE_SHAMBLER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.KIN_FOLLOWER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.KIN_PRIEST",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "epochs": [
@@ -2215,13 +2394,13 @@
     },
     {
       "id": "REGENT2_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772824136,
+      "state": "obtained"
     },
     {
       "id": "UNDERDOCKS_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772824136,
+      "state": "obtained"
     },
     {
       "id": "REGENT3_EPOCH",
