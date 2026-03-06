@@ -1,0 +1,647 @@
+{
+  "ancient_stats": [],
+  "architect_damage": 0,
+  "card_stats": [],
+  "character_stats": [
+    {
+      "best_win_streak": 0,
+      "current_streak": 0,
+      "fastest_win_time": -1,
+      "id": "CHARACTER.IRONCLAD",
+      "max_ascension": 0,
+      "playtime": 0,
+      "preferred_ascension": 0,
+      "total_losses": 0,
+      "total_wins": 0
+    }
+  ],
+  "current_score": 0,
+  "discovered_acts": [],
+  "discovered_cards": [
+    "CARD.STRIKE_IRONCLAD",
+    "CARD.DEFEND_IRONCLAD",
+    "CARD.BASH",
+    "CARD.SETUP_STRIKE",
+    "CARD.TREMBLE",
+    "CARD.BLOOD_WALL",
+    "CARD.SLIMED",
+    "CARD.BREAKTHROUGH",
+    "CARD.INFLAME",
+    "CARD.ANGER",
+    "CARD.IRON_WAVE",
+    "CARD.DISMANTLE",
+    "CARD.CINDER",
+    "CARD.BYRDONIS_EGG",
+    "CARD.STOMP",
+    "CARD.SHRUG_IT_OFF",
+    "CARD.ARMAMENTS",
+    "CARD.BYRD_SWOOP",
+    "CARD.THUNDERCLAP",
+    "CARD.RAGE",
+    "CARD.BLUDGEON",
+    "CARD.PYRE",
+    "CARD.EVIL_EYE",
+    "CARD.BATTLE_TRANCE",
+    "CARD.TRUE_GRIT",
+    "CARD.UPPERCUT",
+    "CARD.BLOODLETTING",
+    "CARD.WHIRLWIND",
+    "CARD.HEMOKINESIS",
+    "CARD.TWIN_STRIKE",
+    "CARD.PERFECTED_STRIKE",
+    "CARD.WOUND",
+    "CARD.PRIMAL_FORCE",
+    "CARD.DEMON_FORM",
+    "CARD.THRASH",
+    "CARD.GIANT_ROCK",
+    "CARD.BRIGHTEST_FLAME",
+    "CARD.EXPECT_A_FIGHT",
+    "CARD.JUGGLING",
+    "CARD.HELLRAISER",
+    "CARD.ENLIGHTENMENT",
+    "CARD.PILLAGE",
+    "CARD.RAMPAGE",
+    "CARD.FLAME_BARRIER",
+    "CARD.TOXIC",
+    "CARD.TAUNT",
+    "CARD.SWORD_BOOMERANG",
+    "CARD.STAMPEDE",
+    "CARD.HEADBUTT",
+    "CARD.RESTLESSNESS",
+    "CARD.GOLD_AXE",
+    "CARD.FRANTIC_ESCAPE",
+    "CARD.STOKE",
+    "CARD.COLOSSUS",
+    "CARD.IMPERVIOUS",
+    "CARD.DAZED",
+    "CARD.HAVOC",
+    "CARD.BODY_SLAM",
+    "CARD.BURN",
+    "CARD.RUPTURE"
+  ],
+  "discovered_events": [],
+  "discovered_potions": [
+    "POTION.FIRE_POTION",
+    "POTION.STRENGTH_POTION",
+    "POTION.BLOCK_POTION",
+    "POTION.ENERGY_POTION",
+    "POTION.SWIFT_POTION",
+    "POTION.BOTTLED_POTENTIAL",
+    "POTION.FOUL_POTION",
+    "POTION.DUPLICATOR",
+    "POTION.GAMBLERS_BREW",
+    "POTION.LIQUID_BRONZE",
+    "POTION.EXPLOSIVE_AMPOULE",
+    "POTION.WEAK_POTION",
+    "POTION.SNECKO_OIL"
+  ],
+  "discovered_relics": [
+    "RELIC.BURNING_BLOOD",
+    "RELIC.BYRDPIP",
+    "RELIC.VAJRA",
+    "RELIC.GORGET",
+    "RELIC.PUMPKIN_CANDLE",
+    "RELIC.ORNAMENTAL_FAN",
+    "RELIC.STRIKE_DUMMY",
+    "RELIC.BAG_OF_MARBLES",
+    "RELIC.MEAT_ON_THE_BONE",
+    "RELIC.PUNCH_DAGGER",
+    "RELIC.GLITTER",
+    "RELIC.WHITE_BEAST_STATUE",
+    "RELIC.WHETSTONE",
+    "RELIC.PANTOGRAPH",
+    "RELIC.PEAR"
+  ],
+  "enable_ftues": false,
+  "encounter_stats": [
+    {
+      "encounter_id": "ENCOUNTER.NIBBITS_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SLIMES_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SHRINKER_BEETLE_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.INKLETS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.MAWLER_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.BYRDONIS_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.RUBY_RAIDERS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.NIBBITS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.CUBEX_CONSTRUCT_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.OVERGROWTH_CRAWLERS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.VANTOM_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.EXOSKELETONS_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.TUNNELER_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.INFESTED_PRISMS_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.MYTES_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.OVICOPTER_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.THE_INSATIABLE_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.DEVOTED_SCULPTOR_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.TURRET_OPERATOR_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.MECHA_KNIGHT_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.KNIGHTS_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.OWL_MAGISTRATE_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    }
+  ],
+  "enemy_stats": [
+    {
+      "enemy_id": "MONSTER.NIBBIT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.LEAF_SLIME_S",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.LEAF_SLIME_M",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.TWIG_SLIME_S",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SHRINKER_BEETLE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.INKLET",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.MAWLER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BYRDONIS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BRUTE_RUBY_RAIDER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.TRACKER_RUBY_RAIDER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.AXE_RUBY_RAIDER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.CUBEX_CONSTRUCT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.FUZZY_WURM_CRAWLER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.VANTOM",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.EXOSKELETON",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.TUNNELER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.INFESTED_PRISM",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.MYTE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.OVICOPTER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.THE_INSATIABLE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.DEVOTED_SCULPTOR",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.LIVING_SHIELD",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.TURRET_OPERATOR",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.MECHA_KNIGHT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.FLAIL_KNIGHT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SPECTRAL_KNIGHT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.MAGI_KNIGHT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.OWL_MAGISTRATE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    }
+  ],
+  "epochs": [
+    {
+      "id": "IRONCLAD3_EPOCH",
+      "obtain_date": 1772809757,
+      "state": "obtained_no_slot"
+    },
+    {
+      "id": "IRONCLAD2_EPOCH",
+      "obtain_date": 1772808484,
+      "state": "obtained_no_slot"
+    }
+  ],
+  "floors_climbed": 0,
+  "ftue_completed": [
+    "accept_tutorials_ftue",
+    "combat_reward_ftue"
+  ],
+  "max_multiplayer_ascension": 0,
+  "pending_character_unlock": "NONE.NONE",
+  "preferred_multiplayer_ascension": 0,
+  "schema_version": 21,
+  "test_subject_kills": 0,
+  "total_playtime": 0,
+  "total_unlocks": 0,
+  "unique_id": "FYSI9P7",
+  "unlocked_achievements": [],
+  "wongo_points": 0
+}
