@@ -472,7 +472,25 @@
     "CARD.BODY_SLAM",
     "CARD.BURN",
     "CARD.RUPTURE",
-    "CARD.CONFLAGRATION"
+    "CARD.CONFLAGRATION",
+    "CARD.STRIKE_SILENT",
+    "CARD.DEFEND_SILENT",
+    "CARD.NEUTRALIZE",
+    "CARD.SURVIVOR",
+    "CARD.PANACHE",
+    "CARD.PROLONG",
+    "CARD.DAGGER_SPRAY",
+    "CARD.LEADING_STRIKE",
+    "CARD.MIRAGE",
+    "CARD.SHIV",
+    "CARD.TACTICIAN",
+    "CARD.DODGE_AND_ROLL",
+    "CARD.DAGGER_THROW",
+    "CARD.ACROBATICS",
+    "CARD.SKEWER",
+    "CARD.BACKSTAB",
+    "CARD.DEADLY_POISON",
+    "CARD.UNTOUCHABLE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -524,7 +542,10 @@
     "RELIC.RED_SKULL",
     "RELIC.PAPER_PHROG",
     "RELIC.RUINED_HELMET",
-    "RELIC.RING_OF_THE_SNAKE"
+    "RELIC.RING_OF_THE_SNAKE",
+    "RELIC.LEAD_PAPERWEIGHT",
+    "RELIC.CHOSEN_CHEESE",
+    "RELIC.MERCURY_HOURGLASS"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -533,6 +554,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -553,6 +579,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -613,6 +644,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -777,6 +813,26 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.FUZZY_WURM_CRAWLER_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SLITHERING_STRANGLER_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -787,6 +843,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -827,6 +888,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -897,6 +963,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -905,6 +976,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -1095,6 +1171,26 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SNAPPING_JAXFRUIT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SLITHERING_STRANGLER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }

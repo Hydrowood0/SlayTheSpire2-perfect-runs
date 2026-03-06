@@ -392,6 +392,17 @@
       "preferred_ascension": 1,
       "total_losses": 0,
       "total_wins": 1
+    },
+    {
+      "best_win_streak": 0,
+      "current_streak": 0,
+      "fastest_win_time": -1,
+      "id": "CHARACTER.SILENT",
+      "max_ascension": 0,
+      "playtime": 0,
+      "preferred_ascension": 0,
+      "total_losses": 0,
+      "total_wins": 0
     }
   ],
   "current_score": 499,
@@ -461,7 +472,25 @@
     "CARD.BODY_SLAM",
     "CARD.BURN",
     "CARD.RUPTURE",
-    "CARD.CONFLAGRATION"
+    "CARD.CONFLAGRATION",
+    "CARD.STRIKE_SILENT",
+    "CARD.DEFEND_SILENT",
+    "CARD.NEUTRALIZE",
+    "CARD.SURVIVOR",
+    "CARD.PANACHE",
+    "CARD.PROLONG",
+    "CARD.DAGGER_SPRAY",
+    "CARD.LEADING_STRIKE",
+    "CARD.MIRAGE",
+    "CARD.SHIV",
+    "CARD.TACTICIAN",
+    "CARD.DODGE_AND_ROLL",
+    "CARD.DAGGER_THROW",
+    "CARD.ACROBATICS",
+    "CARD.SKEWER",
+    "CARD.BACKSTAB",
+    "CARD.DEADLY_POISON",
+    "CARD.UNTOUCHABLE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -512,7 +541,11 @@
     "RELIC.PEAR",
     "RELIC.RED_SKULL",
     "RELIC.PAPER_PHROG",
-    "RELIC.RUINED_HELMET"
+    "RELIC.RUINED_HELMET",
+    "RELIC.RING_OF_THE_SNAKE",
+    "RELIC.LEAD_PAPERWEIGHT",
+    "RELIC.CHOSEN_CHEESE",
+    "RELIC.MERCURY_HOURGLASS"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -521,6 +554,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -541,6 +579,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -601,6 +644,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -765,6 +813,16 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.FUZZY_WURM_CRAWLER_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -775,6 +833,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -815,6 +878,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -885,6 +953,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -893,6 +966,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -1212,7 +1290,7 @@
     "combat_reward_ftue"
   ],
   "max_multiplayer_ascension": 0,
-  "pending_character_unlock": "CHARACTER.SILENT",
+  "pending_character_unlock": "NONE.NONE",
   "preferred_multiplayer_ascension": 0,
   "schema_version": 21,
   "test_subject_kills": 0,
