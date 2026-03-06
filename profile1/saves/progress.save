@@ -490,7 +490,14 @@
     "CARD.SKEWER",
     "CARD.BACKSTAB",
     "CARD.DEADLY_POISON",
-    "CARD.UNTOUCHABLE"
+    "CARD.UNTOUCHABLE",
+    "CARD.FLECHETTES",
+    "CARD.PREPARED",
+    "CARD.INFECTION",
+    "CARD.BACKFLIP",
+    "CARD.ADRENALINE",
+    "CARD.CLOAK_AND_DAGGER",
+    "CARD.POISONED_STAB"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -521,7 +528,8 @@
     "POTION.HEART_OF_IRON",
     "POTION.SOLDIERS_STEW",
     "POTION.BLOOD_POTION",
-    "POTION.ASHWATER"
+    "POTION.ASHWATER",
+    "POTION.REGEN_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -634,6 +642,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -833,6 +846,16 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.PHROG_PARASITE_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -847,7 +870,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 3
         }
       ]
     },
@@ -1188,6 +1211,16 @@
     },
     {
       "enemy_id": "MONSTER.SLITHERING_STRANGLER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.PHROG_PARASITE",
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
