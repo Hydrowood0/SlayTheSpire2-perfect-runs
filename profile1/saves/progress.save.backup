@@ -497,7 +497,34 @@
     "CARD.BACKFLIP",
     "CARD.ADRENALINE",
     "CARD.CLOAK_AND_DAGGER",
-    "CARD.POISONED_STAB"
+    "CARD.POISONED_STAB",
+    "CARD.SHADOWMELD",
+    "CARD.CORROSIVE_WAVE",
+    "CARD.THE_HUNT",
+    "CARD.FINISHER",
+    "CARD.UP_MY_SLEEVE",
+    "CARD.STRANGLE",
+    "CARD.SPEEDSTER",
+    "CARD.BLADE_DANCE",
+    "CARD.AFTERIMAGE",
+    "CARD.PREDATOR",
+    "CARD.PINPOINT",
+    "CARD.ECHOING_SLASH",
+    "CARD.ESCAPE_PLAN",
+    "CARD.EXPERTISE",
+    "CARD.NOXIOUS_FUMES",
+    "CARD.SHOCKWAVE",
+    "CARD.ENTROPY",
+    "CARD.PIERCING_WAIL",
+    "CARD.STORM_OF_STEEL",
+    "CARD.RICOCHET",
+    "CARD.LANTERN_KEY",
+    "CARD.INFINITE_BLADES",
+    "CARD.MEMENTO_MORI",
+    "CARD.FLICK_FLACK",
+    "CARD.DISINTEGRATION",
+    "CARD.MIND_ROT",
+    "CARD.SLOTH"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -529,7 +556,12 @@
     "POTION.SOLDIERS_STEW",
     "POTION.BLOOD_POTION",
     "POTION.ASHWATER",
-    "POTION.REGEN_POTION"
+    "POTION.REGEN_POTION",
+    "POTION.SPEED_POTION",
+    "POTION.BLESSING_OF_THE_FORGE",
+    "POTION.CLARITY",
+    "POTION.STABLE_SERUM",
+    "POTION.FLEX_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -553,7 +585,13 @@
     "RELIC.RING_OF_THE_SNAKE",
     "RELIC.LEAD_PAPERWEIGHT",
     "RELIC.CHOSEN_CHEESE",
-    "RELIC.MERCURY_HOURGLASS"
+    "RELIC.MERCURY_HOURGLASS",
+    "RELIC.PAELS_CLAW",
+    "RELIC.CAPTAINS_WHEEL",
+    "RELIC.ODDLY_SMOOTH_STONE",
+    "RELIC.CAULDRON",
+    "RELIC.STURDY_CLAMP",
+    "RELIC.REGAL_PILLOW"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -694,6 +732,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -702,6 +745,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -722,6 +770,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -849,6 +902,76 @@
     },
     {
       "encounter_id": "ENCOUNTER.PHROG_PARASITE_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.CEREMONIAL_BEAST_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.BOWLBUGS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.EXOSKELETONS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.ENTOMANCER_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.LOUSE_PROGENITOR_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.MYSTERIOUS_KNIGHT_EVENT_ENCOUNTER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.KNOWLEDGE_DEMON_BOSS",
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
@@ -1026,6 +1149,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 7
         }
       ]
     },
@@ -1034,6 +1162,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -1054,6 +1187,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 2
         }
@@ -1228,6 +1366,86 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "enemy_id": "MONSTER.CEREMONIAL_BEAST",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BOWLBUG_ROCK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BOWLBUG_NECTAR",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BOWLBUG_EGG",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.ENTOMANCER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.LOUSE_PROGENITOR",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.MYSTERIOUS_KNIGHT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.KNOWLEDGE_DEMON",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "epochs": [
@@ -1283,8 +1501,8 @@
     },
     {
       "id": "SILENT2_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772814908,
+      "state": "obtained"
     },
     {
       "id": "OROBAS_EPOCH",
@@ -1298,8 +1516,8 @@
     },
     {
       "id": "SILENT3_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772817324,
+      "state": "obtained"
     },
     {
       "id": "IRONCLAD6_EPOCH",
