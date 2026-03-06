@@ -1040,7 +1040,16 @@
     "CARD.OMNISLICE",
     "CARD.CONQUEROR",
     "CARD.SHINING_STRIKE",
-    "CARD.PILLAR_OF_CREATION"
+    "CARD.PILLAR_OF_CREATION",
+    "CARD.MAYHEM",
+    "CARD.PURITY",
+    "CARD.PALE_BLUE_DOT",
+    "CARD.HIDDEN_CACHE",
+    "CARD.FISTICUFFS",
+    "CARD.DISCOVERY",
+    "CARD.DEVASTATE",
+    "CARD.MIND_BLAST",
+    "CARD.FLASH_OF_STEEL"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1149,7 +1158,9 @@
     "RELIC.MEAL_TICKET",
     "RELIC.PAELS_BLOOD",
     "RELIC.PERMAFROST",
-    "RELIC.EMBER_TEA"
+    "RELIC.EMBER_TEA",
+    "RELIC.POLLINOUS_CORE",
+    "RELIC.MR_STRUGGLES"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -1390,6 +1401,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1575,6 +1591,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1690,6 +1711,26 @@
     },
     {
       "encounter_id": "ENCOUNTER.BOWLBUGS_WEAK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SPINY_TOAD_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.KAISER_CRAB_BOSS",
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
@@ -1977,6 +2018,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2222,6 +2268,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2327,6 +2378,36 @@
     },
     {
       "enemy_id": "MONSTER.KIN_PRIEST",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SPINY_TOAD",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.CRUSHER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.ROCKET",
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
@@ -2449,8 +2530,8 @@
     },
     {
       "id": "REGENT3_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772826012,
+      "state": "obtained"
     },
     {
       "id": "REGENT4_EPOCH",
