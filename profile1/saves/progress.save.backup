@@ -76,7 +76,8 @@
     "CARD.DAZED",
     "CARD.HAVOC",
     "CARD.BODY_SLAM",
-    "CARD.BURN"
+    "CARD.BURN",
+    "CARD.RUPTURE"
   ],
   "discovered_events": [],
   "discovered_potions": [
@@ -325,6 +326,26 @@
     },
     {
       "encounter_id": "ENCOUNTER.OWL_MAGISTRATE_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.FABRICATOR_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.GLOBE_HEAD_NORMAL",
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
@@ -607,6 +628,26 @@
     },
     {
       "enemy_id": "MONSTER.OWL_MAGISTRATE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.FABRICATOR",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.GLOBE_HEAD",
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",

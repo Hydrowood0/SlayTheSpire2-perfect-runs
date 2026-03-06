@@ -77,7 +77,8 @@
     "CARD.HAVOC",
     "CARD.BODY_SLAM",
     "CARD.BURN",
-    "CARD.RUPTURE"
+    "CARD.RUPTURE",
+    "CARD.CONFLAGRATION"
   ],
   "discovered_events": [],
   "discovered_potions": [
@@ -93,7 +94,8 @@
     "POTION.LIQUID_BRONZE",
     "POTION.EXPLOSIVE_AMPOULE",
     "POTION.WEAK_POTION",
-    "POTION.SNECKO_OIL"
+    "POTION.SNECKO_OIL",
+    "POTION.HEART_OF_IRON"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -326,6 +328,26 @@
     },
     {
       "encounter_id": "ENCOUNTER.OWL_MAGISTRATE_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.FABRICATOR_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.GLOBE_HEAD_NORMAL",
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
@@ -608,6 +630,26 @@
     },
     {
       "enemy_id": "MONSTER.OWL_MAGISTRATE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.FABRICATOR",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.GLOBE_HEAD",
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
