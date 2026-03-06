@@ -23,7 +23,7 @@
           "ENCOUNTER.BYGONE_EFFIGY_ELITE",
           "ENCOUNTER.PHROG_PARASITE_ELITE"
         ],
-        "elite_encounters_visited": 1,
+        "elite_encounters_visited": 0,
         "event_ids": [
           "EVENT.MORPHIC_GROVE",
           "EVENT.BYRDONIS_NEST",
@@ -75,7 +75,7 @@
           "ENCOUNTER.SLITHERING_STRANGLER_NORMAL",
           "ENCOUNTER.SNAPPING_JAXFRUIT_NORMAL"
         ],
-        "normal_encounters_visited": 4,
+        "normal_encounters_visited": 3,
         "second_boss_id": null
       },
       "saved_map": {
@@ -1470,138 +1470,6 @@
             "turns_taken": 3
           }
         ]
-      },
-      {
-        "map_point_type": "monster",
-        "player_stats": [
-          {
-            "card_choices": [
-              {
-                "card": {
-                  "floor_added_to_deck": 5,
-                  "id": "CARD.GLOW"
-                },
-                "was_picked": true
-              },
-              {
-                "card": {
-                  "id": "CARD.CLOAK_OF_STARS"
-                },
-                "was_picked": false
-              },
-              {
-                "card": {
-                  "id": "CARD.GLIMMER"
-                },
-                "was_picked": false
-              }
-            ],
-            "cards_gained": [
-              {
-                "id": "CARD.GLOW"
-              }
-            ],
-            "current_gold": 167,
-            "current_hp": 55,
-            "damage_taken": 4,
-            "gold_gained": 18,
-            "gold_lost": 0,
-            "gold_spent": 0,
-            "gold_stolen": 0,
-            "hp_healed": 0,
-            "max_hp": 65,
-            "max_hp_gained": 0,
-            "max_hp_lost": 0,
-            "player_id": 1,
-            "potion_choices": [
-              {
-                "choice": "POTION.DISTILLED_CHAOS",
-                "was_picked": true
-              }
-            ]
-          }
-        ],
-        "rooms": [
-          {
-            "model_id": "ENCOUNTER.OVERGROWTH_CRAWLERS",
-            "monster_ids": [
-              "MONSTER.SHRINKER_BEETLE",
-              "MONSTER.FUZZY_WURM_CRAWLER"
-            ],
-            "room_type": "monster",
-            "turns_taken": 3
-          }
-        ]
-      },
-      {
-        "map_point_type": "elite",
-        "player_stats": [
-          {
-            "card_choices": [
-              {
-                "card": {
-                  "floor_added_to_deck": 6,
-                  "id": "CARD.GAMMA_BLAST"
-                },
-                "was_picked": true
-              },
-              {
-                "card": {
-                  "id": "CARD.HEGEMONY"
-                },
-                "was_picked": false
-              },
-              {
-                "card": {
-                  "id": "CARD.COSMIC_INDIFFERENCE"
-                },
-                "was_picked": false
-              }
-            ],
-            "cards_gained": [
-              {
-                "id": "CARD.GAMMA_BLAST"
-              }
-            ],
-            "current_gold": 211,
-            "current_hp": 51,
-            "damage_taken": 4,
-            "gold_gained": 44,
-            "gold_lost": 0,
-            "gold_spent": 0,
-            "gold_stolen": 0,
-            "hp_healed": 0,
-            "max_hp": 65,
-            "max_hp_gained": 0,
-            "max_hp_lost": 0,
-            "player_id": 1,
-            "potion_choices": [
-              {
-                "choice": "POTION.SPEED_POTION",
-                "was_picked": true
-              }
-            ],
-            "potion_used": [
-              "POTION.DISTILLED_CHAOS"
-            ],
-            "relic_choices": [
-              {
-                "choice": "RELIC.GORGET",
-                "was_picked": true
-              }
-            ]
-          }
-        ],
-        "rooms": [
-          {
-            "model_id": "ENCOUNTER.BYRDONIS_ELITE",
-            "monster_ids": [
-              "MONSTER.BYRDONIS"
-            ],
-            "room_type": "elite",
-            "turns_taken": 3
-          }
-        ]
       }
     ]
   ],
@@ -1617,7 +1485,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.REGENT",
-      "current_hp": 51,
+      "current_hp": 59,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -1670,28 +1538,17 @@
         {
           "floor_added_to_deck": 4,
           "id": "CARD.SOLAR_STRIKE"
-        },
-        {
-          "floor_added_to_deck": 5,
-          "id": "CARD.GLOW"
-        },
-        {
-          "floor_added_to_deck": 6,
-          "id": "CARD.GAMMA_BLAST"
         }
       ],
-      "discovered_cards": [
-        "CARD.GAMMA_BLAST"
-      ],
       "extra_fields": {},
-      "gold": 211,
+      "gold": 149,
       "max_energy": 3,
       "max_hp": 65,
       "max_potion_slot_count": 3,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": 0.09999999,
-        "potion_reward_odds_value": 0.10000002
+        "card_rarity_odds_value": 0.04,
+        "potion_reward_odds_value": 0.3
       },
       "potions": [
         {
@@ -1701,10 +1558,6 @@
         {
           "id": "POTION.LIQUID_BRONZE",
           "slot_index": 1
-        },
-        {
-          "id": "POTION.SPEED_POTION",
-          "slot_index": 2
         }
       ],
       "relic_grab_bag": {
@@ -1738,6 +1591,7 @@
             "RELIC.LETTER_OPENER"
           ],
           "common": [
+            "RELIC.GORGET",
             "RELIC.MEAL_TICKET",
             "RELIC.PERMAFROST",
             "RELIC.STRAWBERRY",
@@ -1830,15 +1684,11 @@
         {
           "floor_added_to_deck": 1,
           "id": "RELIC.LEAFY_POULTICE"
-        },
-        {
-          "floor_added_to_deck": 6,
-          "id": "RELIC.GORGET"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 64,
+          "rewards": 37,
           "shops": 0,
           "transformations": 2
         },
@@ -1908,22 +1758,22 @@
   "rng": {
     "counters": {
       "up_front": 385,
-      "shuffle": 95,
+      "shuffle": 49,
       "unknown_map_point": 0,
-      "combat_card_generation": 78,
+      "combat_card_generation": 39,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 1,
+      "combat_targets": 0,
       "monster_ai": 0,
-      "niche": 6,
+      "niche": 3,
       "combat_orbs": 0,
       "treasure_room_relics": 0
     },
     "seed": "DXM21UV0ML"
   },
-  "run_time": 424,
-  "save_time": 1772821632,
+  "run_time": 178,
+  "save_time": 1772821266,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -1975,6 +1825,7 @@
         "RELIC.AMETHYST_AUBERGINE",
         "RELIC.WHETSTONE",
         "RELIC.VAJRA",
+        "RELIC.GORGET",
         "RELIC.STRAWBERRY",
         "RELIC.PENDULUM"
       ],
@@ -2067,14 +1918,6 @@
     {
       "col": 5,
       "row": 4
-    },
-    {
-      "col": 5,
-      "row": 5
-    },
-    {
-      "col": 4,
-      "row": 6
     }
   ],
   "win_time": 0
