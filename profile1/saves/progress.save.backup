@@ -1002,7 +1002,11 @@
     "CARD.MASTER_OF_STRATEGY",
     "CARD.CELESTIAL_MIGHT",
     "CARD.SEVEN_STARS",
-    "CARD.TERRAFORMING"
+    "CARD.TERRAFORMING",
+    "CARD.CLOAK_OF_STARS",
+    "CARD.GLIMMER",
+    "CARD.GLOW",
+    "CARD.GAMMA_BLAST"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1052,7 +1056,8 @@
     "POTION.POISON_POTION",
     "POTION.GHOST_IN_A_JAR",
     "POTION.CUNNING_POTION",
-    "POTION.FAIRY_IN_A_BOTTLE"
+    "POTION.FAIRY_IN_A_BOTTLE",
+    "POTION.DISTILLED_CHAOS"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -1181,6 +1186,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1229,6 +1239,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -1637,7 +1652,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -1666,6 +1681,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -1732,7 +1752,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
