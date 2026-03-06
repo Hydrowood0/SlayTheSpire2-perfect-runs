@@ -53,7 +53,7 @@
   "msaa": 2,
   "resize_windows": true,
   "schema_version": 4,
-  "seen_ea_disclaimer": false,
+  "seen_ea_disclaimer": true,
   "skip_intro_logo": false,
   "target_display": 0,
   "volume_ambience": 0.5,
