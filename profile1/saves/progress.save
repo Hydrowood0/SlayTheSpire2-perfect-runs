@@ -1515,7 +1515,12 @@
     "CARD.RATTLE",
     "CARD.DREDGE",
     "CARD.END_OF_DAYS",
-    "CARD.MISERY"
+    "CARD.MISERY",
+    "CARD.BOLAS",
+    "CARD.BURY",
+    "CARD.CAPTURE_SPIRIT",
+    "CARD.DEATHBRINGER",
+    "CARD.EIDOLON"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1585,7 +1590,8 @@
     "POTION.STAR_POTION",
     "POTION.GLOWWATER_POTION",
     "POTION.RADIANT_TINCTURE",
-    "POTION.SHACKLING_POTION"
+    "POTION.SHACKLING_POTION",
+    "POTION.DEXTERITY_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -1661,7 +1667,16 @@
     "RELIC.ARCANE_SCROLL",
     "RELIC.NUNCHAKU",
     "RELIC.SEAL_OF_GOLD",
-    "RELIC.THE_COURIER"
+    "RELIC.THE_COURIER",
+    "RELIC.SIGNET_RING",
+    "RELIC.CANDELABRA",
+    "RELIC.MINIATURE_TENT",
+    "RELIC.BELLOWS",
+    "RELIC.BAG_OF_PREPARATION",
+    "RELIC.BLOOD_VIAL",
+    "RELIC.PEN_NIB",
+    "RELIC.LASTING_CANDY",
+    "RELIC.ORICHALCUM"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -1937,6 +1952,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2182,6 +2202,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2190,6 +2215,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -2437,6 +2467,26 @@
     },
     {
       "encounter_id": "ENCOUNTER.HUNTER_KILLER_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.THE_LOST_AND_FORGOTTEN_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SOUL_NEXUS_ELITE",
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
@@ -2757,6 +2807,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -3084,6 +3139,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 7
         }
       ]
     },
@@ -3339,6 +3399,36 @@
     },
     {
       "enemy_id": "MONSTER.HUNTER_KILLER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.THE_LOST",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.THE_FORGOTTEN",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SOUL_NEXUS",
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
