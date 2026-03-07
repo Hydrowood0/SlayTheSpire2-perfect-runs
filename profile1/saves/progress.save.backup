@@ -12,6 +12,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -47,6 +52,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -72,6 +82,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -86,7 +101,7 @@
       ]
     }
   ],
-  "architect_damage": 4960,
+  "architect_damage": 6200,
   "card_stats": [
     {
       "id": "CARD.STRIKE_IRONCLAD",
@@ -1478,7 +1493,7 @@
       "id": "CARD.THE_GAMBIT",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
@@ -1585,6 +1600,356 @@
       "times_picked": 0,
       "times_skipped": 1,
       "times_won": 0
+    },
+    {
+      "id": "CARD.STRIKE_DEFECT",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.DEFEND_DEFECT",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.DUALCAST",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.SUBROUTINE",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.BEAM_CELL",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.COMPACT",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 2,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.FTL",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 2,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.CHILL",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.HOLOGRAM",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 1,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.DARKNESS",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.REBOOT",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.BOOT_SEQUENCE",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 2,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.STORM",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.RAINBOW",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.HAILSTORM",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.OVERCLOCK",
+      "times_lost": 0,
+      "times_picked": 2,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.TRASH_TO_TREASURE",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.DEFRAGMENT",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.SWEEPING_BEAM",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 2,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.SPINNER",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 1,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.ITERATION",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.COMPILE_DRIVER",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.GO_FOR_THE_EYES",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 3,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.UPROAR",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.BOOST_AWAY",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 7,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.CLAW",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.FERAL",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.COOLANT",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.COOLHEADED",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SHATTER",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.BALL_LIGHTNING",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 3,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.HOTFIX",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.CHARGE_BATTERY",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 4,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.BULK_UP",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.FINESSE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.ADAPTIVE_STRIKE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SYNCHRONIZE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 3,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.GUNK_UP",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.ROCKET_PUNCH",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SUPERCRITICAL",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SIGNAL_BOOST",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SHADOW_SHIELD",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.TEMPEST",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.FOCUSED_STRIKE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SYNTHESIS",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.LIGHTNING_ROD",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.TESLA_COIL",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.MIND_BLAST",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.MAYHEM",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.COLD_SNAP",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
     }
   ],
   "character_stats": [
@@ -1633,18 +1998,18 @@
       "total_wins": 1
     },
     {
-      "best_win_streak": 0,
-      "current_streak": 0,
-      "fastest_win_time": -1,
+      "best_win_streak": 1,
+      "current_streak": 1,
+      "fastest_win_time": 4079,
       "id": "CHARACTER.DEFECT",
-      "max_ascension": 0,
-      "playtime": 0,
-      "preferred_ascension": 0,
+      "max_ascension": 1,
+      "playtime": 4079,
+      "preferred_ascension": 1,
       "total_losses": 0,
-      "total_wins": 0
+      "total_wins": 1
     }
   ],
-  "current_score": 1239,
+  "current_score": 1229,
   "discovered_acts": [
     "ACT.OVERGROWTH",
     "ACT.HIVE",
@@ -1970,7 +2335,14 @@
     "CARD.MACHINE_LEARNING",
     "CARD.TEMPEST",
     "CARD.OVERCLOCK",
-    "CARD.FOCUSED_STRIKE"
+    "CARD.FOCUSED_STRIKE",
+    "CARD.TRASH_TO_TREASURE",
+    "CARD.SYNTHESIS",
+    "CARD.DEBT",
+    "CARD.DOUBT",
+    "CARD.LIGHTNING_ROD",
+    "CARD.TESLA_COIL",
+    "CARD.COLD_SNAP"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2002,7 +2374,10 @@
     "EVENT.STONE_OF_ALL_TIME",
     "EVENT.TRIAL",
     "EVENT.TINKER_TIME",
-    "EVENT.GRAVE_OF_THE_FORGOTTEN"
+    "EVENT.GRAVE_OF_THE_FORGOTTEN",
+    "EVENT.SUNKEN_STATUE",
+    "EVENT.ABYSSAL_BATHS",
+    "EVENT.CRYSTAL_SPHERE"
   ],
   "discovered_potions": [
     "POTION.FIRE_POTION",
@@ -2052,7 +2427,11 @@
     "POTION.POT_OF_GHOULS",
     "POTION.BONE_BREW",
     "POTION.POTION_OF_DOOM",
-    "POTION.POWER_POTION"
+    "POTION.POWER_POTION",
+    "POTION.VULNERABLE_POTION",
+    "POTION.ESSENCE_OF_DARKNESS",
+    "POTION.FOCUS_POTION",
+    "POTION.POTION_OF_CAPACITY"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -2158,7 +2537,15 @@
     "RELIC.STRAWBERRY",
     "RELIC.VENERABLE_TEA_SET",
     "RELIC.POTION_BELT",
-    "RELIC.GIRYA"
+    "RELIC.GIRYA",
+    "RELIC.THROWING_AXE",
+    "RELIC.ETERNAL_FEATHER",
+    "RELIC.STONE_CALENDAR",
+    "RELIC.DRAGON_FRUIT",
+    "RELIC.SWORD_OF_JADE",
+    "RELIC.SYMBIOTIC_VIRUS",
+    "RELIC.DATA_DISK",
+    "RELIC.METRONOME"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -2459,6 +2846,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2497,6 +2889,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -2724,6 +3121,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2839,6 +3241,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2852,6 +3259,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3037,6 +3449,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3441,6 +3858,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3499,6 +3921,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3791,6 +4218,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 7
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -3891,6 +4323,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3899,6 +4336,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3914,6 +4356,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -4116,6 +4563,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4213,8 +4665,8 @@
     },
     {
       "id": "COLORLESS2_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772866165,
+      "state": "revealed"
     },
     {
       "id": "SILENT6_EPOCH",
@@ -4278,8 +4730,8 @@
     },
     {
       "id": "OROBAS_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772866157,
+      "state": "revealed"
     },
     {
       "id": "REGENT6_EPOCH",
@@ -4288,13 +4740,13 @@
     },
     {
       "id": "DEFECT3_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772864337,
+      "state": "revealed"
     },
     {
       "id": "DEFECT4_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772866145,
+      "state": "revealed"
     },
     {
       "id": "REGENT1_EPOCH",
@@ -4418,8 +4870,8 @@
     },
     {
       "id": "DAILY_RUN_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772866157,
+      "state": "revealed"
     },
     {
       "id": "DEFECT7_EPOCH",
@@ -4432,7 +4884,7 @@
       "state": "not_obtained"
     }
   ],
-  "floors_climbed": 192,
+  "floors_climbed": 240,
   "ftue_completed": [
     "accept_tutorials_ftue",
     "combat_reward_ftue"
@@ -4442,8 +4894,8 @@
   "preferred_multiplayer_ascension": 0,
   "schema_version": 21,
   "test_subject_kills": 2,
-  "total_playtime": 20106,
-  "total_unlocks": 4,
+  "total_playtime": 24185,
+  "total_unlocks": 5,
   "unique_id": "FYSI9P7",
   "unlocked_achievements": [],
   "wongo_points": 0
