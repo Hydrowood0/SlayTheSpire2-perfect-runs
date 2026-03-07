@@ -2839,6 +2839,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3891,6 +3896,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3899,6 +3909,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -4288,8 +4303,8 @@
     },
     {
       "id": "DEFECT3_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772864337,
+      "state": "obtained"
     },
     {
       "id": "DEFECT4_EPOCH",

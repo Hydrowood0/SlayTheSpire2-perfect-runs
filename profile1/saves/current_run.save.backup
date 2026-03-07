@@ -2839,20 +2839,61 @@
         "map_point_type": "elite",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 31,
+                  "id": "CARD.OVERCLOCK"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.COMPACT"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.FOCUSED_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "id": "CARD.OVERCLOCK"
+              }
+            ],
+            "current_gold": 348,
+            "current_hp": 24,
             "damage_taken": 15,
-            "gold_gained": 0,
+            "gold_gained": 41,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 90,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.CLARITY",
+                "was_picked": true
+              }
+            ],
             "potion_used": [
               "POTION.HEART_OF_IRON"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.GIRYA",
+                "was_picked": true
+              }
             ]
           }
         ],
@@ -2864,6 +2905,37 @@
             ],
             "room_type": "elite",
             "turns_taken": 5
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 348,
+            "current_hp": 24,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 90,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.ZAP"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
           }
         ]
       }
@@ -2909,6 +2981,7 @@
           "id": "CARD.DEFEND_DEFECT"
         },
         {
+          "current_upgrade_level": 1,
           "floor_added_to_deck": 1,
           "id": "CARD.ZAP"
         },
@@ -2982,6 +3055,11 @@
         {
           "floor_added_to_deck": 27,
           "id": "CARD.HAILSTORM"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 31,
+          "id": "CARD.OVERCLOCK"
         }
       ],
       "discovered_cards": [
@@ -3028,7 +3106,9 @@
         "CARD.SPINNER",
         "CARD.DEFRAGMENT",
         "CARD.MACHINE_LEARNING",
-        "CARD.TEMPEST"
+        "CARD.TEMPEST",
+        "CARD.OVERCLOCK",
+        "CARD.FOCUSED_STRIKE"
       ],
       "discovered_enemies": [
         "MONSTER.TERROR_EEL",
@@ -3050,19 +3130,23 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 307,
+      "gold": 348,
       "max_energy": 3,
       "max_hp": 90,
       "max_potion_slot_count": 5,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.02,
-        "potion_reward_odds_value": 0.5
+        "card_rarity_odds_value": 0.01,
+        "potion_reward_odds_value": 0.4
       },
       "potions": [
         {
           "id": "POTION.RADIANT_TINCTURE",
           "slot_index": 0
+        },
+        {
+          "id": "POTION.CLARITY",
+          "slot_index": 1
         },
         {
           "id": "POTION.FOUL_POTION",
@@ -3122,7 +3206,6 @@
             "RELIC.GORGET"
           ],
           "rare": [
-            "RELIC.GIRYA",
             "RELIC.MANGO",
             "RELIC.SHOVEL",
             "RELIC.FROZEN_EGG",
@@ -3277,7 +3360,7 @@
             "bools": [
               {
                 "name": "GainEnergyInNextCombat",
-                "value": false
+                "value": true
               },
               {
                 "name": "IsWax",
@@ -3305,11 +3388,23 @@
         {
           "floor_added_to_deck": 27,
           "id": "RELIC.AKABEKO"
+        },
+        {
+          "floor_added_to_deck": 31,
+          "id": "RELIC.GIRYA",
+          "props": {
+            "ints": [
+              {
+                "name": "TimesLifted",
+                "value": 0
+              }
+            ]
+          }
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 207,
+          "rewards": 221,
           "shops": 28,
           "transformations": 0
         },
@@ -3409,15 +3504,7 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.INFESTED_PRISMS_ELITE",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "elite",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 378,
@@ -3435,8 +3522,8 @@
     },
     "seed": "DW70JYG80Z"
   },
-  "run_time": 2518,
-  "save_time": 1772863851,
+  "run_time": 2576,
+  "save_time": 1772863947,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3483,7 +3570,6 @@
         "RELIC.BAG_OF_PREPARATION"
       ],
       "rare": [
-        "RELIC.GIRYA",
         "RELIC.INTIMIDATING_HELMET",
         "RELIC.STONE_CALENDAR",
         "RELIC.MEAT_ON_THE_BONE",
@@ -3605,6 +3691,14 @@
     {
       "col": 6,
       "row": 13
+    },
+    {
+      "col": 6,
+      "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0

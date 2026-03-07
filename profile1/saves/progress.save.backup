@@ -1968,7 +1968,9 @@
     "CARD.SPINNER",
     "CARD.DEFRAGMENT",
     "CARD.MACHINE_LEARNING",
-    "CARD.TEMPEST"
+    "CARD.TEMPEST",
+    "CARD.OVERCLOCK",
+    "CARD.FOCUSED_STRIKE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2155,7 +2157,8 @@
     "RELIC.TOY_BOX",
     "RELIC.STRAWBERRY",
     "RELIC.VENERABLE_TEA_SET",
-    "RELIC.POTION_BELT"
+    "RELIC.POTION_BELT",
+    "RELIC.GIRYA"
   ],
   "enable_ftues": false,
   "encounter_stats": [
