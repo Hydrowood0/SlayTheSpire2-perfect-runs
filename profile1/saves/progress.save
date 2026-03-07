@@ -1500,7 +1500,10 @@
     "CARD.DRAIN_POWER",
     "CARD.REANIMATE",
     "CARD.HAUNT",
-    "CARD.SOW"
+    "CARD.SOW",
+    "CARD.FRIENDSHIP",
+    "CARD.SHARED_FATE",
+    "CARD.DEMESNE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2351,6 +2354,26 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.PHANTASMAL_GARDENERS_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -3163,6 +3186,26 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "enemy_id": "MONSTER.PHANTASMAL_GARDENER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 4
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.WATERFALL_GIANT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "epochs": [
@@ -3278,8 +3321,8 @@
     },
     {
       "id": "NECROBINDER2_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772854315,
+      "state": "obtained"
     },
     {
       "id": "SILENT1_EPOCH",
