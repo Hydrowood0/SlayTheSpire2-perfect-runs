@@ -1505,7 +1505,17 @@
     "CARD.SHARED_FATE",
     "CARD.DEMESNE",
     "CARD.EXTERMINATE",
-    "CARD.SQUASH"
+    "CARD.SQUASH",
+    "CARD.PAGESTORM",
+    "CARD.PUTREFY",
+    "CARD.DEFY",
+    "CARD.FETCH",
+    "CARD.BORROWED_TIME",
+    "CARD.BONE_SHARDS",
+    "CARD.RATTLE",
+    "CARD.DREDGE",
+    "CARD.END_OF_DAYS",
+    "CARD.MISERY"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1650,7 +1660,8 @@
     "RELIC.FRESNEL_LENS",
     "RELIC.ARCANE_SCROLL",
     "RELIC.NUNCHAKU",
-    "RELIC.SEAL_OF_GOLD"
+    "RELIC.SEAL_OF_GOLD",
+    "RELIC.THE_COURIER"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -2091,6 +2102,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2144,6 +2160,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -2256,6 +2277,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -2381,6 +2407,36 @@
     },
     {
       "encounter_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SLUMBERING_BEETLE_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.CHOMPERS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.HUNTER_KILLER_NORMAL",
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
@@ -2928,6 +2984,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -2941,6 +3002,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -2996,6 +3062,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -3098,6 +3169,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -3223,6 +3299,46 @@
     },
     {
       "enemy_id": "MONSTER.WATERFALL_GIANT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BOWLBUG_SILK",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 3
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SLUMBERING_BEETLE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.CHOMPER",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 4
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.HUNTER_KILLER",
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
@@ -3365,8 +3481,8 @@
     },
     {
       "id": "NECROBINDER3_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772856919,
+      "state": "obtained"
     },
     {
       "id": "UNDERDOCKS_EPOCH",
