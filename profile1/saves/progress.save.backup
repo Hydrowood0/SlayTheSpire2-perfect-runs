@@ -1588,7 +1588,10 @@
     "RELIC.HORN_CLEAT",
     "RELIC.PARRYING_SHIELD",
     "RELIC.VAMBRACE",
-    "RELIC.RINGING_TRIANGLE"
+    "RELIC.RINGING_TRIANGLE",
+    "RELIC.FENCING_MANUAL",
+    "RELIC.GALACTIC_DUST",
+    "RELIC.LUNAR_PASTRY"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -2952,6 +2955,11 @@
       "state": "revealed"
     },
     {
+      "id": "COLORLESS2_EPOCH",
+      "obtain_date": 0,
+      "state": "not_obtained"
+    },
+    {
       "id": "SILENT6_EPOCH",
       "obtain_date": 0,
       "state": "not_obtained"
@@ -2960,6 +2968,11 @@
       "id": "CUSTOM_AND_SEEDS_EPOCH",
       "obtain_date": 1772830689,
       "state": "revealed"
+    },
+    {
+      "id": "RELIC2_EPOCH",
+      "obtain_date": 0,
+      "state": "not_obtained"
     },
     {
       "id": "IRONCLAD4_EPOCH",
@@ -2988,6 +3001,11 @@
     },
     {
       "id": "IRONCLAD5_EPOCH",
+      "obtain_date": 0,
+      "state": "not_obtained"
+    },
+    {
+      "id": "POTION2_EPOCH",
       "obtain_date": 0,
       "state": "not_obtained"
     },
@@ -3064,7 +3082,7 @@
     {
       "id": "UNDERDOCKS_EPOCH",
       "obtain_date": 1772824136,
-      "state": "obtained"
+      "state": "revealed"
     },
     {
       "id": "REGENT3_EPOCH",

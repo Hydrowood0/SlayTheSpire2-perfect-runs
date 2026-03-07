@@ -1,10 +1,10 @@
 {
-  "fast_mode": "normal",
+  "fast_mode": "fast",
   "long_press": false,
   "mute_in_background": true,
   "schema_version": 2,
-  "screenshake": 2,
-  "show_card_indices": false,
+  "screenshake": 3,
+  "show_card_indices": true,
   "show_run_timer": false,
   "text_effects_enabled": true,
   "upload_data": true
