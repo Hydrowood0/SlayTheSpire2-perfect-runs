@@ -1631,6 +1631,17 @@
       "preferred_ascension": 1,
       "total_losses": 0,
       "total_wins": 1
+    },
+    {
+      "best_win_streak": 0,
+      "current_streak": 0,
+      "fastest_win_time": -1,
+      "id": "CHARACTER.DEFECT",
+      "max_ascension": 0,
+      "playtime": 0,
+      "preferred_ascension": 0,
+      "total_losses": 0,
+      "total_wins": 0
     }
   ],
   "current_score": 1239,
@@ -1911,7 +1922,35 @@
     "CARD.REGRET",
     "CARD.MAD_SCIENCE",
     "CARD.DECAY",
-    "CARD.DELAY"
+    "CARD.DELAY",
+    "CARD.STRIKE_DEFECT",
+    "CARD.DEFEND_DEFECT",
+    "CARD.ZAP",
+    "CARD.DUALCAST",
+    "CARD.COMPILE_DRIVER",
+    "CARD.SUBROUTINE",
+    "CARD.GO_FOR_THE_EYES",
+    "CARD.BEAM_CELL",
+    "CARD.UPROAR",
+    "CARD.BOOST_AWAY",
+    "CARD.COMPACT",
+    "CARD.CLAW",
+    "CARD.FUEL",
+    "CARD.FERAL",
+    "CARD.FTL",
+    "CARD.ECHO_FORM",
+    "CARD.COOLANT",
+    "CARD.ITERATION",
+    "CARD.CHILL",
+    "CARD.HOLOGRAM",
+    "CARD.COOLHEADED",
+    "CARD.SHATTER",
+    "CARD.BALL_LIGHTNING",
+    "CARD.HOTFIX",
+    "CARD.CHARGE_BATTERY",
+    "CARD.BULK_UP",
+    "CARD.DARKNESS",
+    "CARD.BECKON"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1989,7 +2028,11 @@
     "POTION.GLOWWATER_POTION",
     "POTION.RADIANT_TINCTURE",
     "POTION.SHACKLING_POTION",
-    "POTION.DEXTERITY_POTION"
+    "POTION.DEXTERITY_POTION",
+    "POTION.POT_OF_GHOULS",
+    "POTION.BONE_BREW",
+    "POTION.POTION_OF_DOOM",
+    "POTION.POWER_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -2084,7 +2127,13 @@
     "RELIC.FAKE_SNECKO_EYE",
     "RELIC.BONE_FLUTE",
     "RELIC.FUNERARY_MASK",
-    "RELIC.BOOK_REPAIR_KNIFE"
+    "RELIC.BOOK_REPAIR_KNIFE",
+    "RELIC.CRACKED_CORE",
+    "RELIC.PRECISE_SCISSORS",
+    "RELIC.SWORD_OF_STONE",
+    "RELIC.SPARKLING_ROUGE",
+    "RELIC.GAMBLING_CHIP",
+    "RELIC.KIFUDA"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -2775,6 +2824,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2785,6 +2839,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2795,6 +2854,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2803,6 +2867,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -2913,6 +2982,46 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.TERROR_EEL_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.LIVING_FOG_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SEWER_CLAM_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SOUL_FYSH_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3732,6 +3841,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3742,6 +3856,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 7
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -3752,6 +3871,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3762,6 +3886,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3772,6 +3901,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -3880,6 +4014,46 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.TERROR_EEL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.LIVING_FOG",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SEWER_CLAM",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.SOUL_FYSH",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -4054,13 +4228,13 @@
     },
     {
       "id": "DEFECT2_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1772862097,
+      "state": "obtained"
     },
     {
       "id": "NECROBINDER4_EPOCH",
       "obtain_date": 1772860601,
-      "state": "obtained"
+      "state": "revealed"
     },
     {
       "id": "REGENT4_EPOCH",
@@ -4124,7 +4298,7 @@
     "combat_reward_ftue"
   ],
   "max_multiplayer_ascension": 0,
-  "pending_character_unlock": "CHARACTER.DEFECT",
+  "pending_character_unlock": "NONE.NONE",
   "preferred_multiplayer_ascension": 0,
   "schema_version": 21,
   "test_subject_kills": 2,
