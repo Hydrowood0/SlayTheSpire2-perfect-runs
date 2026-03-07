@@ -1952,7 +1952,25 @@
     "CARD.DARKNESS",
     "CARD.BECKON",
     "CARD.REBOOT",
-    "CARD.ADAPTIVE_STRIKE"
+    "CARD.ADAPTIVE_STRIKE",
+    "CARD.SYNCHRONIZE",
+    "CARD.BOOT_SEQUENCE",
+    "CARD.SWEEPING_BEAM",
+    "CARD.GUNK_UP",
+    "CARD.STORM",
+    "CARD.ROCKET_PUNCH",
+    "CARD.HAILSTORM",
+    "CARD.RAINBOW",
+    "CARD.SUPERCRITICAL",
+    "CARD.SIGNAL_BOOST",
+    "CARD.SHADOW_SHIELD",
+    "CARD.CREATIVE_AI",
+    "CARD.SPINNER",
+    "CARD.DEFRAGMENT",
+    "CARD.MACHINE_LEARNING",
+    "CARD.TEMPEST",
+    "CARD.OVERCLOCK",
+    "CARD.FOCUSED_STRIKE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2135,7 +2153,12 @@
     "RELIC.SWORD_OF_STONE",
     "RELIC.SPARKLING_ROUGE",
     "RELIC.GAMBLING_CHIP",
-    "RELIC.KIFUDA"
+    "RELIC.KIFUDA",
+    "RELIC.TOY_BOX",
+    "RELIC.STRAWBERRY",
+    "RELIC.VENERABLE_TEA_SET",
+    "RELIC.POTION_BELT",
+    "RELIC.GIRYA"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -2331,6 +2354,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2351,6 +2379,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -2359,6 +2392,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -2374,6 +2412,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -2604,6 +2647,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -2966,6 +3014,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3021,6 +3074,26 @@
     },
     {
       "encounter_id": "ENCOUNTER.SOUL_FYSH_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.THE_OBSCURA_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.DECIMILLIPEDE_ELITE",
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
@@ -3263,6 +3336,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 7
         }
       ]
     },
@@ -3283,6 +3361,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3291,6 +3374,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3306,6 +3394,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 2
         }
@@ -3988,6 +4081,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4053,6 +4151,46 @@
     },
     {
       "enemy_id": "MONSTER.SOUL_FYSH",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.THE_OBSCURA",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.DECIMILLIPEDE_SEGMENT_FRONT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.DECIMILLIPEDE_SEGMENT_MIDDLE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.DECIMILLIPEDE_SEGMENT_BACK",
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
