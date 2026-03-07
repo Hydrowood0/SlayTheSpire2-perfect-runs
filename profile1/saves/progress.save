@@ -1503,7 +1503,9 @@
     "CARD.SOW",
     "CARD.FRIENDSHIP",
     "CARD.SHARED_FATE",
-    "CARD.DEMESNE"
+    "CARD.DEMESNE",
+    "CARD.EXTERMINATE",
+    "CARD.SQUASH"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -1572,7 +1574,8 @@
     "POTION.KINGS_COURAGE",
     "POTION.STAR_POTION",
     "POTION.GLOWWATER_POTION",
-    "POTION.RADIANT_TINCTURE"
+    "POTION.RADIANT_TINCTURE",
+    "POTION.SHACKLING_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -1646,7 +1649,8 @@
     "RELIC.SCROLL_BOXES",
     "RELIC.FRESNEL_LENS",
     "RELIC.ARCANE_SCROLL",
-    "RELIC.NUNCHAKU"
+    "RELIC.NUNCHAKU",
+    "RELIC.SEAL_OF_GOLD"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -1837,6 +1841,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -1850,6 +1859,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -2604,6 +2618,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -2617,6 +2636,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
