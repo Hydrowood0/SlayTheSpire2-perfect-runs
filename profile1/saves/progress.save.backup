@@ -2773,7 +2773,17 @@
     "CARD.FURNACE",
     "CARD.COUNTDOWN",
     "CARD.LETHALITY",
-    "CARD.OBLIVION"
+    "CARD.OBLIVION",
+    "CARD.HANG",
+    "CARD.HIGH_FIVE",
+    "CARD.NEUROSURGE",
+    "CARD.SEVERANCE",
+    "CARD.SENTRY_MODE",
+    "CARD.TIMES_UP",
+    "CARD.SWEEPING_GAZE",
+    "CARD.MELANCHOLY",
+    "CARD.SCOURGE",
+    "CARD.SEANCE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2881,7 +2891,8 @@
     "POTION.LIQUID_MEMORIES",
     "POTION.SHIP_IN_A_BOTTLE",
     "POTION.TOUCH_OF_INSANITY",
-    "POTION.POWDERED_DEMISE"
+    "POTION.POWDERED_DEMISE",
+    "POTION.SKILL_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -3023,7 +3034,10 @@
     "RELIC.VERY_HOT_COCOA",
     "RELIC.BURNING_STICKS",
     "RELIC.JEWELED_MASK",
-    "RELIC.LOST_COFFER"
+    "RELIC.LOST_COFFER",
+    "RELIC.CLOAK_CLASP",
+    "RELIC.ANCHOR",
+    "RELIC.DINGY_RUG"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3228,7 +3242,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -3253,7 +3267,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -3307,6 +3321,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -3569,6 +3588,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3597,6 +3621,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -3913,7 +3942,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -3973,7 +4002,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -3983,7 +4012,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4077,6 +4106,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4475,7 +4509,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 10
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -4500,7 +4534,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -4554,6 +4588,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4936,6 +4975,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5265,7 +5309,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 5
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5305,7 +5349,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 8
+          "wins": 12
         }
       ]
     },
@@ -5315,7 +5359,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5444,6 +5488,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
