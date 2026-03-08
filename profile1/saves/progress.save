@@ -2007,6 +2007,17 @@
       "preferred_ascension": 1,
       "total_losses": 0,
       "total_wins": 1
+    },
+    {
+      "best_win_streak": 0,
+      "current_streak": 0,
+      "fastest_win_time": -1,
+      "id": "CHARACTER.RANDOM_CHARACTER",
+      "max_ascension": 0,
+      "playtime": 0,
+      "preferred_ascension": 0,
+      "total_losses": 0,
+      "total_wins": 0
     }
   ],
   "current_score": 1229,
@@ -2342,7 +2353,13 @@
     "CARD.DOUBT",
     "CARD.LIGHTNING_ROD",
     "CARD.TESLA_COIL",
-    "CARD.COLD_SNAP"
+    "CARD.COLD_SNAP",
+    "CARD.MOLTEN_FIST",
+    "CARD.BURNING_PACT",
+    "CARD.BULLY",
+    "CARD.FIGHT_ME",
+    "CARD.BARRICADE",
+    "CARD.FEEL_NO_PAIN"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2431,7 +2448,9 @@
     "POTION.VULNERABLE_POTION",
     "POTION.ESSENCE_OF_DARKNESS",
     "POTION.FOCUS_POTION",
-    "POTION.POTION_OF_CAPACITY"
+    "POTION.POTION_OF_CAPACITY",
+    "POTION.LUCKY_TONIC",
+    "POTION.GIGANTIFICATION_POTION"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -2545,7 +2564,12 @@
     "RELIC.SWORD_OF_JADE",
     "RELIC.SYMBIOTIC_VIRUS",
     "RELIC.DATA_DISK",
-    "RELIC.METRONOME"
+    "RELIC.METRONOME",
+    "RELIC.LAVA_ROCK",
+    "RELIC.POCKETWATCH",
+    "RELIC.BRONZE_SCALES",
+    "RELIC.MEMBERSHIP_CARD",
+    "RELIC.SHOVEL"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -2555,7 +2579,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.SILENT",
@@ -2575,7 +2599,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -2585,7 +2609,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.SILENT",
@@ -2635,7 +2659,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -2715,7 +2739,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -3009,6 +3033,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
         }
@@ -3518,6 +3547,16 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.BYGONE_EFFIGY_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -3527,7 +3566,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.SILENT",
@@ -3547,7 +3586,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3562,7 +3601,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3577,7 +3616,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3592,7 +3631,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.SILENT",
@@ -3642,7 +3681,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3727,7 +3766,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4086,6 +4125,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
         }
@@ -4646,6 +4690,16 @@
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.BYGONE_EFFIGY",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
         }
