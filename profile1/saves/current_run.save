@@ -2515,18 +2515,53 @@
         "map_point_type": "monster",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 25,
+                  "id": "CARD.WISP"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.DEFY"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.NEGATIVE_PULSE"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "id": "CARD.WISP"
+              }
+            ],
+            "current_gold": 217,
+            "current_hp": 20,
             "damage_taken": 0,
-            "gold_gained": 0,
+            "gold_gained": 13,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 63,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.ENERGY_POTION",
+                "was_picked": true
+              }
+            ],
             "potion_used": [
               "POTION.POWER_POTION"
             ]
@@ -2642,6 +2677,11 @@
         {
           "floor_added_to_deck": 24,
           "id": "CARD.OBLIVION"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 25,
+          "id": "CARD.WISP"
         }
       ],
       "discovered_cards": [
@@ -2659,14 +2699,14 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 204,
+      "gold": 217,
       "max_energy": 3,
       "max_hp": 63,
       "max_potion_slot_count": 3,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.05,
-        "potion_reward_odds_value": 0.4
+        "card_rarity_odds_value": -0.02,
+        "potion_reward_odds_value": 0.3
       },
       "potions": [
         {
@@ -2676,6 +2716,10 @@
         {
           "id": "POTION.FLEX_POTION",
           "slot_index": 1
+        },
+        {
+          "id": "POTION.ENERGY_POTION",
+          "slot_index": 2
         }
       ],
       "relic_grab_bag": {
@@ -2836,7 +2880,7 @@
       ],
       "rng": {
         "counters": {
-          "rewards": 142,
+          "rewards": 155,
           "shops": 28,
           "transformations": 2
         },
@@ -2967,15 +3011,7 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.MYTES_NORMAL",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "monster",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 396,
@@ -2993,8 +3029,8 @@
     },
     "seed": "8P2WFY7NQ7"
   },
-  "run_time": 1231,
-  "save_time": 1773012261,
+  "run_time": 1245,
+  "save_time": 1773012275,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3151,6 +3187,10 @@
     {
       "col": 0,
       "row": 7
+    },
+    {
+      "col": 0,
+      "row": 8
     }
   ],
   "win_time": 0

@@ -3135,7 +3135,16 @@
     "CARD.THUNDER",
     "CARD.GLASSWORK",
     "CARD.METEOR_STRIKE",
-    "CARD.MODDED"
+    "CARD.MODDED",
+    "CARD.NEOWS_FURY",
+    "CARD.SLEIGHT_OF_FLESH",
+    "CARD.THE_SCYTHE",
+    "CARD.SCULPTING_STRIKE",
+    "CARD.SHROUD",
+    "CARD.BANSHEES_CRY",
+    "CARD.CALL_OF_THE_VOID",
+    "CARD.SOOT",
+    "CARD.TRANSFIGURE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3400,7 +3409,12 @@
     "RELIC.CHANDELIER",
     "RELIC.PETRIFIED_TOAD",
     "RELIC.RADIANT_PEARL",
-    "RELIC.WAR_HAMMER"
+    "RELIC.WAR_HAMMER",
+    "RELIC.FESTIVE_POPPER",
+    "RELIC.VEXING_PUZZLEBOX",
+    "RELIC.RIPPLE_BASIN",
+    "RELIC.SLING_OF_COURAGE",
+    "RELIC.BIIIG_HUG"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3426,6 +3440,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3444,6 +3463,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -3521,6 +3545,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3596,6 +3625,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3645,7 +3679,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -3686,6 +3720,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3931,6 +3970,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3964,6 +4008,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4025,7 +4074,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4264,6 +4313,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4738,6 +4792,16 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.FLYCONID_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "enemy_stats": [
@@ -4763,6 +4827,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4786,6 +4855,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4836,6 +4910,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4911,6 +4990,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -4993,6 +5077,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5003,6 +5092,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5027,7 +5121,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 10
+          "wins": 14
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5052,7 +5146,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5093,6 +5187,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 8
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -5468,6 +5567,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5502,7 +5606,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5527,7 +5631,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5721,6 +5825,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
         }
@@ -6268,6 +6377,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -6581,7 +6695,7 @@
     {
       "id": "DEFECT7_EPOCH",
       "obtain_date": 1773009714,
-      "state": "obtained"
+      "state": "revealed"
     },
     {
       "id": "NECROBINDER7_EPOCH",
