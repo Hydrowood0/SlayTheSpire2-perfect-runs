@@ -2953,7 +2953,20 @@
     "CARD.ETERNAL_ARMOR",
     "CARD.DEATHS_DOOR",
     "CARD.GRAVE_WARDEN",
-    "CARD.SQUEEZE"
+    "CARD.SQUEEZE",
+    "CARD.CAPACITOR",
+    "CARD.GLACIER",
+    "CARD.SUNDER",
+    "CARD.CONSUMING_SHADOW",
+    "CARD.WHITE_NOISE",
+    "CARD.NULL",
+    "CARD.FUSION",
+    "CARD.LUMINESCE",
+    "CARD.QUADCAST",
+    "CARD.CHAOS",
+    "CARD.LOOP",
+    "CARD.DOUBLE_ENERGY",
+    "CARD.SCRAPE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3065,7 +3078,8 @@
     "POTION.SHIP_IN_A_BOTTLE",
     "POTION.TOUCH_OF_INSANITY",
     "POTION.POWDERED_DEMISE",
-    "POTION.SKILL_POTION"
+    "POTION.SKILL_POTION",
+    "POTION.POTION_SHAPED_ROCK"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -3214,7 +3228,9 @@
     "RELIC.FROZEN_EGG",
     "RELIC.ASTROLABE",
     "RELIC.MYSTIC_LIGHTER",
-    "RELIC.CHANDELIER"
+    "RELIC.CHANDELIER",
+    "RELIC.PETRIFIED_TOAD",
+    "RELIC.RADIANT_PEARL"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3235,6 +3251,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3248,6 +3269,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3300,6 +3326,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3449,7 +3480,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -3705,6 +3736,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3713,6 +3749,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3743,6 +3784,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -3985,6 +4031,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4359,7 +4410,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4379,7 +4430,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4405,6 +4456,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4423,6 +4479,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -4497,6 +4558,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4515,6 +4581,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -4537,6 +4608,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4555,6 +4631,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -4607,6 +4688,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4702,6 +4788,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4766,7 +4857,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5097,6 +5188,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5105,6 +5201,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -5135,6 +5236,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -5377,6 +5483,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5796,7 +5907,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5816,7 +5927,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5841,7 +5952,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5866,7 +5977,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5892,6 +6003,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5910,6 +6026,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }

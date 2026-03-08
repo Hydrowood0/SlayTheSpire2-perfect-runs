@@ -149,7 +149,7 @@
           "ENCOUNTER.BOWLBUGS_NORMAL",
           "ENCOUNTER.LOUSE_PROGENITOR_NORMAL"
         ],
-        "normal_encounters_visited": 2,
+        "normal_encounters_visited": 3,
         "second_boss_id": null
       },
       "saved_map": {
@@ -2617,6 +2617,38 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.CLARITY"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.THE_OBSCURA_NORMAL",
+            "monster_ids": [
+              "MONSTER.THE_OBSCURA"
+            ],
+            "room_type": "monster",
+            "turns_taken": 6
+          }
+        ]
       }
     ]
   ],
@@ -2775,10 +2807,6 @@
         {
           "id": "POTION.GAMBLERS_BREW",
           "slot_index": 0
-        },
-        {
-          "id": "POTION.CLARITY",
-          "slot_index": 1
         },
         {
           "id": "POTION.TOUCH_OF_INSANITY",
@@ -3067,26 +3095,34 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.THE_OBSCURA_NORMAL",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "monster",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 388,
-      "shuffle": 282,
+      "shuffle": 332,
       "unknown_map_point": 9,
-      "combat_card_generation": 52,
+      "combat_card_generation": 69,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 80,
-      "monster_ai": 6,
-      "niche": 16,
-      "combat_orbs": 8,
+      "combat_targets": 97,
+      "monster_ai": 11,
+      "niche": 18,
+      "combat_orbs": 15,
       "treasure_room_relics": 2
     },
     "seed": "MSU5JATL3N"
   },
-  "run_time": 1293,
-  "save_time": 1773002540,
+  "run_time": 1460,
+  "save_time": 1773002707,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
