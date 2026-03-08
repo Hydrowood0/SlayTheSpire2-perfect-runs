@@ -2965,8 +2965,8 @@
                 "enchantment": "ENCHANTMENT.INSTINCT"
               }
             ],
-            "current_gold": 0,
-            "current_hp": 0,
+            "current_gold": 596,
+            "current_hp": 93,
             "damage_taken": 0,
             "event_choices": [
               {
@@ -2981,7 +2981,7 @@
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 61,
-            "max_hp": 0,
+            "max_hp": 93,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
@@ -3464,15 +3464,7 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": null,
-    "event_id": "EVENT.TANX",
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 0,
-    "room_type": "event",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 393,
@@ -3490,8 +3482,8 @@
     },
     "seed": "Z3SQYT0CMA"
   },
-  "run_time": 2337,
-  "save_time": 1772985920,
+  "run_time": 2352,
+  "save_time": 1772985935,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3618,6 +3610,10 @@
     {
       "col": 3,
       "row": 0
+    },
+    {
+      "col": 6,
+      "row": 1
     }
   ],
   "win_time": 0
