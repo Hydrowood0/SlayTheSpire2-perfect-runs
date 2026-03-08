@@ -2654,7 +2654,14 @@
     "CARD.ABRASIVE",
     "CARD.SNAKEBITE",
     "CARD.SHAME",
-    "CARD.EXPOSE"
+    "CARD.EXPOSE",
+    "CARD.COLLISION_COURSE",
+    "CARD.PARTICLE_WALL",
+    "CARD.SUMMON_FORTH",
+    "CARD.ALIGNMENT",
+    "CARD.GUARDS",
+    "CARD.SWORD_SAGE",
+    "CARD.MINION_SACRIFICE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2755,7 +2762,10 @@
     "POTION.POTION_OF_CAPACITY",
     "POTION.LUCKY_TONIC",
     "POTION.GIGANTIFICATION_POTION",
-    "POTION.LIQUID_MEMORIES"
+    "POTION.LIQUID_MEMORIES",
+    "POTION.SHIP_IN_A_BOTTLE",
+    "POTION.TOUCH_OF_INSANITY",
+    "POTION.POWDERED_DEMISE"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -3684,6 +3694,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3699,6 +3714,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3712,6 +3732,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -3782,6 +3807,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -3887,6 +3917,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -3997,6 +4032,16 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -4931,6 +4976,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4946,6 +4996,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4959,6 +5014,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
         }
@@ -5024,6 +5084,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -5159,6 +5224,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -5299,6 +5369,16 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.LAGAVULIN_MATRIARCH",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -5534,7 +5614,7 @@
     {
       "id": "SILENT7_EPOCH",
       "obtain_date": 1772989660,
-      "state": "obtained"
+      "state": "revealed"
     },
     {
       "id": "DAILY_RUN_EPOCH",
