@@ -1513,20 +1513,58 @@
         "map_point_type": "elite",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 8,
+                  "id": "CARD.GRAVEBLAST"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.REAVE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SOW"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.GRAVEBLAST"
+              }
+            ],
+            "current_gold": 213,
+            "current_hp": 49,
             "damage_taken": 2,
-            "gold_gained": 0,
+            "gold_gained": 44,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 66,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.DISTILLED_CHAOS",
+                "was_picked": true
+              }
+            ],
             "potion_used": [
               "POTION.BONE_BREW"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.UNCEASING_TOP",
+                "was_picked": true
+              }
             ]
           }
         ],
@@ -1625,6 +1663,10 @@
         {
           "floor_added_to_deck": 7,
           "id": "CARD.CAPTURE_SPIRIT"
+        },
+        {
+          "floor_added_to_deck": 8,
+          "id": "CARD.GRAVEBLAST"
         }
       ],
       "discovered_cards": [
@@ -1635,19 +1677,23 @@
         "RELIC.LOST_COFFER"
       ],
       "extra_fields": {},
-      "gold": 169,
+      "gold": 213,
       "max_energy": 3,
       "max_hp": 66,
       "max_potion_slot_count": 3,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.02,
-        "potion_reward_odds_value": 0.3
+        "card_rarity_odds_value": 0.01,
+        "potion_reward_odds_value": 0.20000002
       },
       "potions": [
         {
           "id": "POTION.ENERGY_POTION",
           "slot_index": 0
+        },
+        {
+          "id": "POTION.DISTILLED_CHAOS",
+          "slot_index": 1
         }
       ],
       "relic_grab_bag": {
@@ -1709,7 +1755,6 @@
             "RELIC.CENTENNIAL_PUZZLE"
           ],
           "rare": [
-            "RELIC.UNCEASING_TOP",
             "RELIC.STONE_CALENDAR",
             "RELIC.FROZEN_EGG",
             "RELIC.CHANDELIER",
@@ -1783,11 +1828,15 @@
         {
           "floor_added_to_deck": 6,
           "id": "RELIC.BONE_FLUTE"
+        },
+        {
+          "floor_added_to_deck": 8,
+          "id": "RELIC.UNCEASING_TOP"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 52,
+          "rewards": 66,
           "shops": 0,
           "transformations": 0
         },
@@ -1912,15 +1961,7 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.PHANTASMAL_GARDENERS_ELITE",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "elite",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 390,
@@ -1938,8 +1979,8 @@
     },
     "seed": "WYC58CZUTJ"
   },
-  "run_time": 427,
-  "save_time": 1772994648,
+  "run_time": 446,
+  "save_time": 1772994667,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2000,7 +2041,6 @@
       "rare": [
         "RELIC.FROZEN_EGG",
         "RELIC.OLD_COIN",
-        "RELIC.UNCEASING_TOP",
         "RELIC.INTIMIDATING_HELMET",
         "RELIC.SHOVEL",
         "RELIC.ART_OF_WAR",
@@ -2099,6 +2139,10 @@
     {
       "col": 6,
       "row": 7
+    },
+    {
+      "col": 6,
+      "row": 8
     }
   ],
   "win_time": 0

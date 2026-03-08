@@ -2770,7 +2770,10 @@
     "CARD.GENESIS",
     "CARD.CRESCENT_SPEAR",
     "CARD.TYRANNY",
-    "CARD.FURNACE"
+    "CARD.FURNACE",
+    "CARD.COUNTDOWN",
+    "CARD.LETHALITY",
+    "CARD.OBLIVION"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3019,7 +3022,8 @@
     "RELIC.ROYAL_POISON",
     "RELIC.VERY_HOT_COCOA",
     "RELIC.BURNING_STICKS",
-    "RELIC.JEWELED_MASK"
+    "RELIC.JEWELED_MASK",
+    "RELIC.LOST_COFFER"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3839,7 +3843,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3874,7 +3878,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -3969,7 +3973,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4203,6 +4207,16 @@
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.SKULKING_COLONY_ELITE",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -5166,7 +5180,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5201,7 +5215,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 7
+          "wins": 9
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5291,7 +5305,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 4
+          "wins": 8
         }
       ]
     },
@@ -5594,6 +5608,16 @@
           "wins": 1
         }
       ]
+    },
+    {
+      "enemy_id": "MONSTER.SKULKING_COLONY",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
     }
   ],
   "epochs": [
@@ -5815,7 +5839,7 @@
     {
       "id": "REGENT7_EPOCH",
       "obtain_date": 1772993781,
-      "state": "obtained"
+      "state": "revealed"
     },
     {
       "id": "IRONCLAD7_EPOCH",
