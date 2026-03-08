@@ -2783,7 +2783,10 @@
     "CARD.SWEEPING_GAZE",
     "CARD.MELANCHOLY",
     "CARD.SCOURGE",
-    "CARD.SEANCE"
+    "CARD.SEANCE",
+    "CARD.METAMORPHOSIS",
+    "CARD.DEBILITATE",
+    "CARD.REAPER_FORM"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3037,7 +3040,8 @@
     "RELIC.LOST_COFFER",
     "RELIC.CLOAK_CLASP",
     "RELIC.ANCHOR",
-    "RELIC.DINGY_RUG"
+    "RELIC.DINGY_RUG",
+    "RELIC.FROZEN_EGG"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3657,7 +3661,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4032,7 +4036,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4047,7 +4051,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -4181,6 +4185,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -5009,7 +5018,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5394,7 +5403,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 4
+          "wins": 6
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5409,7 +5418,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5565,6 +5574,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5585,6 +5599,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5603,6 +5622,11 @@
         },
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
