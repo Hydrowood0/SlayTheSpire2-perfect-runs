@@ -2658,7 +2658,14 @@
     "CARD.COLLISION_COURSE",
     "CARD.PARTICLE_WALL",
     "CARD.SUMMON_FORTH",
-    "CARD.ALIGNMENT"
+    "CARD.ALIGNMENT",
+    "CARD.GUARDS",
+    "CARD.SWORD_SAGE",
+    "CARD.MINION_SACRIFICE",
+    "CARD.SPOILS_OF_BATTLE",
+    "CARD.RESONANCE",
+    "CARD.GENESIS",
+    "CARD.CRESCENT_SPEAR"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -2900,7 +2907,10 @@
     "RELIC.CENTENNIAL_PUZZLE",
     "RELIC.TRI_BOOMERANG",
     "RELIC.RAINBOW_RING",
-    "RELIC.ROYAL_POISON"
+    "RELIC.ROYAL_POISON",
+    "RELIC.VERY_HOT_COCOA",
+    "RELIC.BURNING_STICKS",
+    "RELIC.JEWELED_MASK"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3100,7 +3110,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -3221,6 +3231,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3431,6 +3446,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3456,6 +3476,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3464,6 +3489,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -3486,6 +3516,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -3500,7 +3535,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -3620,7 +3655,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4292,7 +4327,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 10
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -4413,6 +4448,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4667,7 +4707,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -4692,7 +4732,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -4738,6 +4778,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4746,6 +4791,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -4768,6 +4818,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4782,7 +4837,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 6
         },
         {
           "character": "CHARACTER.NECROBINDER",
