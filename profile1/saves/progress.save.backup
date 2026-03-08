@@ -60,7 +60,7 @@
         },
         {
           "character": "CHARACTER.DEFECT",
-          "losses": 0,
+          "losses": 1,
           "wins": 1
         },
         {
@@ -127,6 +127,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 1,
+          "wins": 0
         }
       ]
     },
@@ -1643,21 +1648,21 @@
     },
     {
       "id": "CARD.STRIKE_DEFECT",
-      "times_lost": 0,
+      "times_lost": 1,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 1
     },
     {
       "id": "CARD.DEFEND_DEFECT",
-      "times_lost": 0,
+      "times_lost": 1,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 1
     },
     {
       "id": "CARD.DUALCAST",
-      "times_lost": 0,
+      "times_lost": 1,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 1
@@ -1673,7 +1678,7 @@
       "id": "CARD.BEAM_CELL",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 0,
+      "times_skipped": 2,
       "times_won": 1
     },
     {
@@ -1692,8 +1697,8 @@
     },
     {
       "id": "CARD.CHILL",
-      "times_lost": 0,
-      "times_picked": 1,
+      "times_lost": 1,
+      "times_picked": 2,
       "times_skipped": 0,
       "times_won": 1
     },
@@ -1706,9 +1711,9 @@
     },
     {
       "id": "CARD.DARKNESS",
-      "times_lost": 0,
-      "times_picked": 1,
-      "times_skipped": 0,
+      "times_lost": 1,
+      "times_picked": 2,
+      "times_skipped": 1,
       "times_won": 1
     },
     {
@@ -1729,7 +1734,7 @@
       "id": "CARD.STORM",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 0,
+      "times_skipped": 1,
       "times_won": 1
     },
     {
@@ -1748,15 +1753,15 @@
     },
     {
       "id": "CARD.OVERCLOCK",
-      "times_lost": 0,
-      "times_picked": 2,
+      "times_lost": 1,
+      "times_picked": 3,
       "times_skipped": 0,
       "times_won": 1
     },
     {
       "id": "CARD.TRASH_TO_TREASURE",
-      "times_lost": 0,
-      "times_picked": 1,
+      "times_lost": 1,
+      "times_picked": 2,
       "times_skipped": 0,
       "times_won": 1
     },
@@ -1771,7 +1776,7 @@
       "id": "CARD.SWEEPING_BEAM",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 2,
+      "times_skipped": 3,
       "times_won": 1
     },
     {
@@ -1792,35 +1797,35 @@
       "id": "CARD.COMPILE_DRIVER",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 4,
       "times_won": 0
     },
     {
       "id": "CARD.GO_FOR_THE_EYES",
-      "times_lost": 0,
-      "times_picked": 0,
-      "times_skipped": 3,
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 4,
       "times_won": 0
     },
     {
       "id": "CARD.UPROAR",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 3,
       "times_won": 0
     },
     {
       "id": "CARD.BOOST_AWAY",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 7,
+      "times_skipped": 10,
       "times_won": 0
     },
     {
       "id": "CARD.CLAW",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 3,
       "times_won": 0
     },
     {
@@ -1841,7 +1846,7 @@
       "id": "CARD.COOLHEADED",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 5,
       "times_won": 0
     },
     {
@@ -1855,21 +1860,21 @@
       "id": "CARD.BALL_LIGHTNING",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 3,
+      "times_skipped": 6,
       "times_won": 0
     },
     {
       "id": "CARD.HOTFIX",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.CHARGE_BATTERY",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 4,
+      "times_skipped": 7,
       "times_won": 0
     },
     {
@@ -1890,41 +1895,41 @@
       "id": "CARD.ADAPTIVE_STRIKE",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 3,
       "times_won": 0
     },
     {
       "id": "CARD.SYNCHRONIZE",
-      "times_lost": 0,
-      "times_picked": 0,
-      "times_skipped": 3,
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 4,
       "times_won": 0
     },
     {
       "id": "CARD.GUNK_UP",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 6,
       "times_won": 0
     },
     {
       "id": "CARD.ROCKET_PUNCH",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.SUPERCRITICAL",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 3,
       "times_won": 0
     },
     {
       "id": "CARD.SIGNAL_BOOST",
-      "times_lost": 0,
-      "times_picked": 0,
+      "times_lost": 1,
+      "times_picked": 1,
       "times_skipped": 2,
       "times_won": 0
     },
@@ -1946,27 +1951,27 @@
       "id": "CARD.FOCUSED_STRIKE",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.SYNTHESIS",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.LIGHTNING_ROD",
       "times_lost": 0,
-      "times_picked": 0,
-      "times_skipped": 1,
+      "times_picked": 1,
+      "times_skipped": 3,
       "times_won": 0
     },
     {
       "id": "CARD.TESLA_COIL",
-      "times_lost": 0,
-      "times_picked": 0,
+      "times_lost": 1,
+      "times_picked": 1,
       "times_skipped": 1,
       "times_won": 0
     },
@@ -1988,7 +1993,7 @@
       "id": "CARD.COLD_SNAP",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 4,
       "times_won": 0
     },
     {
@@ -2119,7 +2124,7 @@
     },
     {
       "id": "CARD.PECK",
-      "times_lost": 0,
+      "times_lost": 1,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 1
@@ -2480,6 +2485,118 @@
       "times_picked": 0,
       "times_skipped": 1,
       "times_won": 0
+    },
+    {
+      "id": "CARD.ZAP",
+      "times_lost": 1,
+      "times_picked": 0,
+      "times_skipped": 0,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.CAPACITOR",
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.CONSUMING_SHADOW",
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.WHITE_NOISE",
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.MACHINE_LEARNING",
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.CHAOS",
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.DOUBLE_ENERGY",
+      "times_lost": 1,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.GLACIER",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SUNDER",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.NULL",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.FUSION",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.CREATIVE_AI",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SCRAPE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SKIM",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.LEAP",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 2,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.GENETIC_ALGORITHM",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
     }
   ],
   "character_stats": [
@@ -2529,13 +2646,13 @@
     },
     {
       "best_win_streak": 1,
-      "current_streak": 1,
+      "current_streak": 0,
       "fastest_win_time": 4079,
       "id": "CHARACTER.DEFECT",
       "max_ascension": 1,
-      "playtime": 4079,
+      "playtime": 6197,
       "preferred_ascension": 1,
-      "total_losses": 0,
+      "total_losses": 1,
       "total_wins": 1
     },
     {
@@ -2550,7 +2667,7 @@
       "total_wins": 0
     }
   ],
-  "current_score": 85,
+  "current_score": 734,
   "discovered_acts": [
     "ACT.OVERGROWTH",
     "ACT.HIVE",
@@ -2966,7 +3083,11 @@
     "CARD.CHAOS",
     "CARD.LOOP",
     "CARD.DOUBLE_ENERGY",
-    "CARD.SCRAPE"
+    "CARD.SCRAPE",
+    "CARD.SKIM",
+    "CARD.LEAP",
+    "CARD.BUFFER",
+    "CARD.GENETIC_ALGORITHM"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3495,7 +3616,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 4
         }
       ]
     },
@@ -3515,7 +3636,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 4
         }
       ]
     },
@@ -3871,6 +3992,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -3910,6 +4036,11 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 1,
           "wins": 1
         }
       ]
@@ -4410,7 +4541,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4872,7 +5003,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 4
         }
       ]
     },
@@ -4892,7 +5023,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 2
+          "wins": 8
         }
       ]
     },
@@ -5338,6 +5469,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -5377,6 +5513,11 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 1,
           "wins": 1
         }
       ]
@@ -5907,7 +6048,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -6324,7 +6465,7 @@
       "state": "revealed"
     }
   ],
-  "floors_climbed": 432,
+  "floors_climbed": 465,
   "ftue_completed": [
     "accept_tutorials_ftue",
     "combat_reward_ftue"
@@ -6334,7 +6475,7 @@
   "preferred_multiplayer_ascension": 0,
   "schema_version": 21,
   "test_subject_kills": 6,
-  "total_playtime": 38610,
+  "total_playtime": 40728,
   "total_unlocks": 9,
   "unique_id": "FYSI9P7",
   "unlocked_achievements": [],
