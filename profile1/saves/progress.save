@@ -3228,7 +3228,10 @@
     "CARD.SPOILS_MAP",
     "CARD.RELAX",
     "CARD.CONVERGENCE",
-    "CARD.KINGLY_PUNCH"
+    "CARD.KINGLY_PUNCH",
+    "CARD.LUNAR_BLAST",
+    "CARD.FOREGONE_CONCLUSION",
+    "CARD.BEAT_INTO_SHAPE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3508,7 +3511,8 @@
     "RELIC.THE_ABACUS",
     "RELIC.PAELS_TOOTH",
     "RELIC.PAELS_LEGION",
-    "RELIC.LEES_WAFFLE"
+    "RELIC.LEES_WAFFLE",
+    "RELIC.LAVA_LAMP"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3794,6 +3798,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4258,7 +4267,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5326,6 +5335,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5910,7 +5924,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
