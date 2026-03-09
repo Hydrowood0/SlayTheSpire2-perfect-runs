@@ -3225,7 +3225,10 @@
     "CARD.PULL_FROM_BELOW",
     "CARD.PATTER",
     "CARD.PARRY",
-    "CARD.SPOILS_MAP"
+    "CARD.SPOILS_MAP",
+    "CARD.RELAX",
+    "CARD.CONVERGENCE",
+    "CARD.KINGLY_PUNCH"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3502,7 +3505,10 @@
     "RELIC.FAKE_VENERABLE_TEA_SET",
     "RELIC.TOOLBOX",
     "RELIC.GOLDEN_PEARL",
-    "RELIC.THE_ABACUS"
+    "RELIC.THE_ABACUS",
+    "RELIC.PAELS_TOOTH",
+    "RELIC.PAELS_LEGION",
+    "RELIC.LEES_WAFFLE"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3737,7 +3743,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 7
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -3827,7 +3833,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -4407,7 +4413,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 7
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -4427,7 +4433,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -4683,6 +4689,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -4821,6 +4832,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
         }
@@ -5259,7 +5275,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 10
+          "wins": 25
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5349,7 +5365,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5754,7 +5770,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 7
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5805,6 +5821,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 5
         }
       ]
     },
@@ -6049,7 +6070,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6330,6 +6351,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -6490,6 +6516,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -6515,6 +6546,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -6538,6 +6574,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
         }
