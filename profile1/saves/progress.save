@@ -3222,7 +3222,10 @@
     "CARD.TRANSFIGURE",
     "CARD.RIGHT_HAND_HAND",
     "CARD.VEILPIERCER",
-    "CARD.PULL_FROM_BELOW"
+    "CARD.PULL_FROM_BELOW",
+    "CARD.PATTER",
+    "CARD.PARRY",
+    "CARD.SPOILS_MAP"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3497,7 +3500,9 @@
     "RELIC.FAKE_ORICHALCUM",
     "RELIC.FAKE_MANGO",
     "RELIC.FAKE_VENERABLE_TEA_SET",
-    "RELIC.TOOLBOX"
+    "RELIC.TOOLBOX",
+    "RELIC.GOLDEN_PEARL",
+    "RELIC.THE_ABACUS"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4482,7 +4487,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4522,7 +4527,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4553,6 +4558,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4571,6 +4581,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -4608,6 +4623,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4618,6 +4638,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4726,6 +4751,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -4891,6 +4921,26 @@
       "fight_stats": [
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.TWO_TAILED_RATS_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.PUNCH_CONSTRUCT_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -6074,7 +6124,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6114,7 +6164,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 4
         }
       ]
     },
@@ -6128,6 +6178,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -6160,6 +6215,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -6195,6 +6255,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 12
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 4
         }
       ]
     },
@@ -6205,6 +6270,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -6348,6 +6418,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -6550,6 +6625,21 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.TWO_TAILED_RAT",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     }
