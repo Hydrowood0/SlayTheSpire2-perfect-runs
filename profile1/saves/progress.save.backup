@@ -3488,7 +3488,9 @@
     "CARD.OUTBREAK",
     "CARD.UNRELENTING",
     "CARD.INFERNO",
-    "CARD.GRAPPLE"
+    "CARD.GRAPPLE",
+    "CARD.HOWL_FROM_BEYOND",
+    "CARD.TEAR_ASUNDER"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3958,7 +3960,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.SILENT",
@@ -3998,7 +4000,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4448,7 +4450,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5238,7 +5240,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5339,6 +5341,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5380,7 +5387,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 5
+          "wins": 7
         },
         {
           "character": "CHARACTER.SILENT",
@@ -5495,7 +5502,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.SILENT",
@@ -5650,7 +5657,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.SILENT",
@@ -6210,7 +6217,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6525,7 +6532,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -7120,7 +7127,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7144,6 +7151,11 @@
         },
         {
           "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
         }
