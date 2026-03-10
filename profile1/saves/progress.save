@@ -3354,7 +3354,8 @@
     "CARD.REFRACT",
     "CARD.POOR_SLEEP",
     "CARD.TURBO",
-    "CARD.VOID"
+    "CARD.VOID",
+    "CARD.HELIX_DRILL"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3638,7 +3639,10 @@
     "RELIC.LEES_WAFFLE",
     "RELIC.LAVA_LAMP",
     "RELIC.MUSIC_BOX",
-    "RELIC.PRECARIOUS_SHEARS"
+    "RELIC.PRECARIOUS_SHEARS",
+    "RELIC.INFUSED_CORE",
+    "RELIC.ALCHEMICAL_COFFER",
+    "RELIC.ELECTRIC_SHRYMP"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3928,7 +3932,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -3943,7 +3947,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4399,6 +4403,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4594,6 +4603,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4623,7 +4637,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -4844,6 +4858,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4858,7 +4877,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5505,7 +5524,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -5520,7 +5539,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5991,6 +6010,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -6036,6 +6060,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 5
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -6094,6 +6123,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 1
         }
@@ -6310,7 +6344,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6325,7 +6359,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6556,6 +6590,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.DEFECT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -6570,7 +6609,7 @@
         {
           "character": "CHARACTER.DEFECT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
