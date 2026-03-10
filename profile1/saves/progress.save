@@ -3414,7 +3414,8 @@
     "CARD.HELIX_DRILL",
     "CARD.MAUL",
     "CARD.HYPERBEAM",
-    "CARD.REND"
+    "CARD.REND",
+    "CARD.ANTICIPATE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3705,7 +3706,10 @@
     "RELIC.ALCHEMICAL_COFFER",
     "RELIC.ELECTRIC_SHRYMP",
     "RELIC.SAI",
-    "RELIC.RUNIC_CAPACITOR"
+    "RELIC.RUNIC_CAPACITOR",
+    "RELIC.NUTRITIOUS_OYSTER",
+    "RELIC.TEA_OF_DISCOURTESY",
+    "RELIC.RED_MASK"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3720,7 +3724,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3775,7 +3779,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -3900,7 +3904,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4290,7 +4294,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5247,7 +5251,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5362,7 +5366,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5487,7 +5491,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5517,7 +5521,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",

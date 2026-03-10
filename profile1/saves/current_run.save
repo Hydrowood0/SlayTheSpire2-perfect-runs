@@ -1727,6 +1727,37 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 299,
+            "current_hp": 51,
+            "damage_taken": 0,
+            "gold_gained": 50,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 81,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PERMAFROST",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
@@ -1817,7 +1848,7 @@
         "RELIC.TEA_OF_DISCOURTESY"
       ],
       "extra_fields": {},
-      "gold": 249,
+      "gold": 299,
       "max_energy": 3,
       "max_hp": 81,
       "max_potion_slot_count": 3,
@@ -1868,7 +1899,6 @@
             "RELIC.ODDLY_SMOOTH_STONE",
             "RELIC.REGAL_PILLOW",
             "RELIC.STRAWBERRY",
-            "RELIC.PERMAFROST",
             "RELIC.LANTERN",
             "RELIC.VENERABLE_TEA_SET",
             "RELIC.BLOOD_VIAL",
@@ -1991,11 +2021,15 @@
         {
           "floor_added_to_deck": 9,
           "id": "RELIC.RED_MASK"
+        },
+        {
+          "floor_added_to_deck": 10,
+          "id": "RELIC.PERMAFROST"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 48,
+          "rewards": 49,
           "shops": 0,
           "transformations": 0
         },
@@ -2147,12 +2181,12 @@
       "monster_ai": 0,
       "niche": 4,
       "combat_orbs": 0,
-      "treasure_room_relics": 2
+      "treasure_room_relics": 3
     },
     "seed": "HMS4CPNR2B"
   },
-  "run_time": 250,
-  "save_time": 1773120166,
+  "run_time": 256,
+  "save_time": 1773120172,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2185,7 +2219,6 @@
         "RELIC.RIPPLE_BASIN"
       ],
       "common": [
-        "RELIC.PERMAFROST",
         "RELIC.AMETHYST_AUBERGINE",
         "RELIC.PENDULUM",
         "RELIC.ANCHOR",
@@ -2321,6 +2354,10 @@
     {
       "col": 5,
       "row": 9
+    },
+    {
+      "col": 6,
+      "row": 10
     }
   ],
   "win_time": 0
