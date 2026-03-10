@@ -3415,7 +3415,9 @@
     "CARD.MAUL",
     "CARD.HYPERBEAM",
     "CARD.REND",
-    "CARD.ANTICIPATE"
+    "CARD.ANTICIPATE",
+    "CARD.CALCULATED_GAMBLE",
+    "CARD.PHANTOM_BLADES"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3709,7 +3711,8 @@
     "RELIC.RUNIC_CAPACITOR",
     "RELIC.NUTRITIOUS_OYSTER",
     "RELIC.TEA_OF_DISCOURTESY",
-    "RELIC.RED_MASK"
+    "RELIC.RED_MASK",
+    "RELIC.BOWLER_HAT"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -3849,7 +3852,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -3884,7 +3887,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4334,7 +4337,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5251,7 +5254,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 6
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5436,7 +5439,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6036,7 +6039,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
