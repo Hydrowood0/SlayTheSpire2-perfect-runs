@@ -57,7 +57,7 @@
           "EVENT.DOLL_ROOM",
           "EVENT.SLIPPERY_BRIDGE"
         ],
-        "events_visited": 2,
+        "events_visited": 4,
         "normal_encounter_ids": [
           "ENCOUNTER.NIBBITS_WEAK",
           "ENCOUNTER.SHRINKER_BEETLE_WEAK",
@@ -1197,7 +1197,8 @@
   "ascension": 2,
   "current_act_index": 0,
   "events_seen": [
-    "EVENT.TABLET_OF_TRUTH"
+    "EVENT.TABLET_OF_TRUTH",
+    "EVENT.WELLSPRING"
   ],
   "extra_fields": {
     "started_with_neow": true
@@ -1679,15 +1680,76 @@
             "turns_taken": 4
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "cards_gained": [
+              {
+                "id": "CARD.GUILTY",
+                "props": {
+                  "ints": [
+                    {
+                      "name": "CombatsSeen",
+                      "value": 0
+                    }
+                  ]
+                }
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.DEFEND_IRONCLAD"
+              }
+            ],
+            "current_gold": 223,
+            "current_hp": 56,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "WELLSPRING.pages.INITIAL.options.BATHE.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "BatheCurses": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 1,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 82,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.WELLSPRING",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -3,
-    "unknown_map_point_monster_odds_value": 0.3,
-    "unknown_map_point_shop_odds_value": 0.089999996,
-    "unknown_map_point_treasure_odds_value": 0.02
+    "unknown_map_point_elite_odds_value": -4,
+    "unknown_map_point_monster_odds_value": 0.4,
+    "unknown_map_point_shop_odds_value": 0.12,
+    "unknown_map_point_treasure_odds_value": 0.04
   },
   "platform_type": "steam",
   "players": [
@@ -1726,10 +1788,6 @@
           "id": "CARD.DEFEND_IRONCLAD"
         },
         {
-          "floor_added_to_deck": 1,
-          "id": "CARD.DEFEND_IRONCLAD"
-        },
-        {
           "current_upgrade_level": 1,
           "floor_added_to_deck": 1,
           "id": "CARD.DEFEND_IRONCLAD"
@@ -1749,6 +1807,18 @@
         {
           "floor_added_to_deck": 8,
           "id": "CARD.PERFECTED_STRIKE"
+        },
+        {
+          "floor_added_to_deck": 9,
+          "id": "CARD.GUILTY",
+          "props": {
+            "ints": [
+              {
+                "name": "CombatsSeen",
+                "value": 0
+              }
+            ]
+          }
         }
       ],
       "discovered_cards": [
@@ -2068,7 +2138,7 @@
     "counters": {
       "up_front": 396,
       "shuffle": 98,
-      "unknown_map_point": 2,
+      "unknown_map_point": 3,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
@@ -2081,8 +2151,8 @@
     },
     "seed": "5LFF7PXBKA"
   },
-  "run_time": 314,
-  "save_time": 1773127172,
+  "run_time": 327,
+  "save_time": 1773127185,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2248,6 +2318,10 @@
     {
       "col": 1,
       "row": 8
+    },
+    {
+      "col": 0,
+      "row": 9
     }
   ],
   "win_time": 0
