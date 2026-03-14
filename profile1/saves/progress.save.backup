@@ -3583,7 +3583,8 @@
     "CARD.SECOND_WIND",
     "CARD.DOMINATE",
     "CARD.BRAND",
-    "CARD.PRODUCTION"
+    "CARD.PRODUCTION",
+    "CARD.FEEDING_FRENZY"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -5074,6 +5075,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5454,6 +5460,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5512,6 +5523,16 @@
       "fight_stats": [
         {
           "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "encounter_id": "ENCOUNTER.GREMLIN_MERC_NORMAL",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
@@ -6870,7 +6891,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 6
+          "wins": 9
         }
       ]
     },
@@ -7391,6 +7412,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7439,6 +7465,16 @@
       "fight_stats": [
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        }
+      ]
+    },
+    {
+      "enemy_id": "MONSTER.GREMLIN_MERC",
+      "fight_stats": [
+        {
+          "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
         }
