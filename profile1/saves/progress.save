@@ -3587,7 +3587,8 @@
     "CARD.FEEDING_FRENZY",
     "CARD.CHILD_OF_THE_STARS",
     "CARD.HEAVENLY_DRILL",
-    "CARD.JACKPOT"
+    "CARD.JACKPOT",
+    "CARD.NOSTALGIA"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4212,7 +4213,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.SILENT",
@@ -4947,7 +4948,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5443,6 +5444,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5924,7 +5930,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5944,7 +5950,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.SILENT",
@@ -6494,7 +6500,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 6
+          "wins": 7
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -6799,7 +6805,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -6819,7 +6825,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7662,8 +7668,8 @@
     },
     {
       "id": "REGENT5_EPOCH",
-      "obtain_date": 0,
-      "state": "not_obtained"
+      "obtain_date": 1773502055,
+      "state": "obtained"
     },
     {
       "id": "DEFECT5_EPOCH",
