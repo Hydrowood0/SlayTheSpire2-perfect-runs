@@ -60,7 +60,7 @@
         },
         {
           "character": "CHARACTER.DEFECT",
-          "losses": 1,
+          "losses": 0,
           "wins": 3
         },
         {
@@ -140,7 +140,7 @@
         },
         {
           "character": "CHARACTER.DEFECT",
-          "losses": 1,
+          "losses": 0,
           "wins": 2
         },
         {
@@ -1663,21 +1663,21 @@
     },
     {
       "id": "CARD.STRIKE_DEFECT",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 2
     },
     {
       "id": "CARD.DEFEND_DEFECT",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 3
     },
     {
       "id": "CARD.DUALCAST",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 3
@@ -1712,7 +1712,7 @@
     },
     {
       "id": "CARD.CHILL",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 3,
       "times_skipped": 1,
       "times_won": 2
@@ -1726,7 +1726,7 @@
     },
     {
       "id": "CARD.DARKNESS",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 4,
       "times_skipped": 4,
       "times_won": 3
@@ -1768,14 +1768,14 @@
     },
     {
       "id": "CARD.OVERCLOCK",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 6,
       "times_skipped": 0,
       "times_won": 3
     },
     {
       "id": "CARD.TRASH_TO_TREASURE",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 4,
       "times_skipped": 0,
       "times_won": 3
@@ -1817,7 +1817,7 @@
     },
     {
       "id": "CARD.GO_FOR_THE_EYES",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 7,
       "times_won": 1
@@ -1915,7 +1915,7 @@
     },
     {
       "id": "CARD.SYNCHRONIZE",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 6,
       "times_won": 1
@@ -1943,7 +1943,7 @@
     },
     {
       "id": "CARD.SIGNAL_BOOST",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 2,
       "times_won": 1
@@ -1985,7 +1985,7 @@
     },
     {
       "id": "CARD.TESLA_COIL",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 4,
       "times_won": 1
@@ -2139,7 +2139,7 @@
     },
     {
       "id": "CARD.PECK",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 3
@@ -2503,49 +2503,49 @@
     },
     {
       "id": "CARD.ZAP",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
       "times_won": 2
     },
     {
       "id": "CARD.CAPACITOR",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 0,
       "times_won": 1
     },
     {
       "id": "CARD.CONSUMING_SHADOW",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 4,
       "times_won": 1
     },
     {
       "id": "CARD.WHITE_NOISE",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 3,
       "times_skipped": 0,
       "times_won": 2
     },
     {
       "id": "CARD.MACHINE_LEARNING",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 3,
       "times_skipped": 2,
       "times_won": 2
     },
     {
       "id": "CARD.CHAOS",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 3,
       "times_skipped": 4,
       "times_won": 2
     },
     {
       "id": "CARD.DOUBLE_ENERGY",
-      "times_lost": 1,
+      "times_lost": 0,
       "times_picked": 2,
       "times_skipped": 0,
       "times_won": 0
@@ -3213,14 +3213,14 @@
       "total_wins": 5
     },
     {
-      "best_win_streak": 2,
-      "current_streak": 2,
+      "best_win_streak": 3,
+      "current_streak": 3,
       "fastest_win_time": 2854,
       "id": "CHARACTER.DEFECT",
       "max_ascension": 3,
       "playtime": 12552,
       "preferred_ascension": 3,
-      "total_losses": 1,
+      "total_losses": 0,
       "total_wins": 3
     },
     {
@@ -4042,7 +4042,10 @@
     "RELIC.PHYLACTERY_UNBOUND",
     "RELIC.WING_CHARM",
     "RELIC.BRILLIANT_SCARF",
-    "RELIC.PLANISPHERE"
+    "RELIC.PLANISPHERE",
+    "RELIC.IVORY_TILE",
+    "RELIC.BIG_HAT",
+    "RELIC.BOOKMARK"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4906,7 +4909,7 @@
         },
         {
           "character": "CHARACTER.DEFECT",
-          "losses": 1,
+          "losses": 0,
           "wins": 1
         }
       ]
@@ -6853,7 +6856,7 @@
         },
         {
           "character": "CHARACTER.DEFECT",
-          "losses": 1,
+          "losses": 0,
           "wins": 1
         }
       ]
