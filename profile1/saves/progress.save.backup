@@ -3582,7 +3582,8 @@
     "CARD.INFERNAL_BLADE",
     "CARD.SECOND_WIND",
     "CARD.DOMINATE",
-    "CARD.BRAND"
+    "CARD.BRAND",
+    "CARD.PRODUCTION"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -3889,7 +3890,10 @@
     "RELIC.MOLTEN_EGG",
     "RELIC.BONE_TEA",
     "RELIC.BLESSED_ANTLER",
-    "RELIC.ART_OF_WAR"
+    "RELIC.ART_OF_WAR",
+    "RELIC.TUNGSTEN_ROD",
+    "RELIC.WHITE_STAR",
+    "RELIC.MINIATURE_CANNON"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -5004,7 +5008,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5024,7 +5028,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -5059,7 +5063,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5489,7 +5493,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6846,7 +6850,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6866,7 +6870,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 6
         }
       ]
     },
@@ -6921,7 +6925,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 5
         }
       ]
     },
@@ -7416,7 +7420,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 6
         }
       ]
     },
@@ -7535,7 +7539,7 @@
     {
       "id": "IRONCLAD5_EPOCH",
       "obtain_date": 1773131391,
-      "state": "obtained"
+      "state": "revealed"
     },
     {
       "id": "POTION2_EPOCH",

@@ -1699,6 +1699,37 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 296,
+            "current_hp": 28,
+            "damage_taken": 0,
+            "gold_gained": 39,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.PENDULUM",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
@@ -1774,7 +1805,7 @@
         "CARD.PRODUCTION"
       ],
       "extra_fields": {},
-      "gold": 257,
+      "gold": 296,
       "max_energy": 3,
       "max_hp": 65,
       "max_potion_slot_count": 3,
@@ -1851,7 +1882,6 @@
             "RELIC.LANTERN",
             "RELIC.POTION_BELT",
             "RELIC.STRAWBERRY",
-            "RELIC.PENDULUM",
             "RELIC.REGAL_PILLOW"
           ],
           "rare": [
@@ -1929,11 +1959,15 @@
         {
           "floor_added_to_deck": 1,
           "id": "RELIC.LEAFY_POULTICE"
+        },
+        {
+          "floor_added_to_deck": 10,
+          "id": "RELIC.PENDULUM"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 48,
+          "rewards": 49,
           "shops": 0,
           "transformations": 2
         },
@@ -2089,12 +2123,12 @@
       "monster_ai": 8,
       "niche": 9,
       "combat_orbs": 0,
-      "treasure_room_relics": 0
+      "treasure_room_relics": 1
     },
     "seed": "6V5V96EC0M"
   },
-  "run_time": 360,
-  "save_time": 1773499234,
+  "run_time": 366,
+  "save_time": 1773499240,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2130,7 +2164,6 @@
         "RELIC.NUNCHAKU"
       ],
       "common": [
-        "RELIC.PENDULUM",
         "RELIC.ANCHOR",
         "RELIC.BRONZE_SCALES",
         "RELIC.GORGET",
@@ -2268,6 +2301,10 @@
     {
       "col": 4,
       "row": 9
+    },
+    {
+      "col": 5,
+      "row": 10
     }
   ],
   "win_time": 0

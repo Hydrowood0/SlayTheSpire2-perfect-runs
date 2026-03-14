@@ -3582,7 +3582,8 @@
     "CARD.INFERNAL_BLADE",
     "CARD.SECOND_WIND",
     "CARD.DOMINATE",
-    "CARD.BRAND"
+    "CARD.BRAND",
+    "CARD.PRODUCTION"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -5007,7 +5008,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5027,7 +5028,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -5062,7 +5063,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5492,7 +5493,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6849,7 +6850,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6869,7 +6870,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 6
         }
       ]
     },
@@ -6924,7 +6925,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 5
         }
       ]
     },
@@ -7419,7 +7420,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 6
         }
       ]
     },
