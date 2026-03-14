@@ -75,7 +75,7 @@
           "ENCOUNTER.VINE_SHAMBLER_NORMAL",
           "ENCOUNTER.NIBBITS_NORMAL"
         ],
-        "normal_encounters_visited": 2,
+        "normal_encounters_visited": 3,
         "second_boss_id": null
       },
       "saved_map": {
@@ -1352,6 +1352,35 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SHRINKER_BEETLE_WEAK",
+            "monster_ids": [
+              "MONSTER.SHRINKER_BEETLE"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
       }
     ]
   ],
@@ -1728,11 +1757,19 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.SHRINKER_BEETLE_WEAK",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "monster",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 401,
-      "shuffle": 48,
+      "shuffle": 68,
       "unknown_map_point": 1,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
@@ -1740,14 +1777,14 @@
       "combat_energy_costs": 0,
       "combat_targets": 0,
       "monster_ai": 5,
-      "niche": 4,
+      "niche": 5,
       "combat_orbs": 0,
       "treasure_room_relics": 0
     },
     "seed": "M79R0TZEH9"
   },
-  "run_time": 127,
-  "save_time": 1773515752,
+  "run_time": 157,
+  "save_time": 1773515782,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
