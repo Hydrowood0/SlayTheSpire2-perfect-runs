@@ -3584,7 +3584,10 @@
     "CARD.DOMINATE",
     "CARD.BRAND",
     "CARD.PRODUCTION",
-    "CARD.FEEDING_FRENZY"
+    "CARD.FEEDING_FRENZY",
+    "CARD.CHILD_OF_THE_STARS",
+    "CARD.HEAVENLY_DRILL",
+    "CARD.JACKPOT"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4185,6 +4188,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -4619,7 +4627,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -4894,7 +4902,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5209,7 +5217,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5876,7 +5884,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 25
+          "wins": 29
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5912,6 +5920,11 @@
           "character": "CHARACTER.DEFECT",
           "losses": 0,
           "wins": 3
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -6421,7 +6434,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6481,7 +6494,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7081,7 +7094,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.IRONCLAD",
