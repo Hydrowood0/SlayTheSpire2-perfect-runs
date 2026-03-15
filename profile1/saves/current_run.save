@@ -23,7 +23,7 @@
           "ENCOUNTER.TERROR_EEL_ELITE",
           "ENCOUNTER.SKULKING_COLONY_ELITE"
         ],
-        "elite_encounters_visited": 1,
+        "elite_encounters_visited": 2,
         "event_ids": [
           "EVENT.PUNCH_OFF",
           "EVENT.ENDLESS_CONVEYOR",
@@ -2113,6 +2113,38 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "elite",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 11,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.POTION_OF_DOOM"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SKULKING_COLONY_ELITE",
+            "monster_ids": [
+              "MONSTER.SKULKING_COLONY"
+            ],
+            "room_type": "elite",
+            "turns_taken": 3
+          }
+        ]
       }
     ]
   ],
@@ -2128,7 +2160,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.NECROBINDER",
-      "current_hp": 35,
+      "current_hp": 24,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2199,11 +2231,11 @@
             "ints": [
               {
                 "name": "CurrentDamage",
-                "value": 16
+                "value": 19
               },
               {
                 "name": "IncreasedDamage",
-                "value": 3
+                "value": 6
               }
             ]
           }
@@ -2227,10 +2259,6 @@
         {
           "id": "POTION.DEXTERITY_POTION",
           "slot_index": 0
-        },
-        {
-          "id": "POTION.POTION_OF_DOOM",
-          "slot_index": 1
         }
       ],
       "relic_grab_bag": {
@@ -2544,26 +2572,34 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.SKULKING_COLONY_ELITE",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "elite",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 409,
-      "shuffle": 227,
+      "shuffle": 244,
       "unknown_map_point": 4,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
-      "combat_card_selection": 14,
+      "combat_card_selection": 17,
       "combat_energy_costs": 0,
-      "combat_targets": 4,
+      "combat_targets": 6,
       "monster_ai": 4,
-      "niche": 11,
+      "niche": 12,
       "combat_orbs": 0,
       "treasure_room_relics": 2
     },
     "seed": "8V1W2B8YYK"
   },
-  "run_time": 920,
-  "save_time": 1773587503,
+  "run_time": 1000,
+  "save_time": 1773587583,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
