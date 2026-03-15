@@ -4,7 +4,7 @@
       "id": "ACT.UNDERDOCKS",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.PHANTASMAL_GARDENERS_ELITE",
@@ -2130,6 +2130,38 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 36,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.ATTACK_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+            "monster_ids": [
+              "MONSTER.WATERFALL_GIANT"
+            ],
+            "room_type": "boss",
+            "turns_taken": 11
+          }
+        ]
       }
     ]
   ],
@@ -2145,7 +2177,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.NECROBINDER",
-      "current_hp": 44,
+      "current_hp": 8,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2239,12 +2271,6 @@
         "card_rarity_odds_value": -0.0050000073,
         "potion_reward_odds_value": 0.4
       },
-      "potions": [
-        {
-          "id": "POTION.ATTACK_POTION",
-          "slot_index": 0
-        }
-      ],
       "relic_grab_bag": {
         "relic_id_lists": {
           "uncommon": [
@@ -2548,26 +2574,34 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "boss",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 412,
-      "shuffle": 227,
+      "shuffle": 311,
       "unknown_map_point": 5,
-      "combat_card_generation": 347,
+      "combat_card_generation": 457,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
       "combat_targets": 0,
       "monster_ai": 13,
-      "niche": 12,
+      "niche": 13,
       "combat_orbs": 0,
       "treasure_room_relics": 1
     },
     "seed": "60UHU1B7SF"
   },
-  "run_time": 787,
-  "save_time": 1773574173,
+  "run_time": 1036,
+  "save_time": 1773574422,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
