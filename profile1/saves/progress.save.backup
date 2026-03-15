@@ -3767,7 +3767,8 @@
     "CARD.INJURY",
     "CARD.SACRIFICE",
     "CARD.UNDEATH",
-    "CARD.HIDDEN_GEM"
+    "CARD.HIDDEN_GEM",
+    "CARD.SPLASH"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4093,7 +4094,9 @@
     "RELIC.LIZARD_TAIL",
     "RELIC.JOSS_PAPER",
     "RELIC.BEATING_REMNANT",
-    "RELIC.TINY_MAILBOX"
+    "RELIC.TINY_MAILBOX",
+    "RELIC.PAELS_TEARS",
+    "RELIC.CHEMICAL_X"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4368,7 +4371,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -4433,7 +4436,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -5158,7 +5161,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5633,7 +5636,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5732,6 +5735,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
@@ -6205,7 +6213,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 27
+          "wins": 30
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -6270,7 +6278,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6780,7 +6788,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 8
+          "wins": 9
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -6830,7 +6838,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7650,7 +7658,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7680,7 +7688,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7710,7 +7718,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7794,6 +7802,11 @@
       "fight_stats": [
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 1
         }
