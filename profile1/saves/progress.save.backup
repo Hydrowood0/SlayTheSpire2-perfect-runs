@@ -3805,7 +3805,8 @@
     "CARD.HIDDEN_GEM",
     "CARD.SPLASH",
     "CARD.ALCHEMIZE",
-    "CARD.HAND_OF_GREED"
+    "CARD.HAND_OF_GREED",
+    "CARD.FOLLY"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4138,7 +4139,8 @@
     "RELIC.CHEMICAL_X",
     "RELIC.UNDYING_SIGIL",
     "RELIC.SMALL_CAPSULE",
-    "RELIC.WHISPERING_EARRING"
+    "RELIC.WHISPERING_EARRING",
+    "RELIC.PRESERVED_FOG"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4558,7 +4560,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 8
+          "wins": 9
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5028,7 +5030,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5098,7 +5100,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -5258,7 +5260,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -6425,7 +6427,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 8
+          "wins": 9
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7035,7 +7037,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 29
+          "wins": 32
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7090,7 +7092,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -7250,7 +7252,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -7275,7 +7277,7 @@
         {
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
