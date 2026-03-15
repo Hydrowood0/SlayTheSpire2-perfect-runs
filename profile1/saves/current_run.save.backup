@@ -3467,20 +3467,46 @@
         "map_point_type": "elite",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.INVOKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.NO_ESCAPE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ENFEEBLING_TOUCH"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 256,
+            "current_hp": 11,
             "damage_taken": 17,
-            "gold_gained": 0,
+            "gold_gained": 31,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 56,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
             "potion_used": [
               "POTION.SWIFT_POTION"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.TINY_MAILBOX",
+                "was_picked": true
+              }
             ]
           }
         ],
@@ -3494,27 +3520,194 @@
             "turns_taken": 7
           }
         ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 287,
+            "current_hp": 11,
+            "damage_taken": 0,
+            "gold_gained": 31,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 56,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.MUMMIFIED_HAND",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "bought_potions": [
+              "POTION.GAMBLERS_BREW"
+            ],
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.GRAVEBLAST"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DEATH_MARCH"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DIRGE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DELAY"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SHROUD"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.DRAMATIC_ENTRANCE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SALVO"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_NECROBINDER"
+              }
+            ],
+            "current_gold": 139,
+            "current_hp": 11,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 148,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 56,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.GAMBLERS_BREW",
+                "was_picked": true
+              },
+              {
+                "choice": "POTION.STRENGTH_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.FLEX_POTION",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.MERCURY_HOURGLASS",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.BOOKMARK",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.MINIATURE_TENT",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 139,
+            "current_hp": 27,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 16,
+            "max_hp": 56,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.POWER_POTION",
+                "was_picked": true
+              }
+            ],
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -3,
-    "unknown_map_point_monster_odds_value": 0.1,
-    "unknown_map_point_shop_odds_value": 0.089999996,
-    "unknown_map_point_treasure_odds_value": 0.06
+    "unknown_map_point_elite_odds_value": -4,
+    "unknown_map_point_monster_odds_value": 0.2,
+    "unknown_map_point_shop_odds_value": 0.03,
+    "unknown_map_point_treasure_odds_value": 0.08
   },
   "platform_type": "steam",
   "players": [
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.NECROBINDER",
-      "current_hp": 11,
+      "current_hp": 27,
       "deck": [
-        {
-          "floor_added_to_deck": 1,
-          "id": "CARD.STRIKE_NECROBINDER"
-        },
         {
           "floor_added_to_deck": 1,
           "id": "CARD.STRIKE_NECROBINDER"
@@ -3649,16 +3842,28 @@
         "RELIC.DAUGHTER_OF_THE_WIND",
         "RELIC.BEAUTIFUL_BRACELET"
       ],
-      "extra_fields": {},
-      "gold": 225,
+      "extra_fields": {
+        "card_shop_removals_used": 1
+      },
+      "gold": 139,
       "max_energy": 3,
       "max_hp": 56,
       "max_potion_slot_count": 2,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.0050000073,
-        "potion_reward_odds_value": 0.3
+        "card_rarity_odds_value": 0.009999992,
+        "potion_reward_odds_value": 0.4
       },
+      "potions": [
+        {
+          "id": "POTION.GAMBLERS_BREW",
+          "slot_index": 0
+        },
+        {
+          "id": "POTION.POWER_POTION",
+          "slot_index": 1
+        }
+      ],
       "relic_grab_bag": {
         "relic_id_lists": {
           "uncommon": [
@@ -3686,11 +3891,9 @@
             "RELIC.PETRIFIED_TOAD",
             "RELIC.FUNERARY_MASK",
             "RELIC.GREMLIN_HORN",
-            "RELIC.RIPPLE_BASIN",
-            "RELIC.MERCURY_HOURGLASS"
+            "RELIC.RIPPLE_BASIN"
           ],
           "common": [
-            "RELIC.TINY_MAILBOX",
             "RELIC.CENTENNIAL_PUZZLE",
             "RELIC.HAPPY_FLOWER",
             "RELIC.VENERABLE_TEA_SET",
@@ -3746,10 +3949,8 @@
             "RELIC.CLOAK_CLASP",
             "RELIC.INTIMIDATING_HELMET",
             "RELIC.MANGO",
-            "RELIC.MUMMIFIED_HAND",
             "RELIC.BEATING_REMNANT",
             "RELIC.ART_OF_WAR",
-            "RELIC.BOOKMARK",
             "RELIC.WHITE_STAR"
           ],
           "shop": [
@@ -3775,8 +3976,7 @@
             "RELIC.LAVA_LAMP",
             "RELIC.BELT_BUCKLE",
             "RELIC.LEES_WAFFLE",
-            "RELIC.CAULDRON",
-            "RELIC.MINIATURE_TENT"
+            "RELIC.CAULDRON"
           ]
         }
       },
@@ -3852,12 +4052,20 @@
         {
           "floor_added_to_deck": 34,
           "id": "RELIC.BEAUTIFUL_BRACELET"
+        },
+        {
+          "floor_added_to_deck": 40,
+          "id": "RELIC.TINY_MAILBOX"
+        },
+        {
+          "floor_added_to_deck": 41,
+          "id": "RELIC.MUMMIFIED_HAND"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 267,
-          "shops": 56,
+          "rewards": 296,
+          "shops": 84,
           "transformations": 2
         },
         "seed": 1894700196
@@ -4007,20 +4215,12 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.SOUL_NEXUS_ELITE",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "elite",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 409,
       "shuffle": 1089,
-      "unknown_map_point": 9,
+      "unknown_map_point": 10,
       "combat_card_generation": 17,
       "combat_potion_generation": 0,
       "combat_card_selection": 97,
@@ -4029,19 +4229,18 @@
       "monster_ai": 33,
       "niche": 40,
       "combat_orbs": 0,
-      "treasure_room_relics": 3
+      "treasure_room_relics": 4
     },
     "seed": "8V1W2B8YYK"
   },
-  "run_time": 4322,
-  "save_time": 1773592663,
+  "run_time": 4438,
+  "save_time": 1773592796,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
       "uncommon": [
         "RELIC.GREMLIN_HORN",
         "RELIC.VAMBRACE",
-        "RELIC.MERCURY_HOURGLASS",
         "RELIC.TUNING_FORK",
         "RELIC.KUSARIGAMA",
         "RELIC.AKABEKO",
@@ -4075,7 +4274,6 @@
         "RELIC.ODDLY_SMOOTH_STONE",
         "RELIC.PERMAFROST",
         "RELIC.REGAL_PILLOW",
-        "RELIC.TINY_MAILBOX",
         "RELIC.ANCHOR",
         "RELIC.AMETHYST_AUBERGINE",
         "RELIC.WAR_PAINT",
@@ -4088,7 +4286,6 @@
         "RELIC.VAJRA"
       ],
       "rare": [
-        "RELIC.MUMMIFIED_HAND",
         "RELIC.VEXING_PUZZLEBOX",
         "RELIC.RAINBOW_RING",
         "RELIC.PRAYER_WHEEL",
@@ -4137,7 +4334,6 @@
         "RELIC.BURNING_STICKS",
         "RELIC.MYSTIC_LIGHTER",
         "RELIC.PUNCH_DAGGER",
-        "RELIC.MINIATURE_TENT",
         "RELIC.MEMBERSHIP_CARD",
         "RELIC.DOLLYS_MIRROR",
         "RELIC.KIFUDA",
@@ -4187,6 +4383,22 @@
     {
       "col": 0,
       "row": 6
+    },
+    {
+      "col": 1,
+      "row": 7
+    },
+    {
+      "col": 2,
+      "row": 8
+    },
+    {
+      "col": 3,
+      "row": 9
+    },
+    {
+      "col": 4,
+      "row": 10
     }
   ],
   "win_time": 0
