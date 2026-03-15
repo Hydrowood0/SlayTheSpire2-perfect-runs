@@ -4,7 +4,7 @@
       "id": "ACT.UNDERDOCKS",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.SOUL_FYSH_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.PHANTASMAL_GARDENERS_ELITE",
@@ -72,7 +72,7 @@
           "ENCOUNTER.LIVING_FOG_NORMAL",
           "ENCOUNTER.GREMLIN_MERC_NORMAL"
         ],
-        "normal_encounters_visited": 5,
+        "normal_encounters_visited": 6,
         "second_boss_id": null
       },
       "saved_map": {
@@ -207,6 +207,7 @@
             "type": "monster"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 0,
@@ -358,6 +359,7 @@
             "type": "monster"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 2,
@@ -435,6 +437,7 @@
             "type": "monster"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 3,
@@ -660,6 +663,7 @@
             "type": "unknown"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 3,
@@ -715,6 +719,7 @@
             "type": "monster"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 3,
@@ -806,6 +811,7 @@
             "type": "monster"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 5,
@@ -861,6 +867,7 @@
             "type": "elite"
           },
           {
+            "can_modify": true,
             "children": [
               {
                 "col": 3,
@@ -2118,20 +2125,52 @@
         "map_point_type": "elite",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 14,
+                  "id": "CARD.DIRGE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.RIGHT_HAND_HAND"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.DIRGE"
+              }
+            ],
+            "current_gold": 113,
+            "current_hp": 24,
             "damage_taken": 11,
-            "gold_gained": 0,
+            "gold_gained": 26,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 64,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
             "potion_used": [
               "POTION.POTION_OF_DOOM"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.PANTOGRAPH",
+                "was_picked": true
+              }
             ]
           }
         ],
@@ -2143,6 +2182,116 @@
             ],
             "room_type": "elite",
             "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.INVOKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.SNAP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BLIGHT_STRIKE"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 124,
+            "current_hp": 1,
+            "damage_taken": 23,
+            "gold_gained": 11,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 64,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.DEXTERITY_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CULTISTS_NORMAL",
+            "monster_ids": [
+              "MONSTER.CALCIFIED_CULTIST",
+              "MONSTER.DAMP_CULTIST"
+            ],
+            "room_type": "monster",
+            "turns_taken": 7
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 124,
+            "current_hp": 20,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 19,
+            "max_hp": 64,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 34,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 25,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.SOUL_FYSH_BOSS",
+            "monster_ids": [
+              "MONSTER.SOUL_FYSH"
+            ],
+            "room_type": "boss",
+            "turns_taken": 13
           }
         ]
       }
@@ -2160,7 +2309,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.NECROBINDER",
-      "current_hp": 24,
+      "current_hp": 11,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2231,11 +2380,11 @@
             "ints": [
               {
                 "name": "CurrentDamage",
-                "value": 19
+                "value": 25
               },
               {
                 "name": "IncreasedDamage",
-                "value": 6
+                "value": 12
               }
             ]
           }
@@ -2243,28 +2392,25 @@
         {
           "floor_added_to_deck": 12,
           "id": "CARD.SHROUD"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "CARD.DIRGE"
         }
       ],
       "extra_fields": {},
-      "gold": 87,
+      "gold": 124,
       "max_energy": 3,
       "max_hp": 64,
       "max_potion_slot_count": 2,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.025000006,
-        "potion_reward_odds_value": 0.20000002
+        "card_rarity_odds_value": 0.0049999924,
+        "potion_reward_odds_value": 0.4
       },
-      "potions": [
-        {
-          "id": "POTION.DEXTERITY_POTION",
-          "slot_index": 0
-        }
-      ],
       "relic_grab_bag": {
         "relic_id_lists": {
           "uncommon": [
-            "RELIC.PANTOGRAPH",
             "RELIC.LETTER_OPENER",
             "RELIC.ORNAMENTAL_FAN",
             "RELIC.AKABEKO",
@@ -2409,7 +2555,7 @@
             "ints": [
               {
                 "name": "CardsAdded",
-                "value": 6
+                "value": 7
               }
             ]
           }
@@ -2417,11 +2563,15 @@
         {
           "floor_added_to_deck": 10,
           "id": "RELIC.REPTILE_TRINKET"
+        },
+        {
+          "floor_added_to_deck": 14,
+          "id": "RELIC.PANTOGRAPH"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 93,
+          "rewards": 116,
           "shops": 28,
           "transformations": 2
         },
@@ -2573,33 +2723,33 @@
     }
   ],
   "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.SKULKING_COLONY_ELITE",
+    "encounter_id": "ENCOUNTER.SOUL_FYSH_BOSS",
     "event_id": null,
     "is_pre_finished": true,
     "parent_event_id": null,
     "reward_proportion": 1,
-    "room_type": "elite",
+    "room_type": "boss",
     "should_resume_parent_event": true
   },
   "rng": {
     "counters": {
       "up_front": 409,
-      "shuffle": 244,
+      "shuffle": 358,
       "unknown_map_point": 4,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
-      "combat_card_selection": 17,
+      "combat_card_selection": 26,
       "combat_energy_costs": 0,
-      "combat_targets": 6,
+      "combat_targets": 20,
       "monster_ai": 4,
-      "niche": 12,
+      "niche": 15,
       "combat_orbs": 0,
       "treasure_room_relics": 2
     },
     "seed": "8V1W2B8YYK"
   },
-  "run_time": 1000,
-  "save_time": 1773587583,
+  "run_time": 1433,
+  "save_time": 1773588389,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2610,7 +2760,6 @@
         "RELIC.TUNING_FORK",
         "RELIC.KUSARIGAMA",
         "RELIC.ORNAMENTAL_FAN",
-        "RELIC.PANTOGRAPH",
         "RELIC.AKABEKO",
         "RELIC.BAG_OF_MARBLES",
         "RELIC.ETERNAL_FEATHER",
@@ -2787,6 +2936,18 @@
     {
       "col": 6,
       "row": 13
+    },
+    {
+      "col": 6,
+      "row": 14
+    },
+    {
+      "col": 5,
+      "row": 15
+    },
+    {
+      "col": 3,
+      "row": 16
     }
   ],
   "win_time": 0
