@@ -4135,7 +4135,8 @@
     "RELIC.TINY_MAILBOX",
     "RELIC.PAELS_TEARS",
     "RELIC.CHEMICAL_X",
-    "RELIC.UNDYING_SIGIL"
+    "RELIC.UNDYING_SIGIL",
+    "RELIC.SMALL_CAPSULE"
   ],
   "enable_ftues": false,
   "encounter_stats": [
