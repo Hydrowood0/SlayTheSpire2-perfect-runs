@@ -3911,7 +3911,8 @@
     "CARD.BLADE_OF_INK",
     "CARD.BUBBLE_BUBBLE",
     "CARD.MASTER_PLANNER",
-    "CARD.HIDDEN_DAGGERS"
+    "CARD.HIDDEN_DAGGERS",
+    "CARD.SUPPRESS"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4037,7 +4038,8 @@
     "POTION.SKILL_POTION",
     "POTION.POTION_SHAPED_ROCK",
     "POTION.OROBIC_ACID",
-    "POTION.ENTROPIC_BREW"
+    "POTION.ENTROPIC_BREW",
+    "POTION.FRUIT_JUICE"
   ],
   "discovered_relics": [
     "RELIC.BURNING_BLOOD",
@@ -4254,7 +4256,9 @@
     "RELIC.LOOMING_FRUIT",
     "RELIC.EMPTY_CAGE",
     "RELIC.SNECKO_EYE",
-    "RELIC.RAZOR_TOOTH"
+    "RELIC.RAZOR_TOOTH",
+    "RELIC.ARCHAIC_TOOTH",
+    "RELIC.BREAD"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4549,7 +4553,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5009,7 +5013,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5089,7 +5093,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5339,7 +5343,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         }
       ]
     },
@@ -5699,7 +5703,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         }
       ]
     },
@@ -5904,7 +5908,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6024,7 +6028,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -6521,7 +6525,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 25
+          "wins": 29
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6551,7 +6555,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7101,7 +7105,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 8
+          "wins": 9
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7131,7 +7135,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7231,7 +7235,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7856,7 +7860,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 8
+          "wins": 10
         }
       ]
     },
@@ -8086,7 +8090,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -8116,7 +8120,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -8146,7 +8150,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -8246,7 +8250,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
