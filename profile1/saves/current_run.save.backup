@@ -218,7 +218,7 @@
           "ENCOUNTER.CONSTRUCT_MENAGERIE_NORMAL",
           "ENCOUNTER.THE_LOST_AND_FORGOTTEN_NORMAL"
         ],
-        "normal_encounters_visited": 4,
+        "normal_encounters_visited": 6,
         "second_boss_id": null
       },
       "saved_map": {
@@ -3513,6 +3513,160 @@
             "turns_taken": 5
           }
         ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.PERFECTED_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.STOMP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.MOLTEN_FIST"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 320,
+            "current_hp": 21,
+            "damage_taken": 14,
+            "gold_gained": 13,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 12,
+            "max_hp": 105,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.BLOCK_POTION",
+                "was_picked": true
+              }
+            ],
+            "potion_used": [
+              "POTION.ENERGY_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.AXEBOTS_NORMAL",
+            "monster_ids": [
+              "MONSTER.AXEBOT",
+              "MONSTER.AXEBOT"
+            ],
+            "room_type": "monster",
+            "turns_taken": 6
+          }
+        ]
+      },
+      {
+        "map_point_type": "monster",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "floor_added_to_deck": 46,
+                  "id": "CARD.POMMEL_STRIKE"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.AGGRESSION"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "current_upgrade_level": 1,
+                  "id": "CARD.ANGER"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "current_upgrade_level": 1,
+                "id": "CARD.POMMEL_STRIKE"
+              }
+            ],
+            "current_gold": 334,
+            "current_hp": 16,
+            "damage_taken": 17,
+            "gold_gained": 14,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 12,
+            "max_hp": 105,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.BLOCK_POTION",
+              "POTION.VULNERABLE_POTION",
+              "POTION.ATTACK_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CONSTRUCT_MENAGERIE_NORMAL",
+            "monster_ids": [
+              "MONSTER.PUNCH_CONSTRUCT",
+              "MONSTER.CUBEX_CONSTRUCT",
+              "MONSTER.CUBEX_CONSTRUCT"
+            ],
+            "room_type": "monster",
+            "turns_taken": 4
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 334,
+            "current_hp": 47,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 31,
+            "max_hp": 105,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
@@ -3528,7 +3682,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.IRONCLAD",
-      "current_hp": 23,
+      "current_hp": 47,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -3631,6 +3785,11 @@
           "current_upgrade_level": 1,
           "floor_added_to_deck": 44,
           "id": "CARD.BURNING_PACT"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 46,
+          "id": "CARD.POMMEL_STRIKE"
         }
       ],
       "discovered_cards": [
@@ -3640,29 +3799,15 @@
         "RELIC.LOOMING_FRUIT"
       ],
       "extra_fields": {},
-      "gold": 307,
+      "gold": 334,
       "max_energy": 3,
       "max_hp": 105,
       "max_potion_slot_count": 3,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.02,
+        "card_rarity_odds_value": -0.03,
         "potion_reward_odds_value": 0.6
       },
-      "potions": [
-        {
-          "id": "POTION.VULNERABLE_POTION",
-          "slot_index": 0
-        },
-        {
-          "id": "POTION.ATTACK_POTION",
-          "slot_index": 1
-        },
-        {
-          "id": "POTION.ENERGY_POTION",
-          "slot_index": 2
-        }
-      ],
       "relic_grab_bag": {
         "relic_id_lists": {
           "uncommon": [
@@ -3821,7 +3966,7 @@
             "ints": [
               {
                 "name": "AttacksPlayed",
-                "value": 87
+                "value": 106
               }
             ]
           }
@@ -3857,7 +4002,7 @@
             "ints": [
               {
                 "name": "AttacksPlayed",
-                "value": 2
+                "value": 1
               }
             ]
           }
@@ -3893,7 +4038,7 @@
             "bools": [
               {
                 "name": "GainEnergyInNextCombat",
-                "value": false
+                "value": true
               }
             ]
           }
@@ -3909,7 +4054,7 @@
       ],
       "rng": {
         "counters": {
-          "rewards": 275,
+          "rewards": 299,
           "shops": 6,
           "transformations": 0
         },
@@ -4064,22 +4209,22 @@
   "rng": {
     "counters": {
       "up_front": 407,
-      "shuffle": 692,
+      "shuffle": 786,
       "unknown_map_point": 15,
-      "combat_card_generation": 0,
+      "combat_card_generation": 33,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 38,
-      "monster_ai": 14,
-      "niche": 45,
+      "combat_targets": 54,
+      "monster_ai": 25,
+      "niche": 54,
       "combat_orbs": 0,
       "treasure_room_relics": 4
     },
     "seed": "5UY1XLL4E1"
   },
-  "run_time": 2978,
-  "save_time": 1773678685,
+  "run_time": 3348,
+  "save_time": 1773679262,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -4255,6 +4400,18 @@
     {
       "col": 5,
       "row": 11
+    },
+    {
+      "col": 5,
+      "row": 12
+    },
+    {
+      "col": 4,
+      "row": 13
+    },
+    {
+      "col": 3,
+      "row": 14
     }
   ],
   "win_time": 0
