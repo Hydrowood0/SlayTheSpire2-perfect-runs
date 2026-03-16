@@ -4205,7 +4205,8 @@
     "RELIC.BEAUTIFUL_BRACELET",
     "RELIC.LOOMING_FRUIT",
     "RELIC.EMPTY_CAGE",
-    "RELIC.SNECKO_EYE"
+    "RELIC.SNECKO_EYE",
+    "RELIC.RAZOR_TOOTH"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4640,7 +4641,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4660,7 +4661,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4690,7 +4691,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4775,7 +4776,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6632,7 +6633,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6652,7 +6653,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6682,7 +6683,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6712,7 +6713,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6857,7 +6858,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.REGENT",
