@@ -4309,7 +4309,10 @@
     "RELIC.RAZOR_TOOTH",
     "RELIC.ARCHAIC_TOOTH",
     "RELIC.BREAD",
-    "RELIC.JEWELRY_BOX"
+    "RELIC.JEWELRY_BOX",
+    "RELIC.SNECKO_SKULL",
+    "RELIC.HELICAL_DART",
+    "RELIC.TWISTED_FUNNEL"
   ],
   "enable_ftues": false,
   "encounter_stats": [
