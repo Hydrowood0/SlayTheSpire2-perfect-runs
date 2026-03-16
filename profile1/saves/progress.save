@@ -3828,7 +3828,10 @@
     "CARD.ALCHEMIZE",
     "CARD.HAND_OF_GREED",
     "CARD.FOLLY",
-    "CARD.DRUM_OF_BATTLE"
+    "CARD.DRUM_OF_BATTLE",
+    "CARD.DARK_EMBRACE",
+    "CARD.SPITE",
+    "CARD.PACTS_END"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4427,7 +4430,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 4
         },
         {
           "character": "CHARACTER.SILENT",
@@ -4457,7 +4460,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 4
         },
         {
           "character": "CHARACTER.SILENT",
@@ -4542,7 +4545,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4927,7 +4930,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5263,6 +5266,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 6
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5282,7 +5290,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5533,6 +5541,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -5846,6 +5859,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 2
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
         }
@@ -6349,7 +6367,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 14
+          "wins": 28
         },
         {
           "character": "CHARACTER.SILENT",
@@ -6379,7 +6397,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 6
         },
         {
           "character": "CHARACTER.SILENT",
@@ -6464,7 +6482,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 3
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6944,7 +6962,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7310,6 +7328,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 6
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7329,7 +7352,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7354,7 +7377,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7590,6 +7613,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 4
         }
       ]
     },
@@ -7605,6 +7633,11 @@
           "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
