@@ -4,7 +4,7 @@
       "id": "ACT.UNDERDOCKS",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.PHANTASMAL_GARDENERS_ELITE",
@@ -54,7 +54,7 @@
           "EVENT.DROWNING_BEACON",
           "EVENT.RANWID_THE_ELDER"
         ],
-        "events_visited": 6,
+        "events_visited": 7,
         "normal_encounter_ids": [
           "ENCOUNTER.TOADPOLES_WEAK",
           "ENCOUNTER.CORPSE_SLUGS_WEAK",
@@ -1169,7 +1169,8 @@
     "EVENT.SUNKEN_STATUE",
     "EVENT.WATERLOGGED_SCRIPTORIUM",
     "EVENT.SLIPPERY_BRIDGE",
-    "EVENT.TEA_MASTER"
+    "EVENT.TEA_MASTER",
+    "EVENT.SPIRALING_WHIRLPOOL"
   ],
   "extra_fields": {
     "started_with_neow": true
@@ -1867,15 +1868,41 @@
         "map_point_type": "monster",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 13,
+                  "id": "CARD.BOUNCING_FLASK"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.DODGE_AND_ROLL"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.HAND_TRICK"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.BOUNCING_FLASK"
+              }
+            ],
+            "current_gold": 235,
+            "current_hp": 31,
             "damage_taken": 3,
-            "gold_gained": 0,
+            "gold_gained": 8,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 70,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1
@@ -1892,27 +1919,219 @@
             "turns_taken": 6
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 235,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SPIRALING_WHIRLPOOL.pages.INITIAL.options.DRINK.title",
+                  "table": "events"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 23,
+            "max_hp": 70,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.SPIRALING_WHIRLPOOL",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "shop",
+        "player_stats": [
+          {
+            "bought_colorless": [
+              "CARD.PANACHE"
+            ],
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.LEADING_STRIKE"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.RICOCHET"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.BACKFLIP"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.FOOTWORK"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.REND"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.PANACHE"
+              },
+              {
+                "id": "CARD.HIDDEN_DAGGERS"
+              }
+            ],
+            "cards_removed": [
+              {
+                "floor_added_to_deck": 1,
+                "id": "CARD.STRIKE_SILENT"
+              }
+            ],
+            "current_gold": 38,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 197,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 70,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.POWER_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.SWIFT_POTION",
+                "was_picked": false
+              },
+              {
+                "choice": "POTION.GAMBLERS_BREW",
+                "was_picked": false
+              }
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.STONE_CALENDAR",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.WAR_PAINT",
+                "was_picked": false
+              },
+              {
+                "choice": "RELIC.CHEMICAL_X",
+                "was_picked": false
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "shop",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 38,
+            "current_hp": 54,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 70,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.HIDDEN_DAGGERS"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 22,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
+            "monster_ids": [
+              "MONSTER.LAGAVULIN_MATRIARCH"
+            ],
+            "room_type": "boss",
+            "turns_taken": 9
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -6,
-    "unknown_map_point_monster_odds_value": 0.3,
+    "unknown_map_point_elite_odds_value": -7,
+    "unknown_map_point_monster_odds_value": 0.4,
     "unknown_map_point_shop_odds_value": 0.17999999,
-    "unknown_map_point_treasure_odds_value": 0.11999999
+    "unknown_map_point_treasure_odds_value": 0.13999999
   },
   "platform_type": "steam",
   "players": [
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 31,
+      "current_hp": 32,
       "deck": [
-        {
-          "floor_added_to_deck": 1,
-          "id": "CARD.STRIKE_SILENT"
-        },
         {
           "floor_added_to_deck": 1,
           "id": "CARD.STRIKE_SILENT"
@@ -1978,21 +2197,36 @@
         {
           "floor_added_to_deck": 11,
           "id": "CARD.OUTBREAK"
+        },
+        {
+          "floor_added_to_deck": 13,
+          "id": "CARD.BOUNCING_FLASK"
+        },
+        {
+          "floor_added_to_deck": 15,
+          "id": "CARD.PANACHE"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 15,
+          "id": "CARD.HIDDEN_DAGGERS"
         }
       ],
       "discovered_cards": [
         "CARD.BUBBLE_BUBBLE",
         "CARD.MASTER_PLANNER"
       ],
-      "extra_fields": {},
-      "gold": 227,
+      "extra_fields": {
+        "card_shop_removals_used": 1
+      },
+      "gold": 38,
       "max_energy": 3,
       "max_hp": 70,
       "max_potion_slot_count": 2,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": -0.01,
-        "potion_reward_odds_value": 0.5
+        "card_rarity_odds_value": 0.02,
+        "potion_reward_odds_value": 0.6
       },
       "potions": [
         {
@@ -2059,8 +2293,7 @@
             "RELIC.PERMAFROST",
             "RELIC.CENTENNIAL_PUZZLE",
             "RELIC.BOOK_OF_FIVE_RINGS",
-            "RELIC.REGAL_PILLOW",
-            "RELIC.WAR_PAINT"
+            "RELIC.REGAL_PILLOW"
           ],
           "rare": [
             "RELIC.MOLTEN_EGG",
@@ -2097,8 +2330,7 @@
             "RELIC.FROZEN_EGG",
             "RELIC.WHITE_BEAST_STATUE",
             "RELIC.PAPER_KRANE",
-            "RELIC.STURDY_CLAMP",
-            "RELIC.STONE_CALENDAR"
+            "RELIC.STURDY_CLAMP"
           ],
           "shop": [
             "RELIC.MINIATURE_TENT",
@@ -2125,8 +2357,7 @@
             "RELIC.THE_ABACUS",
             "RELIC.MYSTIC_LIGHTER",
             "RELIC.GHOST_SEED",
-            "RELIC.BREAD",
-            "RELIC.CHEMICAL_X"
+            "RELIC.BREAD"
           ]
         }
       },
@@ -2158,8 +2389,8 @@
       ],
       "rng": {
         "counters": {
-          "rewards": 60,
-          "shops": 0,
+          "rewards": 85,
+          "shops": 28,
           "transformations": 0
         },
         "seed": 1678291123
@@ -2310,33 +2541,33 @@
     }
   ],
   "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.CULTISTS_NORMAL",
+    "encounter_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
     "event_id": null,
     "is_pre_finished": true,
     "parent_event_id": null,
     "reward_proportion": 1,
-    "room_type": "monster",
+    "room_type": "boss",
     "should_resume_parent_event": true
   },
   "rng": {
     "counters": {
       "up_front": 408,
-      "shuffle": 162,
-      "unknown_map_point": 5,
+      "shuffle": 216,
+      "unknown_map_point": 6,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 0,
+      "combat_targets": 6,
       "monster_ai": 3,
-      "niche": 11,
+      "niche": 12,
       "combat_orbs": 0,
       "treasure_room_relics": 1
     },
     "seed": "YBZECFKR4N"
   },
-  "run_time": 466,
-  "save_time": 1773688503,
+  "run_time": 729,
+  "save_time": 1773688815,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2383,7 +2614,6 @@
         "RELIC.AMETHYST_AUBERGINE",
         "RELIC.MEAL_TICKET",
         "RELIC.POTION_BELT",
-        "RELIC.WAR_PAINT",
         "RELIC.PENDULUM",
         "RELIC.BOOK_OF_FIVE_RINGS",
         "RELIC.ANCHOR",
@@ -2406,7 +2636,6 @@
         "RELIC.CLOAK_CLASP",
         "RELIC.MEAT_ON_THE_BONE",
         "RELIC.OLD_COIN",
-        "RELIC.STONE_CALENDAR",
         "RELIC.THE_COURIER",
         "RELIC.SHURIKEN",
         "RELIC.GIRYA",
@@ -2459,8 +2688,7 @@
         "RELIC.DINGY_RUG",
         "RELIC.SCREAMING_FLAGON",
         "RELIC.GHOST_SEED",
-        "RELIC.DOLLYS_MIRROR",
-        "RELIC.CHEMICAL_X"
+        "RELIC.DOLLYS_MIRROR"
       ],
       "event": [
         "RELIC.FRESNEL_LENS"
@@ -2524,6 +2752,22 @@
     {
       "col": 5,
       "row": 12
+    },
+    {
+      "col": 6,
+      "row": 13
+    },
+    {
+      "col": 6,
+      "row": 14
+    },
+    {
+      "col": 6,
+      "row": 15
+    },
+    {
+      "col": 3,
+      "row": 16
     }
   ],
   "win_time": 0

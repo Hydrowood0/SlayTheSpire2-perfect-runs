@@ -3910,7 +3910,8 @@
     "CARD.HAZE",
     "CARD.BLADE_OF_INK",
     "CARD.BUBBLE_BUBBLE",
-    "CARD.MASTER_PLANNER"
+    "CARD.MASTER_PLANNER",
+    "CARD.HIDDEN_DAGGERS"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -6023,7 +6024,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
@@ -8245,7 +8246,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     },
