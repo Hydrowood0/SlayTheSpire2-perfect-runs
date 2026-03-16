@@ -3859,7 +3859,10 @@
     "CARD.DRUM_OF_BATTLE",
     "CARD.DARK_EMBRACE",
     "CARD.SPITE",
-    "CARD.PACTS_END"
+    "CARD.PACTS_END",
+    "CARD.HAND_TRICK",
+    "CARD.REFLEX",
+    "CARD.HAZE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -5365,6 +5368,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5388,6 +5396,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -5455,6 +5468,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5473,6 +5491,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -5505,6 +5528,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5518,6 +5546,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -5735,6 +5768,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5913,6 +5951,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -7462,6 +7505,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7485,6 +7533,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -7512,6 +7565,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 5
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -7572,6 +7630,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -7587,6 +7650,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7600,6 +7668,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -7862,6 +7935,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -8080,6 +8158,11 @@
         },
         {
           "character": "CHARACTER.NECROBINDER",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }

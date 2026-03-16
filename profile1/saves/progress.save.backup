@@ -31,7 +31,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -66,7 +66,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -136,7 +136,7 @@
         {
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -161,28 +161,28 @@
       ]
     }
   ],
-  "architect_damage": 38500,
+  "architect_damage": 40112,
   "card_stats": [
     {
       "id": "CARD.STRIKE_IRONCLAD",
       "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
-      "times_won": 3
+      "times_won": 4
     },
     {
       "id": "CARD.DEFEND_IRONCLAD",
       "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
-      "times_won": 3
+      "times_won": 4
     },
     {
       "id": "CARD.BASH",
       "times_lost": 0,
       "times_picked": 0,
       "times_skipped": 0,
-      "times_won": 3
+      "times_won": 4
     },
     {
       "id": "CARD.TREMBLE",
@@ -195,21 +195,21 @@
       "id": "CARD.BREAKTHROUGH",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 8,
+      "times_skipped": 10,
       "times_won": 1
     },
     {
       "id": "CARD.DISMANTLE",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 0,
+      "times_skipped": 1,
       "times_won": 1
     },
     {
       "id": "CARD.STOMP",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 2,
+      "times_skipped": 3,
       "times_won": 1
     },
     {
@@ -223,15 +223,15 @@
       "id": "CARD.RAGE",
       "times_lost": 0,
       "times_picked": 3,
-      "times_skipped": 0,
+      "times_skipped": 1,
       "times_won": 3
     },
     {
       "id": "CARD.PYRE",
       "times_lost": 0,
-      "times_picked": 1,
+      "times_picked": 2,
       "times_skipped": 1,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.BATTLE_TRANCE",
@@ -243,16 +243,16 @@
     {
       "id": "CARD.BLOODLETTING",
       "times_lost": 0,
-      "times_picked": 2,
-      "times_skipped": 3,
-      "times_won": 2
+      "times_picked": 3,
+      "times_skipped": 5,
+      "times_won": 3
     },
     {
       "id": "CARD.DEMON_FORM",
       "times_lost": 0,
       "times_picked": 1,
       "times_skipped": 1,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.JUGGLING",
@@ -271,23 +271,23 @@
     {
       "id": "CARD.PILLAGE",
       "times_lost": 0,
-      "times_picked": 1,
+      "times_picked": 2,
       "times_skipped": 0,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.TAUNT",
       "times_lost": 0,
-      "times_picked": 1,
+      "times_picked": 2,
       "times_skipped": 2,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.HEADBUTT",
       "times_lost": 0,
-      "times_picked": 1,
+      "times_picked": 2,
       "times_skipped": 3,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.RESTLESSNESS",
@@ -299,9 +299,9 @@
     {
       "id": "CARD.COLOSSUS",
       "times_lost": 0,
-      "times_picked": 1,
+      "times_picked": 2,
       "times_skipped": 0,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.RAMPAGE",
@@ -314,7 +314,7 @@
       "id": "CARD.TWIN_STRIKE",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 6,
+      "times_skipped": 7,
       "times_won": 1
     },
     {
@@ -342,7 +342,7 @@
       "id": "CARD.BLOOD_WALL",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 3,
+      "times_skipped": 7,
       "times_won": 0
     },
     {
@@ -356,35 +356,35 @@
       "id": "CARD.ANGER",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 6,
+      "times_skipped": 9,
       "times_won": 1
     },
     {
       "id": "CARD.IRON_WAVE",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 11,
+      "times_skipped": 13,
       "times_won": 0
     },
     {
       "id": "CARD.CINDER",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.SHRUG_IT_OFF",
       "times_lost": 0,
-      "times_picked": 0,
-      "times_skipped": 6,
-      "times_won": 0
+      "times_picked": 1,
+      "times_skipped": 7,
+      "times_won": 1
     },
     {
       "id": "CARD.ARMAMENTS",
       "times_lost": 0,
       "times_picked": 2,
-      "times_skipped": 7,
+      "times_skipped": 9,
       "times_won": 2
     },
     {
@@ -398,7 +398,7 @@
       "id": "CARD.BLUDGEON",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 6,
       "times_won": 0
     },
     {
@@ -419,28 +419,28 @@
       "id": "CARD.UPPERCUT",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.WHIRLWIND",
       "times_lost": 0,
-      "times_picked": 0,
+      "times_picked": 1,
       "times_skipped": 4,
-      "times_won": 0
+      "times_won": 1
     },
     {
       "id": "CARD.HEMOKINESIS",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
       "id": "CARD.PERFECTED_STRIKE",
       "times_lost": 0,
-      "times_picked": 1,
-      "times_skipped": 6,
+      "times_picked": 2,
+      "times_skipped": 11,
       "times_won": 2
     },
     {
@@ -468,22 +468,22 @@
       "id": "CARD.FLAME_BARRIER",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 4,
       "times_won": 0
     },
     {
       "id": "CARD.SWORD_BOOMERANG",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 7,
+      "times_skipped": 8,
       "times_won": 0
     },
     {
       "id": "CARD.STAMPEDE",
       "times_lost": 0,
-      "times_picked": 0,
+      "times_picked": 1,
       "times_skipped": 3,
-      "times_won": 0
+      "times_won": 1
     },
     {
       "id": "CARD.GOLD_AXE",
@@ -496,7 +496,7 @@
       "id": "CARD.STOKE",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 0
     },
     {
@@ -509,15 +509,15 @@
     {
       "id": "CARD.HAVOC",
       "times_lost": 0,
-      "times_picked": 1,
-      "times_skipped": 4,
-      "times_won": 1
+      "times_picked": 2,
+      "times_skipped": 5,
+      "times_won": 2
     },
     {
       "id": "CARD.BODY_SLAM",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 4,
+      "times_skipped": 6,
       "times_won": 1
     },
     {
@@ -2015,7 +2015,7 @@
       "id": "CARD.MOLTEN_FIST",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 2,
+      "times_skipped": 4,
       "times_won": 2
     },
     {
@@ -2028,9 +2028,9 @@
     {
       "id": "CARD.FEEL_NO_PAIN",
       "times_lost": 0,
-      "times_picked": 1,
+      "times_picked": 2,
       "times_skipped": 1,
-      "times_won": 1
+      "times_won": 2
     },
     {
       "id": "CARD.JUGGERNAUT",
@@ -2042,9 +2042,9 @@
     {
       "id": "CARD.POMMEL_STRIKE",
       "times_lost": 0,
-      "times_picked": 2,
-      "times_skipped": 1,
-      "times_won": 2
+      "times_picked": 3,
+      "times_skipped": 4,
+      "times_won": 3
     },
     {
       "id": "CARD.ASHEN_STRIKE",
@@ -2063,30 +2063,30 @@
     {
       "id": "CARD.VICIOUS",
       "times_lost": 0,
-      "times_picked": 2,
+      "times_picked": 3,
       "times_skipped": 2,
-      "times_won": 2
+      "times_won": 3
     },
     {
       "id": "CARD.CASCADE",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 1
     },
     {
       "id": "CARD.OFFERING",
       "times_lost": 0,
-      "times_picked": 1,
-      "times_skipped": 0,
-      "times_won": 1
+      "times_picked": 2,
+      "times_skipped": 1,
+      "times_won": 2
     },
     {
       "id": "CARD.BURNING_PACT",
       "times_lost": 0,
-      "times_picked": 0,
+      "times_picked": 1,
       "times_skipped": 2,
-      "times_won": 0
+      "times_won": 1
     },
     {
       "id": "CARD.ULTIMATE_STRIKE",
@@ -2099,7 +2099,7 @@
       "id": "CARD.FIGHT_ME",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 3,
+      "times_skipped": 4,
       "times_won": 0
     },
     {
@@ -2113,7 +2113,7 @@
       "id": "CARD.FEED",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 1,
+      "times_skipped": 2,
       "times_won": 1
     },
     {
@@ -2981,7 +2981,7 @@
       "id": "CARD.AGGRESSION",
       "times_lost": 0,
       "times_picked": 1,
-      "times_skipped": 0,
+      "times_skipped": 1,
       "times_won": 1
     },
     {
@@ -3009,7 +3009,7 @@
       "id": "CARD.UNRELENTING",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 4,
+      "times_skipped": 6,
       "times_won": 0
     },
     {
@@ -3044,7 +3044,7 @@
       "id": "CARD.SECOND_WIND",
       "times_lost": 0,
       "times_picked": 0,
-      "times_skipped": 2,
+      "times_skipped": 3,
       "times_won": 0
     },
     {
@@ -3256,19 +3256,47 @@
       "times_picked": 0,
       "times_skipped": 1,
       "times_won": 0
+    },
+    {
+      "id": "CARD.DARK_EMBRACE",
+      "times_lost": 0,
+      "times_picked": 1,
+      "times_skipped": 0,
+      "times_won": 1
+    },
+    {
+      "id": "CARD.DRUM_OF_BATTLE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.BRAND",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
+    },
+    {
+      "id": "CARD.SPITE",
+      "times_lost": 0,
+      "times_picked": 0,
+      "times_skipped": 1,
+      "times_won": 0
     }
   ],
   "character_stats": [
     {
-      "best_win_streak": 3,
-      "current_streak": 3,
+      "best_win_streak": 4,
+      "current_streak": 4,
       "fastest_win_time": 2624,
       "id": "CHARACTER.IRONCLAD",
-      "max_ascension": 3,
-      "playtime": 8912,
-      "preferred_ascension": 3,
+      "max_ascension": 4,
+      "playtime": 12815,
+      "preferred_ascension": 4,
       "total_losses": 0,
-      "total_wins": 3
+      "total_wins": 4
     },
     {
       "best_win_streak": 3,
@@ -3831,7 +3859,10 @@
     "CARD.DRUM_OF_BATTLE",
     "CARD.DARK_EMBRACE",
     "CARD.SPITE",
-    "CARD.PACTS_END"
+    "CARD.PACTS_END",
+    "CARD.HAND_TRICK",
+    "CARD.REFLEX",
+    "CARD.HAZE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -5337,6 +5368,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5360,6 +5396,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -5427,6 +5468,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5445,6 +5491,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -5477,6 +5528,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5490,6 +5546,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -5707,6 +5768,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7434,6 +7500,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7457,6 +7528,11 @@
         },
         {
           "character": "CHARACTER.IRONCLAD",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -7484,6 +7560,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 5
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 3
         }
       ]
     },
@@ -7544,6 +7625,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 2
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -7559,6 +7645,11 @@
           "character": "CHARACTER.IRONCLAD",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7572,6 +7663,11 @@
         },
         {
           "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
           "losses": 0,
           "wins": 1
         }
@@ -7834,6 +7930,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -8485,7 +8586,7 @@
       "state": "revealed"
     }
   ],
-  "floors_climbed": 1210,
+  "floors_climbed": 1258,
   "ftue_completed": [
     "accept_tutorials_ftue",
     "combat_reward_ftue"
@@ -8495,7 +8596,7 @@
   "preferred_multiplayer_ascension": 0,
   "schema_version": 21,
   "test_subject_kills": 12,
-  "total_playtime": 103291,
+  "total_playtime": 107194,
   "total_unlocks": 18,
   "unique_id": "FYSI9P7",
   "unlocked_achievements": [],

@@ -4,7 +4,7 @@
       "id": "ACT.UNDERDOCKS",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.TERROR_EEL_ELITE",
@@ -2028,6 +2028,35 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 43,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
+            "monster_ids": [
+              "MONSTER.LAGAVULIN_MATRIARCH"
+            ],
+            "room_type": "boss",
+            "turns_taken": 11
+          }
+        ]
       }
     ]
   ],
@@ -2043,7 +2072,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 44,
+      "current_hp": 3,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2476,26 +2505,34 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "boss",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 415,
-      "shuffle": 194,
+      "shuffle": 263,
       "unknown_map_point": 5,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 9,
+      "combat_targets": 18,
       "monster_ai": 10,
-      "niche": 10,
+      "niche": 11,
       "combat_orbs": 0,
       "treasure_room_relics": 1
     },
     "seed": "4ZUAR08S68"
   },
-  "run_time": 846,
-  "save_time": 1773681176,
+  "run_time": 1032,
+  "save_time": 1773681390,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
