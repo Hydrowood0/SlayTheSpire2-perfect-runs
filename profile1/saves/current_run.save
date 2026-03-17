@@ -54,7 +54,7 @@
           "EVENT.RANWID_THE_ELDER",
           "EVENT.SLIPPERY_BRIDGE"
         ],
-        "events_visited": 0,
+        "events_visited": 1,
         "normal_encounter_ids": [
           "ENCOUNTER.SEAPUNK_WEAK",
           "ENCOUNTER.SLUDGE_SPINNER_WEAK",
@@ -1243,6 +1243,89 @@
     "started_with_neow": true
   },
   "map_drawings": "H4sIAAAAAAAECmNgYGAAABzfRCEEAAAA",
+  "map_point_history": [
+    [
+      {
+        "map_point_type": "ancient",
+        "player_stats": [
+          {
+            "ancient_choice": [
+              {
+                "TextKey": "BOOMING_CONCH",
+                "title": {
+                  "key": "BOOMING_CONCH.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              },
+              {
+                "TextKey": "LEAD_PAPERWEIGHT",
+                "title": {
+                  "key": "LEAD_PAPERWEIGHT.title",
+                  "table": "relics"
+                },
+                "was_chosen": true
+              },
+              {
+                "TextKey": "CURSED_PEARL",
+                "title": {
+                  "key": "CURSED_PEARL.title",
+                  "table": "relics"
+                },
+                "was_chosen": false
+              }
+            ],
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.FISTICUFFS"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.PROWESS"
+              }
+            ],
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "LEAD_PAPERWEIGHT.title",
+                  "table": "relics"
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 60,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.LEAD_PAPERWEIGHT",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.NEOW",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      }
+    ]
+  ],
   "modifiers": [],
   "odds": {
     "unknown_map_point_elite_odds_value": -1,
@@ -1255,7 +1338,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.REGENT",
-      "current_hp": 75,
+      "current_hp": 60,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -1300,7 +1383,14 @@
         {
           "floor_added_to_deck": 1,
           "id": "CARD.ASCENDERS_BANE"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "CARD.PROWESS"
         }
+      ],
+      "discovered_cards": [
+        "CARD.PROWESS"
       ],
       "extra_fields": {},
       "gold": 99,
@@ -1450,11 +1540,15 @@
         {
           "floor_added_to_deck": 1,
           "id": "RELIC.DIVINE_RIGHT"
+        },
+        {
+          "floor_added_to_deck": 1,
+          "id": "RELIC.LEAD_PAPERWEIGHT"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 0,
+          "rewards": 6,
           "shops": 0,
           "transformations": 0
         },
@@ -1607,7 +1701,15 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": null,
+    "event_id": "EVENT.NEOW",
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 0,
+    "room_type": "event",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 410,
@@ -1625,8 +1727,8 @@
     },
     "seed": "GJR71KK9QU"
   },
-  "run_time": 1,
-  "save_time": 1773736546,
+  "run_time": 13,
+  "save_time": 1773736558,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {

@@ -4040,7 +4040,8 @@
     "CARD.ARSENAL",
     "CARD.ENTHRALLED",
     "CARD.SUPERMASSIVE",
-    "CARD.ROYALTIES"
+    "CARD.ROYALTIES",
+    "CARD.PROWESS"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
