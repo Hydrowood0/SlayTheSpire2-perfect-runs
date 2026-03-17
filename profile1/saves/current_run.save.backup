@@ -133,7 +133,7 @@
           "EVENT.WELCOME_TO_WONGOS",
           "EVENT.SYMBIOTE"
         ],
-        "events_visited": 4,
+        "events_visited": 5,
         "normal_encounter_ids": [
           "ENCOUNTER.EXOSKELETONS_WEAK",
           "ENCOUNTER.THIEVING_HOPPER_WEAK",
@@ -1009,7 +1009,8 @@
     "EVENT.SUNKEN_STATUE",
     "EVENT.FAKE_MERCHANT",
     "EVENT.LOST_WISP",
-    "EVENT.SLIPPERY_BRIDGE"
+    "EVENT.SLIPPERY_BRIDGE",
+    "EVENT.RELIC_TRADER"
   ],
   "extra_fields": {
     "started_with_neow": true
@@ -2656,20 +2657,58 @@
         "map_point_type": "elite",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 30,
+                  "id": "CARD.TYRANNY"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.GUIDING_STAR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.HEGEMONY"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.TYRANNY"
+              }
+            ],
+            "current_gold": 137,
+            "current_hp": 35,
             "damage_taken": 12,
-            "gold_gained": 0,
+            "gold_gained": 27,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 1,
-            "max_hp": 0,
+            "max_hp": 78,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.FIRE_POTION",
+                "was_picked": true
+              }
+            ],
             "potion_used": [
               "POTION.DISTILLED_CHAOS"
+            ],
+            "relic_choices": [
+              {
+                "choice": "RELIC.WHITE_STAR",
+                "was_picked": true
+              }
             ]
           }
         ],
@@ -2683,22 +2722,135 @@
             "turns_taken": 5
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 137,
+            "current_hp": 42,
+            "damage_taken": 0,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "RELIC_TRADER.pages.INITIAL.options.TOP.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "TopRelicOwned": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "音叉"
+                  },
+                  "TopRelicNew": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "草莓"
+                  },
+                  "MiddleRelicOwned": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "臂甲"
+                  },
+                  "MiddleRelicNew": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "灯笼"
+                  },
+                  "BottomRelicOwned": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "怀表"
+                  },
+                  "BottomRelicNew": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "佛珠手链"
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 7,
+            "max_hp": 85,
+            "max_hp_gained": 7,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.STRAWBERRY",
+                "was_picked": true
+              }
+            ],
+            "relics_removed": [
+              "RELIC.TUNING_FORK"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.RELIC_TRADER",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 137,
+            "current_hp": 67,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 25,
+            "max_hp": 85,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH",
+              "HEAL"
+            ],
+            "upgraded_cards": [
+              "CARD.TYRANNY"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -5,
-    "unknown_map_point_monster_odds_value": 0.5,
-    "unknown_map_point_shop_odds_value": 0.12,
-    "unknown_map_point_treasure_odds_value": 0.02
+    "unknown_map_point_elite_odds_value": -6,
+    "unknown_map_point_monster_odds_value": 0.6,
+    "unknown_map_point_shop_odds_value": 0.14999999,
+    "unknown_map_point_treasure_odds_value": 0.04
   },
   "platform_type": "steam",
   "players": [
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.REGENT",
-      "current_hp": 35,
+      "current_hp": 67,
       "deck": [
         {
           "enchantment": {
@@ -2814,6 +2966,11 @@
         {
           "floor_added_to_deck": 29,
           "id": "CARD.ALIGNMENT"
+        },
+        {
+          "current_upgrade_level": 1,
+          "floor_added_to_deck": 30,
+          "id": "CARD.TYRANNY"
         }
       ],
       "discovered_enemies": [
@@ -2822,19 +2979,23 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 110,
+      "gold": 137,
       "max_energy": 3,
-      "max_hp": 78,
+      "max_hp": 85,
       "max_potion_slot_count": 2,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": 0.04,
-        "potion_reward_odds_value": 0.5
+        "card_rarity_odds_value": -0.03,
+        "potion_reward_odds_value": 0.6
       },
       "potions": [
         {
           "id": "POTION.TOUCH_OF_INSANITY",
           "slot_index": 0
+        },
+        {
+          "id": "POTION.FIRE_POTION",
+          "slot_index": 1
         }
       ],
       "relic_grab_bag": {
@@ -2869,9 +3030,6 @@
             "RELIC.PEAR"
           ],
           "common": [
-            "RELIC.STRAWBERRY",
-            "RELIC.LANTERN",
-            "RELIC.JUZU_BRACELET",
             "RELIC.POTION_BELT",
             "RELIC.FESTIVE_POPPER",
             "RELIC.PERMAFROST",
@@ -2895,7 +3053,6 @@
             "RELIC.BLOOD_VIAL"
           ],
           "rare": [
-            "RELIC.WHITE_STAR",
             "RELIC.GAME_PIECE",
             "RELIC.TUNGSTEN_ROD",
             "RELIC.INTIMIDATING_HELMET",
@@ -3018,7 +3175,7 @@
             "bools": [
               {
                 "name": "GainEnergyInNextCombat",
-                "value": false
+                "value": true
               }
             ]
           }
@@ -3026,18 +3183,6 @@
         {
           "floor_added_to_deck": 20,
           "id": "RELIC.FAKE_STRIKE_DUMMY"
-        },
-        {
-          "floor_added_to_deck": 26,
-          "id": "RELIC.TUNING_FORK",
-          "props": {
-            "ints": [
-              {
-                "name": "SkillsPlayed",
-                "value": 9
-              }
-            ]
-          }
         },
         {
           "floor_added_to_deck": 28,
@@ -3050,11 +3195,19 @@
         {
           "floor_added_to_deck": 29,
           "id": "RELIC.KUSARIGAMA"
+        },
+        {
+          "floor_added_to_deck": 30,
+          "id": "RELIC.WHITE_STAR"
+        },
+        {
+          "floor_added_to_deck": 31,
+          "id": "RELIC.STRAWBERRY"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 153,
+          "rewards": 170,
           "shops": 34,
           "transformations": 0
         },
@@ -3207,20 +3360,12 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.ENTOMANCER_ELITE",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "elite",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 409,
       "shuffle": 436,
-      "unknown_map_point": 8,
+      "unknown_map_point": 9,
       "combat_card_generation": 30,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
@@ -3233,8 +3378,8 @@
     },
     "seed": "A1JPU0BG64"
   },
-  "run_time": 1603,
-  "save_time": 1773734391,
+  "run_time": 1638,
+  "save_time": 1773734480,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3268,7 +3413,6 @@
       "common": [
         "RELIC.CENTENNIAL_PUZZLE",
         "RELIC.PERMAFROST",
-        "RELIC.STRAWBERRY",
         "RELIC.ANCHOR",
         "RELIC.HAPPY_FLOWER",
         "RELIC.AMETHYST_AUBERGINE",
@@ -3276,7 +3420,6 @@
         "RELIC.WHETSTONE",
         "RELIC.POTION_BELT",
         "RELIC.BRONZE_SCALES",
-        "RELIC.LANTERN",
         "RELIC.WAR_PAINT",
         "RELIC.REGAL_PILLOW",
         "RELIC.TINY_MAILBOX",
@@ -3287,8 +3430,7 @@
         "RELIC.ODDLY_SMOOTH_STONE",
         "RELIC.BLOOD_VIAL",
         "RELIC.BAG_OF_PREPARATION",
-        "RELIC.BOOK_OF_FIVE_RINGS",
-        "RELIC.JUZU_BRACELET"
+        "RELIC.BOOK_OF_FIVE_RINGS"
       ],
       "rare": [
         "RELIC.RAZOR_TOOTH",
@@ -3308,7 +3450,6 @@
         "RELIC.CAPTAINS_WHEEL",
         "RELIC.THE_COURIER",
         "RELIC.FROZEN_EGG",
-        "RELIC.WHITE_STAR",
         "RELIC.MEAT_ON_THE_BONE",
         "RELIC.UNCEASING_TOP",
         "RELIC.CLOAK_CLASP",
@@ -3414,6 +3555,18 @@
     {
       "col": 2,
       "row": 12
+    },
+    {
+      "col": 1,
+      "row": 13
+    },
+    {
+      "col": 2,
+      "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0
