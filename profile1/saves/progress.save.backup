@@ -5211,7 +5211,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7398,7 +7398,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 12
+          "wins": 13
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7428,7 +7428,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 9
+          "wins": 10
         },
         {
           "character": "CHARACTER.REGENT",
@@ -8113,7 +8113,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.IRONCLAD",

@@ -150,7 +150,7 @@
           "ENCOUNTER.SLUMBERING_BEETLE_NORMAL",
           "ENCOUNTER.MYTES_NORMAL"
         ],
-        "normal_encounters_visited": 7,
+        "normal_encounters_visited": 8,
         "second_boss_id": null
       },
       "saved_map": {
@@ -2791,22 +2791,110 @@
             "turns_taken": 7
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.FLECHETTES"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.POISONED_STAB"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ACCURACY"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 514,
+            "current_hp": 5,
+            "damage_taken": 0,
+            "gold_gained": 20,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.DUPLICATOR"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.BOWLBUGS_NORMAL",
+            "monster_ids": [
+              "MONSTER.BOWLBUG_ROCK",
+              "MONSTER.BOWLBUG_NECTAR",
+              "MONSTER.BOWLBUG_SILK"
+            ],
+            "room_type": "monster",
+            "turns_taken": 1
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 514,
+            "current_hp": 25,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 20,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.ATTACK_POTION",
+                "was_picked": true
+              }
+            ],
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -4,
-    "unknown_map_point_monster_odds_value": 0.4,
-    "unknown_map_point_shop_odds_value": 0.12,
-    "unknown_map_point_treasure_odds_value": 0.08
+    "unknown_map_point_elite_odds_value": -5,
+    "unknown_map_point_monster_odds_value": 0.1,
+    "unknown_map_point_shop_odds_value": 0.14999999,
+    "unknown_map_point_treasure_odds_value": 0.099999994
   },
   "platform_type": "steam",
   "players": [
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 5,
+      "current_hp": 25,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2916,18 +3004,18 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 494,
+      "gold": 514,
       "max_energy": 3,
       "max_hp": 67,
       "max_potion_slot_count": 2,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": 0.059999995,
-        "potion_reward_odds_value": 0.5
+        "card_rarity_odds_value": 0.08999999,
+        "potion_reward_odds_value": 0.6
       },
       "potions": [
         {
-          "id": "POTION.DUPLICATOR",
+          "id": "POTION.ATTACK_POTION",
           "slot_index": 0
         },
         {
@@ -3104,7 +3192,7 @@
       ],
       "rng": {
         "counters": {
-          "rewards": 199,
+          "rewards": 212,
           "shops": 28,
           "transformations": 2
         },
@@ -3261,22 +3349,22 @@
   "rng": {
     "counters": {
       "up_front": 421,
-      "shuffle": 520,
-      "unknown_map_point": 8,
+      "shuffle": 543,
+      "unknown_map_point": 9,
       "combat_card_generation": 38,
       "combat_potion_generation": 4,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 43,
+      "combat_targets": 49,
       "monster_ai": 25,
-      "niche": 29,
+      "niche": 32,
       "combat_orbs": 0,
       "treasure_room_relics": 2
     },
     "seed": "2J7U1GPZM6"
   },
-  "run_time": 1643,
-  "save_time": 1773745977,
+  "run_time": 1679,
+  "save_time": 1773746102,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3460,6 +3548,14 @@
     {
       "col": 5,
       "row": 13
+    },
+    {
+      "col": 4,
+      "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0

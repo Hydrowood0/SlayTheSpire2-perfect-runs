@@ -83,7 +83,7 @@
       "id": "ACT.HIVE",
       "rooms": {
         "ancient_id": "EVENT.PAEL",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.KAISER_CRAB_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.INFESTED_PRISMS_ELITE",
@@ -2796,15 +2796,35 @@
         "map_point_type": "unknown",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "id": "CARD.FLECHETTES"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.POISONED_STAB"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.ACCURACY"
+                },
+                "was_picked": false
+              }
+            ],
+            "current_gold": 514,
+            "current_hp": 5,
             "damage_taken": 0,
-            "gold_gained": 0,
+            "gold_gained": 20,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 67,
             "max_hp_gained": 0,
             "max_hp_lost": 0,
             "player_id": 1,
@@ -2825,6 +2845,73 @@
             "turns_taken": 1
           }
         ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 514,
+            "current_hp": 25,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 20,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.ATTACK_POTION",
+                "was_picked": true
+              }
+            ],
+            "rest_site_choices": [
+              "HEAL"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 22,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.ATTACK_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.KAISER_CRAB_BOSS",
+            "monster_ids": [
+              "MONSTER.CRUSHER",
+              "MONSTER.ROCKET"
+            ],
+            "room_type": "boss",
+            "turns_taken": 9
+          }
+        ]
       }
     ]
   ],
@@ -2840,7 +2927,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 5,
+      "current_hp": 3,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2950,14 +3037,14 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 494,
+      "gold": 514,
       "max_energy": 3,
       "max_hp": 67,
       "max_potion_slot_count": 2,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": 0.059999995,
-        "potion_reward_odds_value": 0.5
+        "card_rarity_odds_value": 0.08999999,
+        "potion_reward_odds_value": 0.6
       },
       "potions": [
         {
@@ -3134,7 +3221,7 @@
       ],
       "rng": {
         "counters": {
-          "rewards": 199,
+          "rewards": 212,
           "shops": 28,
           "transformations": 2
         },
@@ -3288,33 +3375,33 @@
     }
   ],
   "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.BOWLBUGS_NORMAL",
+    "encounter_id": "ENCOUNTER.KAISER_CRAB_BOSS",
     "event_id": null,
     "is_pre_finished": true,
     "parent_event_id": null,
     "reward_proportion": 1,
-    "room_type": "monster",
+    "room_type": "boss",
     "should_resume_parent_event": true
   },
   "rng": {
     "counters": {
       "up_front": 421,
-      "shuffle": 543,
+      "shuffle": 601,
       "unknown_map_point": 9,
-      "combat_card_generation": 38,
+      "combat_card_generation": 61,
       "combat_potion_generation": 4,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 49,
+      "combat_targets": 58,
       "monster_ai": 25,
-      "niche": 32,
+      "niche": 34,
       "combat_orbs": 0,
       "treasure_room_relics": 2
     },
     "seed": "2J7U1GPZM6"
   },
-  "run_time": 1664,
-  "save_time": 1773746053,
+  "run_time": 1891,
+  "save_time": 1773746474,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3498,6 +3585,14 @@
     {
       "col": 5,
       "row": 13
+    },
+    {
+      "col": 4,
+      "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0
