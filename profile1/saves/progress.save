@@ -4032,7 +4032,8 @@
     "CARD.METEOR_SHOWER",
     "CARD.ARSENAL",
     "CARD.ENTHRALLED",
-    "CARD.SUPERMASSIVE"
+    "CARD.SUPERMASSIVE",
+    "CARD.ROYALTIES"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4670,7 +4671,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5195,7 +5196,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6161,6 +6162,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -6175,7 +6181,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6732,7 +6738,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 33
+          "wins": 36
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -6772,7 +6778,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         }
       ]
     },
@@ -7377,7 +7383,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7397,7 +7403,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -8473,6 +8479,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
