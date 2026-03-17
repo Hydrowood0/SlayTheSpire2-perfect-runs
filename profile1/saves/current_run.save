@@ -4,7 +4,7 @@
       "id": "ACT.OVERGROWTH",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.CEREMONIAL_BEAST_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.BYGONE_EFFIGY_ELITE",
@@ -2156,6 +2156,35 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 34,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.CEREMONIAL_BEAST_BOSS",
+            "monster_ids": [
+              "MONSTER.CEREMONIAL_BEAST"
+            ],
+            "room_type": "boss",
+            "turns_taken": 9
+          }
+        ]
       }
     ]
   ],
@@ -2171,7 +2200,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 36,
+      "current_hp": 2,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2569,26 +2598,34 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.CEREMONIAL_BEAST_BOSS",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "boss",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 421,
-      "shuffle": 181,
+      "shuffle": 236,
       "unknown_map_point": 5,
       "combat_card_generation": 37,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
       "combat_energy_costs": 0,
-      "combat_targets": 9,
+      "combat_targets": 15,
       "monster_ai": 10,
-      "niche": 14,
+      "niche": 15,
       "combat_orbs": 0,
       "treasure_room_relics": 1
     },
     "seed": "2J7U1GPZM6"
   },
-  "run_time": 577,
-  "save_time": 1773742376,
+  "run_time": 715,
+  "save_time": 1773742514,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
