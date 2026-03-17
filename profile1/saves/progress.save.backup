@@ -4091,7 +4091,8 @@
     "CARD.PROWESS",
     "CARD.CALAMITY",
     "CARD.BOMBARDMENT",
-    "CARD.SHADOW_STEP"
+    "CARD.SHADOW_STEP",
+    "CARD.TOOLS_OF_THE_TRADE"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4921,7 +4922,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5356,7 +5357,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5386,7 +5387,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -5426,7 +5427,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -5612,6 +5613,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5976,7 +5982,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7003,7 +7009,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7033,7 +7039,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 7
+          "wins": 8
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7578,7 +7584,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 13
+          "wins": 20
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7633,7 +7639,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -7819,6 +7825,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7844,6 +7855,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 4
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -8218,7 +8234,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
@@ -8243,7 +8259,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.REGENT",
