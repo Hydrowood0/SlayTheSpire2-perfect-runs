@@ -5098,6 +5098,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 7
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7275,6 +7280,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 7
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -7300,6 +7310,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 7
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
