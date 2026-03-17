@@ -202,7 +202,7 @@
           "EVENT.BRAIN_LEECH",
           "EVENT.SYMBIOTE"
         ],
-        "events_visited": 6,
+        "events_visited": 7,
         "normal_encounter_ids": [
           "ENCOUNTER.DEVOTED_SCULPTOR_WEAK",
           "ENCOUNTER.SCROLLS_OF_BITING_WEAK",
@@ -1033,7 +1033,8 @@
     "EVENT.AMALGAMATOR",
     "EVENT.TRIAL",
     "EVENT.POTION_COURIER",
-    "EVENT.THE_FUTURE_OF_POTIONS"
+    "EVENT.THE_FUTURE_OF_POTIONS",
+    "EVENT.ROUND_TEA_PARTY"
   ],
   "extra_fields": {
     "started_with_neow": true
@@ -3697,22 +3698,101 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 396,
+            "current_hp": 48,
+            "damage_taken": 11,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "ROUND_TEA_PARTY.pages.INITIAL.options.PICK_FIGHT.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Relic": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "王室猛毒"
+                  }
+                }
+              }
+            ],
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 81,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.ANCHOR",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.ROUND_TEA_PARTY",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 396,
+            "current_hp": 48,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 81,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.BIG_BANG"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -4,
-    "unknown_map_point_monster_odds_value": 0.4,
-    "unknown_map_point_shop_odds_value": 0.12,
-    "unknown_map_point_treasure_odds_value": 0.08
+    "unknown_map_point_elite_odds_value": -5,
+    "unknown_map_point_monster_odds_value": 0.5,
+    "unknown_map_point_shop_odds_value": 0.14999999,
+    "unknown_map_point_treasure_odds_value": 0.099999994
   },
   "platform_type": "steam",
   "players": [
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.REGENT",
-      "current_hp": 59,
+      "current_hp": 48,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -3764,6 +3844,7 @@
           "id": "CARD.CALTROPS"
         },
         {
+          "current_upgrade_level": 1,
           "floor_added_to_deck": 17,
           "id": "CARD.BIG_BANG"
         },
@@ -3899,7 +3980,6 @@
             "RELIC.PETRIFIED_TOAD"
           ],
           "common": [
-            "RELIC.ANCHOR",
             "RELIC.HAPPY_FLOWER",
             "RELIC.JUZU_BRACELET",
             "RELIC.BOOK_OF_FIVE_RINGS",
@@ -4098,11 +4178,15 @@
         {
           "floor_added_to_deck": 42,
           "id": "RELIC.STRIKE_DUMMY"
+        },
+        {
+          "floor_added_to_deck": 46,
+          "id": "RELIC.ANCHOR"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 320,
+          "rewards": 321,
           "shops": 56,
           "transformations": 0
         },
@@ -4259,7 +4343,7 @@
     "counters": {
       "up_front": 406,
       "shuffle": 651,
-      "unknown_map_point": 14,
+      "unknown_map_point": 15,
       "combat_card_generation": 561,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
@@ -4272,8 +4356,8 @@
     },
     "seed": "K7MNNNDHXC"
   },
-  "run_time": 2813,
-  "save_time": 1773731773,
+  "run_time": 2844,
+  "save_time": 1773731826,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -4309,7 +4393,6 @@
         "RELIC.MEAL_TICKET",
         "RELIC.BLOOD_VIAL",
         "RELIC.VAJRA",
-        "RELIC.ANCHOR",
         "RELIC.BOOK_OF_FIVE_RINGS",
         "RELIC.CENTENNIAL_PUZZLE",
         "RELIC.HAPPY_FLOWER",
@@ -4443,6 +4526,14 @@
     {
       "col": 5,
       "row": 12
+    },
+    {
+      "col": 5,
+      "row": 13
+    },
+    {
+      "col": 3,
+      "row": 14
     }
   ],
   "win_time": 0
