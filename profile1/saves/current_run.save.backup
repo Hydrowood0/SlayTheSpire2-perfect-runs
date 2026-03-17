@@ -2722,18 +2722,50 @@
         "map_point_type": "monster",
         "player_stats": [
           {
-            "current_gold": 0,
-            "current_hp": 0,
+            "card_choices": [
+              {
+                "card": {
+                  "floor_added_to_deck": 31,
+                  "id": "CARD.PARTICLE_WALL"
+                },
+                "was_picked": true
+              },
+              {
+                "card": {
+                  "id": "CARD.CONQUEROR"
+                },
+                "was_picked": false
+              },
+              {
+                "card": {
+                  "id": "CARD.PALE_BLUE_DOT"
+                },
+                "was_picked": false
+              }
+            ],
+            "cards_gained": [
+              {
+                "id": "CARD.PARTICLE_WALL"
+              }
+            ],
+            "current_gold": 105,
+            "current_hp": 32,
             "damage_taken": 3,
-            "gold_gained": 0,
+            "gold_gained": 10,
             "gold_lost": 0,
             "gold_spent": 0,
             "gold_stolen": 0,
             "hp_healed": 0,
-            "max_hp": 0,
+            "max_hp": 67,
             "max_hp_gained": 0,
             "max_hp_lost": 2,
-            "player_id": 1
+            "player_id": 1,
+            "potion_choices": [
+              {
+                "choice": "POTION.COSMIC_CONCOCTION",
+                "was_picked": false
+              }
+            ]
           }
         ],
         "rooms": [
@@ -2744,6 +2776,37 @@
             ],
             "room_type": "monster",
             "turns_taken": 3
+          }
+        ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 105,
+            "current_hp": 32,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.PHOTON_CUT"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
           }
         ]
       }
@@ -2829,6 +2892,7 @@
           "id": "CARD.CHARGE"
         },
         {
+          "current_upgrade_level": 1,
           "floor_added_to_deck": 14,
           "id": "CARD.PHOTON_CUT"
         },
@@ -2866,6 +2930,10 @@
           "current_upgrade_level": 1,
           "floor_added_to_deck": 29,
           "id": "CARD.GLOW"
+        },
+        {
+          "floor_added_to_deck": 31,
+          "id": "CARD.PARTICLE_WALL"
         }
       ],
       "discovered_cards": [
@@ -2878,14 +2946,14 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 95,
+      "gold": 105,
       "max_energy": 3,
       "max_hp": 67,
       "max_potion_slot_count": 4,
       "net_id": 1,
       "odds": {
-        "card_rarity_odds_value": 0.04,
-        "potion_reward_odds_value": 0.4
+        "card_rarity_odds_value": 0.06999999,
+        "potion_reward_odds_value": 0.3
       },
       "potions": [
         {
@@ -3105,7 +3173,7 @@
       ],
       "rng": {
         "counters": {
-          "rewards": 214,
+          "rewards": 227,
           "shops": 56,
           "transformations": 0
         },
@@ -3258,15 +3326,7 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.THE_OBSCURA_NORMAL",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "monster",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 410,
@@ -3284,8 +3344,8 @@
     },
     "seed": "GJR71KK9QU"
   },
-  "run_time": 2001,
-  "save_time": 1773739050,
+  "run_time": 2062,
+  "save_time": 1773739134,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3465,6 +3525,14 @@
     {
       "col": 6,
       "row": 13
+    },
+    {
+      "col": 6,
+      "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0

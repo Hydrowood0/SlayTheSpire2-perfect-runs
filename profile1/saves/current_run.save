@@ -80,7 +80,7 @@
       "id": "ACT.HIVE",
       "rooms": {
         "ancient_id": "EVENT.TEZCATARA",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.KAISER_CRAB_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.DECIMILLIPEDE_ELITE",
@@ -2778,6 +2778,70 @@
             "turns_taken": 3
           }
         ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 105,
+            "current_hp": 32,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 67,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.PHOTON_CUT"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 4,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 3,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.STAR_POTION"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.KAISER_CRAB_BOSS",
+            "monster_ids": [
+              "MONSTER.CRUSHER",
+              "MONSTER.ROCKET"
+            ],
+            "room_type": "boss",
+            "turns_taken": 6
+          }
+        ]
       }
     ]
   ],
@@ -2793,7 +2857,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.REGENT",
-      "current_hp": 32,
+      "current_hp": 28,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2861,6 +2925,7 @@
           "id": "CARD.CHARGE"
         },
         {
+          "current_upgrade_level": 1,
           "floor_added_to_deck": 14,
           "id": "CARD.PHOTON_CUT"
         },
@@ -2916,7 +2981,7 @@
       },
       "gold": 105,
       "max_energy": 3,
-      "max_hp": 67,
+      "max_hp": 64,
       "max_potion_slot_count": 4,
       "net_id": 1,
       "odds": {
@@ -2931,10 +2996,6 @@
         {
           "id": "POTION.SKILL_POTION",
           "slot_index": 1
-        },
-        {
-          "id": "POTION.STAR_POTION",
-          "slot_index": 2
         },
         {
           "id": "POTION.KINGS_COURAGE",
@@ -3101,7 +3162,7 @@
             "ints": [
               {
                 "name": "AttacksPlayed",
-                "value": 3
+                "value": 6
               }
             ]
           }
@@ -3294,11 +3355,19 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.KAISER_CRAB_BOSS",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "boss",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 410,
-      "shuffle": 459,
+      "shuffle": 515,
       "unknown_map_point": 10,
       "combat_card_generation": 1,
       "combat_potion_generation": 0,
@@ -3306,14 +3375,14 @@
       "combat_energy_costs": 0,
       "combat_targets": 0,
       "monster_ai": 18,
-      "niche": 26,
+      "niche": 28,
       "combat_orbs": 0,
       "treasure_room_relics": 4
     },
     "seed": "GJR71KK9QU"
   },
-  "run_time": 2040,
-  "save_time": 1773739089,
+  "run_time": 2417,
+  "save_time": 1773739489,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -3497,6 +3566,10 @@
     {
       "col": 6,
       "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0
