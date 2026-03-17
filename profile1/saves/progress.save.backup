@@ -4856,7 +4856,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         }
       ]
     },
@@ -5541,7 +5541,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -6933,7 +6933,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         }
       ]
     },
@@ -7743,7 +7743,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7768,7 +7768,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         },
         {
           "character": "CHARACTER.DEFECT",

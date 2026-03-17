@@ -4042,7 +4042,8 @@
     "CARD.SUPERMASSIVE",
     "CARD.ROYALTIES",
     "CARD.PROWESS",
-    "CARD.CALAMITY"
+    "CARD.CALAMITY",
+    "CARD.BOMBARDMENT"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4856,7 +4857,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         }
       ]
     },
@@ -6933,7 +6934,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         }
       ]
     },
