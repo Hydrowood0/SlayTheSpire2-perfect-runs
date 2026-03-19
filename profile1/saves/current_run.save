@@ -1721,6 +1721,37 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "treasure",
+        "player_stats": [
+          {
+            "current_gold": 70,
+            "current_hp": 23,
+            "damage_taken": 0,
+            "gold_gained": 34,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 63,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.RAINBOW_RING",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
@@ -1806,7 +1837,7 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 36,
+      "gold": 70,
       "max_energy": 3,
       "max_hp": 63,
       "max_potion_slot_count": 2,
@@ -1896,7 +1927,6 @@
             "RELIC.ICE_CREAM",
             "RELIC.FROZEN_EGG",
             "RELIC.CAPTAINS_WHEEL",
-            "RELIC.RAINBOW_RING",
             "RELIC.MUMMIFIED_HAND",
             "RELIC.MINI_REGENT",
             "RELIC.LIZARD_TAIL",
@@ -1965,11 +1995,15 @@
         {
           "floor_added_to_deck": 7,
           "id": "RELIC.BAG_OF_PREPARATION"
+        },
+        {
+          "floor_added_to_deck": 10,
+          "id": "RELIC.RAINBOW_RING"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 59,
+          "rewards": 60,
           "shops": 28,
           "transformations": 0
         },
@@ -2136,12 +2170,12 @@
       "monster_ai": 0,
       "niche": 5,
       "combat_orbs": 0,
-      "treasure_room_relics": 0
+      "treasure_room_relics": 1
     },
     "seed": "4SV9B9YXWC"
   },
-  "run_time": 376,
-  "save_time": 1773912850,
+  "run_time": 381,
+  "save_time": 1773912855,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2202,7 +2236,6 @@
         "RELIC.MEAL_TICKET"
       ],
       "rare": [
-        "RELIC.RAINBOW_RING",
         "RELIC.CHANDELIER",
         "RELIC.FROZEN_EGG",
         "RELIC.ICE_CREAM",
@@ -2312,6 +2345,10 @@
     {
       "col": 5,
       "row": 9
+    },
+    {
+      "col": 6,
+      "row": 10
     }
   ],
   "win_time": 0
