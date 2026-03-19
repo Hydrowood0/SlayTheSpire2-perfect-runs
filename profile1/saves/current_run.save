@@ -2067,15 +2067,46 @@
             "turns_taken": 3
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 193,
+            "current_hp": 24,
+            "damage_taken": 0,
+            "gold_gained": 39,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "relic_choices": [
+              {
+                "choice": "RELIC.BLOOD_VIAL",
+                "was_picked": true
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "treasure",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -4,
-    "unknown_map_point_monster_odds_value": 0.4,
-    "unknown_map_point_shop_odds_value": 0.089999996,
-    "unknown_map_point_treasure_odds_value": 0.08
+    "unknown_map_point_elite_odds_value": -5,
+    "unknown_map_point_monster_odds_value": 0.5,
+    "unknown_map_point_shop_odds_value": 0.12,
+    "unknown_map_point_treasure_odds_value": 0.02
   },
   "platform_type": "steam",
   "players": [
@@ -2161,7 +2192,7 @@
       "extra_fields": {
         "card_shop_removals_used": 1
       },
-      "gold": 154,
+      "gold": 193,
       "max_energy": 3,
       "max_hp": 65,
       "max_potion_slot_count": 2,
@@ -2222,7 +2253,6 @@
             "RELIC.GORGET",
             "RELIC.STRAWBERRY",
             "RELIC.PERMAFROST",
-            "RELIC.BLOOD_VIAL",
             "RELIC.POTION_BELT",
             "RELIC.ANCHOR",
             "RELIC.BOOK_OF_FIVE_RINGS",
@@ -2315,11 +2345,15 @@
         {
           "floor_added_to_deck": 10,
           "id": "RELIC.TINY_MAILBOX"
+        },
+        {
+          "floor_added_to_deck": 15,
+          "id": "RELIC.BLOOD_VIAL"
         }
       ],
       "rng": {
         "counters": {
-          "rewards": 112,
+          "rewards": 113,
           "shops": 28,
           "transformations": 2
         },
@@ -2477,7 +2511,7 @@
     "counters": {
       "up_front": 405,
       "shuffle": 188,
-      "unknown_map_point": 3,
+      "unknown_map_point": 4,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
@@ -2486,12 +2520,12 @@
       "monster_ai": 11,
       "niche": 16,
       "combat_orbs": 0,
-      "treasure_room_relics": 1
+      "treasure_room_relics": 2
     },
     "seed": "53GBT3HN5M"
   },
-  "run_time": 651,
-  "save_time": 1773919945,
+  "run_time": 655,
+  "save_time": 1773919949,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2528,7 +2562,6 @@
         "RELIC.NUNCHAKU"
       ],
       "common": [
-        "RELIC.BLOOD_VIAL",
         "RELIC.STRAWBERRY",
         "RELIC.VENERABLE_TEA_SET",
         "RELIC.ANCHOR",
@@ -2683,6 +2716,10 @@
     {
       "col": 3,
       "row": 14
+    },
+    {
+      "col": 3,
+      "row": 15
     }
   ],
   "win_time": 0
