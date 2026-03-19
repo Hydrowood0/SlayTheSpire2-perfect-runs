@@ -4,7 +4,7 @@
       "id": "ACT.UNDERDOCKS",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.TERROR_EEL_ELITE",
@@ -1866,8 +1866,7 @@
                 "title": {
                   "key": "ABYSSAL_BATHS.pages.INITIAL.options.ABSTAIN.title",
                   "table": "events"
-                },
-                "variables": {}
+                }
               }
             ],
             "gold_gained": 0,
@@ -2098,6 +2097,66 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "rest_site",
+        "player_stats": [
+          {
+            "current_gold": 193,
+            "current_hp": 24,
+            "damage_taken": 0,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 65,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "rest_site_choices": [
+              "SMITH"
+            ],
+            "upgraded_cards": [
+              "CARD.PHOTON_CUT"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "room_type": "rest_site",
+            "turns_taken": 0
+          }
+        ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 14,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
+            "monster_ids": [
+              "MONSTER.LAGAVULIN_MATRIARCH"
+            ],
+            "room_type": "boss",
+            "turns_taken": 8
+          }
+        ]
       }
     ]
   ],
@@ -2113,7 +2172,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.REGENT",
-      "current_hp": 24,
+      "current_hp": 12,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2160,6 +2219,7 @@
           "id": "CARD.TERRAFORMING"
         },
         {
+          "current_upgrade_level": 1,
           "floor_added_to_deck": 2,
           "id": "CARD.PHOTON_CUT"
         },
@@ -2506,11 +2566,19 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.LAGAVULIN_MATRIARCH_BOSS",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "boss",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 405,
-      "shuffle": 188,
+      "shuffle": 238,
       "unknown_map_point": 4,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
@@ -2518,14 +2586,14 @@
       "combat_energy_costs": 0,
       "combat_targets": 0,
       "monster_ai": 11,
-      "niche": 16,
+      "niche": 17,
       "combat_orbs": 0,
       "treasure_room_relics": 2
     },
     "seed": "53GBT3HN5M"
   },
-  "run_time": 655,
-  "save_time": 1773919949,
+  "run_time": 819,
+  "save_time": 1773921020,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -2720,6 +2788,10 @@
     {
       "col": 3,
       "row": 15
+    },
+    {
+      "col": 3,
+      "row": 16
     }
   ],
   "win_time": 0
