@@ -4487,7 +4487,9 @@
     "RELIC.CHOICES_PARADOX",
     "RELIC.STORYBOOK",
     "RELIC.SCREAMING_FLAGON",
-    "RELIC.SHURIKEN"
+    "RELIC.SHURIKEN",
+    "RELIC.PAELS_HORN",
+    "RELIC.PAELS_WING"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -5597,7 +5599,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 11
+          "wins": 12
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -6312,7 +6314,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -7489,7 +7491,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 13
+          "wins": 14
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7519,7 +7521,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -8684,7 +8686,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
