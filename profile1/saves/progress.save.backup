@@ -4510,7 +4510,8 @@
     "RELIC.PAELS_HORN",
     "RELIC.PAELS_WING",
     "RELIC.ORANGE_DOUGH",
-    "RELIC.GNARLED_HAMMER"
+    "RELIC.GNARLED_HAMMER",
+    "RELIC.LUCKY_FYSH"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -5415,7 +5416,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5435,7 +5436,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 6
+          "wins": 7
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7687,7 +7688,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7707,7 +7708,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 26
+          "wins": 29
         },
         {
           "character": "CHARACTER.NECROBINDER",
