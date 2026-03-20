@@ -4170,7 +4170,8 @@
     "CARD.FORGOTTEN_RITUAL",
     "CARD.MULTI_CAST",
     "CARD.FIGHT_THROUGH",
-    "CARD.ANOINTED"
+    "CARD.ANOINTED",
+    "CARD.WRAITH_FORM"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4538,7 +4539,8 @@
     "RELIC.ORANGE_DOUGH",
     "RELIC.GNARLED_HAMMER",
     "RELIC.LUCKY_FYSH",
-    "RELIC.MEAT_CLEAVER"
+    "RELIC.MEAT_CLEAVER",
+    "RELIC.DUSTY_TOME"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4763,7 +4765,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 5
+          "wins": 7
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4819,6 +4821,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -4833,7 +4840,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 8
+          "wins": 10
         },
         {
           "character": "CHARACTER.REGENT",
@@ -4923,7 +4930,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5348,7 +5355,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -6048,7 +6055,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -6378,7 +6385,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -6618,7 +6625,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     }
@@ -6910,7 +6917,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 5
+          "wins": 7
         },
         {
           "character": "CHARACTER.REGENT",
@@ -6976,6 +6983,11 @@
           "character": "CHARACTER.REGENT",
           "losses": 0,
           "wins": 1
+        },
+        {
+          "character": "CHARACTER.SILENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -6990,7 +7002,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 44
+          "wins": 54
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7080,7 +7092,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 6
+          "wins": 8
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -7600,7 +7612,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 14
+          "wins": 15
         },
         {
           "character": "CHARACTER.REGENT",
@@ -8345,7 +8357,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -8370,7 +8382,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         },
         {
           "character": "CHARACTER.IRONCLAD",
@@ -8790,7 +8802,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 4
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -9020,7 +9032,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 1
+          "wins": 2
         }
       ]
     }
