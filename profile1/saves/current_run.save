@@ -57,7 +57,7 @@
           "EVENT.SAPPHIRE_SEED",
           "EVENT.DENSE_VEGETATION"
         ],
-        "events_visited": 1,
+        "events_visited": 6,
         "normal_encounter_ids": [
           "ENCOUNTER.NIBBITS_WEAK",
           "ENCOUNTER.FUZZY_WURM_CRAWLER_WEAK",
@@ -1206,6 +1206,9 @@
   ],
   "ascension": 7,
   "current_act_index": 0,
+  "events_seen": [
+    "EVENT.SUNKEN_STATUE"
+  ],
   "extra_fields": {
     "started_with_neow": true
   },
@@ -1419,22 +1422,70 @@
             "turns_taken": 6
           }
         ]
+      },
+      {
+        "map_point_type": "unknown",
+        "player_stats": [
+          {
+            "current_gold": 232,
+            "current_hp": 47,
+            "damage_taken": 7,
+            "event_choices": [
+              {
+                "title": {
+                  "key": "SUNKEN_STATUE.pages.INITIAL.options.DIVE_INTO_WATER.title",
+                  "table": "events"
+                },
+                "variables": {
+                  "Relic": {
+                    "type": "DynamicString",
+                    "decimal_value": 0,
+                    "bool_value": false,
+                    "string_value": "石之剑"
+                  },
+                  "HpLoss": {
+                    "type": "BaseDynamic",
+                    "decimal_value": 7,
+                    "bool_value": false,
+                    "string_value": null
+                  }
+                }
+              }
+            ],
+            "gold_gained": 110,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 0,
+            "max_hp": 70,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "EVENT.SUNKEN_STATUE",
+            "room_type": "event",
+            "turns_taken": 0
+          }
+        ]
       }
     ]
   ],
   "modifiers": [],
   "odds": {
-    "unknown_map_point_elite_odds_value": -1,
-    "unknown_map_point_monster_odds_value": 0.1,
-    "unknown_map_point_shop_odds_value": 0.03,
-    "unknown_map_point_treasure_odds_value": 0.02
+    "unknown_map_point_elite_odds_value": -2,
+    "unknown_map_point_monster_odds_value": 0.2,
+    "unknown_map_point_shop_odds_value": 0.06,
+    "unknown_map_point_treasure_odds_value": 0.04
   },
   "platform_type": "steam",
   "players": [
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 54,
+      "current_hp": 47,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -1502,7 +1553,7 @@
         }
       ],
       "extra_fields": {},
-      "gold": 122,
+      "gold": 232,
       "max_energy": 3,
       "max_hp": 70,
       "max_potion_slot_count": 2,
@@ -1821,7 +1872,7 @@
     "counters": {
       "up_front": 418,
       "shuffle": 55,
-      "unknown_map_point": 0,
+      "unknown_map_point": 1,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
       "combat_card_selection": 0,
@@ -1834,8 +1885,8 @@
     },
     "seed": "5PBR9SGQ2P"
   },
-  "run_time": 119,
-  "save_time": 1774037445,
+  "run_time": 130,
+  "save_time": 1774037456,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
@@ -1988,6 +2039,10 @@
     {
       "col": 1,
       "row": 3
+    },
+    {
+      "col": 2,
+      "row": 4
     }
   ],
   "win_time": 0
