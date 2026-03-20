@@ -4140,7 +4140,11 @@
     "CARD.BOMBARDMENT",
     "CARD.SHADOW_STEP",
     "CARD.TOOLS_OF_THE_TRADE",
-    "CARD.SCRAWL"
+    "CARD.SCRAWL",
+    "CARD.FORGOTTEN_RITUAL",
+    "CARD.MULTI_CAST",
+    "CARD.FIGHT_THROUGH",
+    "CARD.ANOINTED"
   ],
   "discovered_events": [
     "EVENT.BYRDONIS_NEST",
@@ -4505,7 +4509,8 @@
     "RELIC.SHURIKEN",
     "RELIC.PAELS_HORN",
     "RELIC.PAELS_WING",
-    "RELIC.ORANGE_DOUGH"
+    "RELIC.ORANGE_DOUGH",
+    "RELIC.GNARLED_HAMMER"
   ],
   "enable_ftues": false,
   "encounter_stats": [
@@ -4850,7 +4855,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.SILENT",
@@ -4886,6 +4891,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 0,
           "wins": 6
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 1
         }
       ]
     },
@@ -5405,7 +5415,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -5995,7 +6005,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
@@ -6972,7 +6982,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 4
+          "wins": 5
         },
         {
           "character": "CHARACTER.SILENT",
@@ -7008,6 +7018,11 @@
           "character": "CHARACTER.NECROBINDER",
           "losses": 2,
           "wins": 12
+        },
+        {
+          "character": "CHARACTER.REGENT",
+          "losses": 0,
+          "wins": 2
         }
       ]
     },
@@ -7512,7 +7527,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 15
+          "wins": 16
         },
         {
           "character": "CHARACTER.NECROBINDER",
@@ -7672,7 +7687,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 5
+          "wins": 6
         },
         {
           "character": "CHARACTER.DEFECT",
@@ -8257,7 +8272,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -8282,7 +8297,7 @@
         {
           "character": "CHARACTER.REGENT",
           "losses": 0,
-          "wins": 2
+          "wins": 3
         }
       ]
     },
