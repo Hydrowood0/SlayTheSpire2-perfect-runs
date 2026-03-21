@@ -5400,7 +5400,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 6
+          "wins": 7
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5425,7 +5425,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 9
+          "wins": 10
         },
         {
           "character": "CHARACTER.REGENT",
@@ -5745,7 +5745,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 6
+          "wins": 7
         }
       ]
     },
@@ -5775,7 +5775,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -7727,7 +7727,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 6
+          "wins": 7
         },
         {
           "character": "CHARACTER.REGENT",
@@ -7752,7 +7752,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 9
+          "wins": 10
         },
         {
           "character": "CHARACTER.REGENT",
@@ -8052,7 +8052,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 6
+          "wins": 7
         }
       ]
     },
@@ -8082,7 +8082,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
@@ -8112,7 +8112,7 @@
         {
           "character": "CHARACTER.SILENT",
           "losses": 0,
-          "wins": 3
+          "wins": 4
         }
       ]
     },
