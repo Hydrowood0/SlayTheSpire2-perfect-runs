@@ -23,7 +23,7 @@
           "ENCOUNTER.TERROR_EEL_ELITE",
           "ENCOUNTER.SKULKING_COLONY_ELITE"
         ],
-        "elite_encounters_visited": 2,
+        "elite_encounters_visited": 1,
         "event_ids": [
           "EVENT.TRASH_HEAP",
           "EVENT.WELCOME_TO_WONGOS",
@@ -1898,35 +1898,6 @@
             "turns_taken": 4
           }
         ]
-      },
-      {
-        "map_point_type": "elite",
-        "player_stats": [
-          {
-            "current_gold": 0,
-            "current_hp": 0,
-            "damage_taken": 3,
-            "gold_gained": 0,
-            "gold_lost": 0,
-            "gold_spent": 0,
-            "gold_stolen": 0,
-            "hp_healed": 0,
-            "max_hp": 0,
-            "max_hp_gained": 0,
-            "max_hp_lost": 0,
-            "player_id": 1
-          }
-        ],
-        "rooms": [
-          {
-            "model_id": "ENCOUNTER.TERROR_EEL_ELITE",
-            "monster_ids": [
-              "MONSTER.TERROR_EEL"
-            ],
-            "room_type": "elite",
-            "turns_taken": 6
-          }
-        ]
       }
     ]
   ],
@@ -1942,7 +1913,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 38,
+      "current_hp": 41,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2323,19 +2294,11 @@
       }
     }
   ],
-  "pre_finished_room": {
-    "encounter_id": "ENCOUNTER.TERROR_EEL_ELITE",
-    "event_id": null,
-    "is_pre_finished": true,
-    "parent_event_id": null,
-    "reward_proportion": 1,
-    "room_type": "elite",
-    "should_resume_parent_event": true
-  },
+  "pre_finished_room": null,
   "rng": {
     "counters": {
       "up_front": 404,
-      "shuffle": 183,
+      "shuffle": 140,
       "unknown_map_point": 6,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
@@ -2343,14 +2306,14 @@
       "combat_energy_costs": 0,
       "combat_targets": 0,
       "monster_ai": 4,
-      "niche": 10,
+      "niche": 9,
       "combat_orbs": 0,
       "treasure_room_relics": 2
     },
     "seed": "0ZJJRKTJ1C"
   },
-  "run_time": 499,
-  "save_time": 1774053961,
+  "run_time": 423,
+  "save_time": 1774053885,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
