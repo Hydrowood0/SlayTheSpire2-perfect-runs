@@ -4,7 +4,7 @@
       "id": "ACT.UNDERDOCKS",
       "rooms": {
         "ancient_id": "EVENT.NEOW",
-        "boss_encounters_visited": 0,
+        "boss_encounters_visited": 1,
         "boss_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
         "elite_encounter_ids": [
           "ENCOUNTER.PHANTASMAL_GARDENERS_ELITE",
@@ -2176,6 +2176,38 @@
             "turns_taken": 0
           }
         ]
+      },
+      {
+        "map_point_type": "boss",
+        "player_stats": [
+          {
+            "current_gold": 0,
+            "current_hp": 0,
+            "damage_taken": 38,
+            "gold_gained": 0,
+            "gold_lost": 0,
+            "gold_spent": 0,
+            "gold_stolen": 0,
+            "hp_healed": 2,
+            "max_hp": 0,
+            "max_hp_gained": 0,
+            "max_hp_lost": 0,
+            "player_id": 1,
+            "potion_used": [
+              "POTION.BLESSING_OF_THE_FORGE"
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "model_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+            "monster_ids": [
+              "MONSTER.WATERFALL_GIANT"
+            ],
+            "room_type": "boss",
+            "turns_taken": 10
+          }
+        ]
       }
     ]
   ],
@@ -2191,7 +2223,7 @@
     {
       "base_orb_slot_count": 0,
       "character_id": "CHARACTER.SILENT",
-      "current_hp": 40,
+      "current_hp": 4,
       "deck": [
         {
           "floor_added_to_deck": 1,
@@ -2312,10 +2344,6 @@
         {
           "id": "POTION.POISON_POTION",
           "slot_index": 0
-        },
-        {
-          "id": "POTION.BLESSING_OF_THE_FORGE",
-          "slot_index": 1
         }
       ],
       "relic_grab_bag": {
@@ -2618,11 +2646,19 @@
       }
     }
   ],
-  "pre_finished_room": null,
+  "pre_finished_room": {
+    "encounter_id": "ENCOUNTER.WATERFALL_GIANT_BOSS",
+    "event_id": null,
+    "is_pre_finished": true,
+    "parent_event_id": null,
+    "reward_proportion": 1,
+    "room_type": "boss",
+    "should_resume_parent_event": true
+  },
   "rng": {
     "counters": {
       "up_front": 421,
-      "shuffle": 316,
+      "shuffle": 383,
       "unknown_map_point": 4,
       "combat_card_generation": 0,
       "combat_potion_generation": 0,
@@ -2630,14 +2666,14 @@
       "combat_energy_costs": 0,
       "combat_targets": 0,
       "monster_ai": 9,
-      "niche": 19,
+      "niche": 20,
       "combat_orbs": 0,
       "treasure_room_relics": 1
     },
     "seed": "HNZ9E68WRT"
   },
-  "run_time": 769,
-  "save_time": 1774057422,
+  "run_time": 887,
+  "save_time": 1774057718,
   "schema_version": 14,
   "shared_relic_grab_bag": {
     "relic_id_lists": {
